@@ -1,0 +1,666 @@
+# 儀表板組件資料庫結構
+
+儀表板組件的設定資訊並非儲存在單一個資料表中，而是分散在後端資料庫的**三個主要資料表**中，這些資料表會透過關聯（join）操作來提供前端所需的完整組件配置資訊。
+
+這三個主要資料表是：
+
+1.  **`components` 資料表**:
+    *   這是主要的資料表。
+    *   它主要儲存組件的**核心識別屬性**和名稱。
+    *   重要的欄位包括：
+        *   `id`：主鍵 (Primary Key, PK)，自動遞增的獨特識別碼。
+        *   `index`：獨特的字串，用於識別組件內容，也是一個獨特的索引。這個欄位在 v3.0.0 後特別重要，用來**關聯不同城市但同一個組件名稱的設定**。
+        *   `name`：組件的名稱。
+    *   根據資料，此表**不儲存**圖表 (`chart_config`) 和地圖 (`map_config`) 的詳細配置。
+
+2.  **`query_charts` 資料表** (根據提供的 `QueryCharts` 結構體判斷，這是實際儲存大部分配置的表):
+    *   這個資料表透過 `index` 欄位與 `components` 資料表關聯。
+    *   它儲存了組件的大部分**城市特定 (city-specific)** 配置。
+    *   重要的欄位包括：
+        *   `index`：外鍵 (Foreign Key, FK)，關聯到 `components` 資料表的 `index` 欄位。
+        *   `city`：指示資料來源城市，是 v3.0.0 後必要欄位。支援 `taipei` 和 `metrotaipei`。
+        *   `query_type`：圖表資料類型 (`two_d`, `three_d`, `time`, `percent`, `map_legend`)。
+        *   `time_from` 和 `time_to`：資料的時間範圍設定。
+        *   `update_freq` 和 `update_freq_unit`：資料更新頻率的數值和單位。
+        *   `source`：資料來源名稱。
+        *   `short_desc` 和 `long_desc`：組件的簡短和詳細描述。
+        *   `use_case`：使用情境描述。
+        *   `links`：原始資料來源連結陣列。
+        *   `contributors`：貢獻者 ID 陣列。
+        *   `history_config`：歷史資料的配置物件，儲存為 JSON 格式。
+        *   `map_filter`：地圖篩選的配置物件，儲存為 JSON 格式。
+        *   `map_config_ids`：一個整數陣列，用於關聯 `component_maps` 資料表中的地圖配置。
+        *   `query_chart` 和 `query_history`：**儲存用於從後端資料庫中檢索圖表資料和歷史資料的 SQL 查詢語句**。關於這些查詢的更多細節會在關於組件資料 API 的文章中披露。
+
+3.  **`component_charts` 資料表**:
+    *   這個資料表**專門儲存圖表 (`chart_config`) 的詳細配置**。
+    *   它透過 `index` 欄位與 `components` 資料表關聯，此欄位也是此表的主鍵。
+    *   重要的欄位包括：
+        *   `index`：主鍵 (PK)，關聯到 `components` 資料表的 `index` 欄位。
+        *   `color`：圖表使用的顏色陣列。
+        *   `types`：指定的圖表類型陣列。
+        *   `unit`：資料點的單位。
+        *   `categories`：此欄位在 API 呼叫時會自動附加，資料庫中儲存的可能是空陣列或 null。
+
+4.  **`component_maps` 資料表**:
+    *   這個資料表**專門儲存地圖 (`map_config`) 的詳細配置**。
+    *   它透過 `id` 欄位與 `query_charts` 資料表中的 `map_config_ids` 陣列關聯。由於一個組件可以有多個地圖配置，因此在 `query_charts` 中儲存一個 IDs 陣列來指向 `component_maps` 中的多條記錄是合理的。
+    *   重要的欄位包括：
+        *   `id`：主鍵 (PK)，自動遞增的獨特識別碼。
+        *   `index`：關聯到組件的 `index`。
+        *   `title`：地圖的名稱。
+        *   `type`：地圖的類型 (例如 `fill`, `circle`, `symbol` 等)。
+        *   `source`：資料來源類型 (`raster` 或 `geojson`)。
+        *   `size` 和 `icon`：額外的預設樣式設定。
+        *   `paint`：Mapbox 繪製屬性的 JSON 物件。
+        *   `property`：在地圖彈出視窗中顯示的資料屬性陣列，儲存為 JSON 格式。
+
+總而言之，後端資料庫結構設計成將組件的基本身份資訊、城市特定的配置（包括資料查詢語句、歷史設定、篩選設定）以及共享的圖表和地圖視覺配置分開儲存，並透過 `index` 和 `id`/`map_config_ids` 欄位進行關聯，以便能靈活地支援多城市和不同的組件配置需求。
+
+# 儀表板組件配置指南
+
+
+**如何建立一個儀表板組件：完整指南**
+
+### 1. 組件概述與基本概念
+
+*   **組件 (Component)** 是構成儀表板的資料集合。
+*   所有組件都**包含統計資料**，這些資料可以以圖表或圖形形式顯示。
+*   組件**可以選擇性地包含地理資料 (地圖)** 和歷史資料。
+*   每個組件有三個識別屬性：
+    *   **Index**：一個獨特的識別碼，用於標識組件內容。
+    *   **ID**：代表資料類型編號。不同城市但資料類型相同的組件會共享相同的 ID。
+    *   **City**：指示資料的來源城市。目前支援 `taipei` (臺北市) 和 `metrotaipei` (臺北及新北整合資料)。
+*   具有相同 ID 的組件在不同城市間會共享相同的名稱 (`name`) 和圖表設定 (`chart_config`)，以確保跨城市資料呈現的一致性。
+
+### 2. 組件配置 (Component Configuration)
+
+建立組件的核心是定義其配置物件。組件配置是以陣列的形式返回的。一個完整的組件配置物件包含多個參數：
+
+*   `id` (Number): 必須與統計資料和歷史資料的檔案名稱相同。
+*   `index` (String): 組件的唯一索引識別碼。
+*   `name` (String): 組件的名稱 (顯示在使用者介面)。
+*   `source` (String): 資料來源名稱。
+*   `city` (String): 資料來源城市 (`taipei` 或 `metrotaipei`)。這是多城市儀表板中的重要識別屬性。
+*   `query_type` (String): 圖表資料的類型。支援的類型包括 `two_d` (二維資料), `three_d` (三維資料), `time` (時間序列資料), `percent` (百分比資料), `map_legend` (地圖圖例資料)。
+*   `chart_config` (Object): **所有組件都必須包含圖表配置物件**。詳細配置見下方說明。
+*   `map_config` (Object || null): 如果組件有地理資料，則傳入地圖配置物件，否則傳入 `null`。詳細配置見下方說明。
+*   `map_filter` (Object || null): 如果需要支援透過圖表篩選地圖資料，則傳入地圖篩選配置物件，否則傳入 `null`。詳細配置見下方說明。
+*   `history_config` (Object || null): 如果組件有歷史資料，則傳入歷史資料配置物件，否則傳入 `null`。詳細配置見下方說明。
+*   `time_from` (String): 資料的時間起始點。可以是 `static`, `demo`, `current`, 或各種 `_ago` 和 `_start` 的時間詞彙，例如 `halfyear_ago`, `year_start` 等。
+*   `time_to` (String): 資料的時間結束點。可以是 `"now"` 或 `null`。
+*   `update_freq` (Number || null): 資料更新頻率的數值。
+*   `update_freq_unit` (String): 資料更新頻率的單位。
+*   `short_desc` (String): 組件的簡短描述。
+*   `long_desc` (String): 組件的詳細描述。
+*   `use_case` (String): 組件的使用情境描述。
+*   `links` (Array of Strings || null): 原始資料來源連結陣列。
+*   `tags` (Array): 描述組件的標籤陣列。
+*   `contributors` (Array of Strings): 貢獻者 ID 陣列。
+
+### 3. 圖表配置 (`chart_config`)
+
+所有組件都有統計資料，因此都需要包含 `chart_config` 物件。
+
+*   `chart_config` 包含多個參數來控制圖表的顯示:
+    *   `color` (Array of Strings): 圖表使用的顏色，需要傳入至少一個十六進位顏色碼。
+    *   `types` (Array of Strings): 指定圖表類型，可以傳入 1 到 3 個圖表名稱。圖表名稱在程式碼庫中是 Pascal Case 的英文字串。支援的圖表類型眾多。
+    *   `unit` (String || null): 資料點的單位，例如 "棟"。
+    *   `categories` (Array of Strings || null): 在 API 呼叫時會自動附加。
+
+*   **圖表資料類型 (`query_type`)**: 專案支援 5 種主要的圖表資料類型，每種都有預定義的格式和支援的圖表類型：
+    *   **Two-Dimensional Data (two_d)**: 簡單的鍵值對 (x-y) 格式，其中 x 是字串，y 是數字。支援圓餅圖 (Donut Chart)、長條圖 (Bar Chart)、縱向長條圖 (Column Chart) 等。行政區圖 (District Chart) 使用此格式，但 x 必須是特定順序的臺北/新北行政區全稱。捷運行駛圖 (Metro Chart) 也使用此格式，但 x 和 y 有特定的格式要求。
+    *   **Three-Dimensional Data (three_d)**: 鍵-子類別-值 (x-y-z) 格式。支援縱向長條圖 (Column Chart)、長條圖(%) (Bar Percent Chart)、熱力圖 (Heatmap Chart) 等。指標圖 (Indicator Chart) 使用此格式，但資料格式有特殊要求。文字單位圖 (Text Unit Chart) 也使用此格式，但類別欄位不需，且利用 `icon` 欄位表示單位。
+    *   **Time Series Data (time)**: 鍵值對 (x-y) 格式，其中鍵 (x) 是時間戳記。支援折線圖(比較) (Timeline Separate Chart) 和折線圖(堆疊) (Timeline Stacked Chart)。長條折線圖 (Column Line Chart) 也支援，用於顯示時間序列資料。
+    *   **Percentage Data (percent)**: 鍵值對 (x-y) 格式，值 (y) 是百分比。格式中需提供除數 (`divisor`) 和餘數 (`remainder`)。支援量表圖 (Guage Chart)、長條圖(%) (Bar Percent Chart)、長條圖(目標) (Bar Chart With Goal) 和圖示比例圖 (Icon Percent Chart)。
+    *   **Map Legend Data (map_legend)**: 用於渲染地圖圖例的配置物件。格式包含名稱 (`name`)、地圖類型 (`type`) 和可選的值 (`value`)。僅支援地圖圖例圖 (Map Legend Chart)。
+
+### 4. 地圖配置 (`map_config`)
+
+如果組件包含地理資料，則需要設定 `map_config` 參數。
+
+*   `map_config` 參數接受一個**陣列**，陣列中的每個物件代表一個地圖的配置。
+*   每個地圖配置物件包含以下重要參數:
+    *   `index` (String): 獨一無二的字串，必須與地圖資料檔案名稱相同。
+    *   `paint` (Object): 支援所有 Mapbox 的繪製屬性，用於控制視覺細節 (例如顏色、大小等)。**務必指定顏色**，例如 `fill-color` 或 `circle-color`，因為所有地圖類型的預設顏色都是黑色。
+    *   `property` (Array of Objects): 定義在地圖彈出視窗 (popup) 中顯示的資料屬性。每個物件包含 `key` (地圖資料中的屬性名稱)、`name` (使用者介面顯示名稱)，以及可選的 `mode` ("video" 或 null，用於嵌入影片或圖片)。
+    *   `title` (String): 地圖的名稱。
+    *   `type` (String): 指定地圖的類型。專案支援 8 種地圖類型：
+        *   Circle (圓點圖): 點資料渲染為圓圈。
+        *   Fill (填充圖): 多邊形資料填充顏色。
+        *   Fill-extrusion (3D 填充圖): 多邊形資料以 3D 形式突出顯示。
+        *   Line (線圖): 線資料渲染為線條。
+        *   Symbol (圖標圖): 點資料渲染為圖標。**必須指定 `icon` 參數**。
+        *   Arc (弧線圖): 線資料渲染為 3D 弧線，每條線應僅包含 2 個點。支援特定的繪製屬性如 `arc-color`, `arc-width`, `arc-opacity`, `arc-animate`。
+        *   Voronoi (Voronoi 圖): 從點資料生成 Voronoi 邊界，可像線圖一樣設定樣式。
+        *   Isoline (等值線圖): 從點資料及其數值生成等值線，點必須包含數值屬性。可像線圖一樣設定樣式，並支援 `isoline-key`, `isoline-step`, `isoline-min`, `isoline-max` 等參數。
+    *   `size` (String || null): 額外的預設樣式設定，例如 Circle 圖的 small/big。
+    *   `icon` (String || null): 額外的預設樣式設定，例如 Circle 圖的 heatmap 或 Symbol 圖的特定圖標名稱 (如 metro, youbike 等)。Symbol 圖必須指定 `icon`。
+    *   `source` (String): 指定資料來源，可以是 `"raster"` 或 `"geojson"`。
+    *   `city` (String): 來源城市，`taipei` 或 `metrotaipei`。
+
+*   **地圖資料 (Map Data)**:
+    *   專案支援透過**本機的 geojson 檔案**或地圖服務 (如 Geoserver) 來渲染地圖。
+    *   **目前對外部開發者僅支援本機的 geojson 檔案**。
+    *   支援常見的幾何類型：Point, LineString, Polygon 等。
+    *   建議在每個幾何物件上附加額外屬性，以便在點擊地圖上的資料點時顯示額外資訊。
+    *   如果您不熟悉 geojson 格式，可以參考 geojson.io。
+
+### 5. 地圖篩選配置 (`map_filter`) (可選)
+
+這是一個非常有用的功能，允許使用者透過圖表來篩選地圖上的地理資料子集。
+
+*   要啟用此功能，需要在組件配置中填寫 `map_filter` 參數。
+*   `map_filter` 是一個物件，包含以下參數:
+    *   `mode` (String): 篩選模式，可以是 `"byParam"` 或 `"byLayer"`。
+    *   `byParam` (Object || null): 如果 `mode` 是 `"byParam"` 則為必需。包含 `xParam` 和 `yParam` (String || null)，用於按地圖圖層屬性 ID 進行篩選。地圖圖層中的屬性值必須與圖表上顯示的 X 軸和 Y 軸值匹配。
+*   **Mode 詳細說明**:
+    *   **By Param**: 透過地圖圖層的特定屬性值進行篩選。地圖屬性值必須與圖表 X 軸和 Y 軸顯示的值匹配。
+    *   **By Layer**: 透過地圖圖層的標題進行切換。地圖圖層的標題必須與圖表顯示的 X 軸值匹配。
+*   **機制**: 當使用者點擊支援地圖篩選的圖表上的資料點時，會觸發篩選或取消篩選的動作。
+*   **支援地圖篩選的圖表類型**: 長條圖 (Bar Chart)、長條圖(%) (Bar Percent Chart)、縱向長條圖 (Column Chart)、行政區圖 (District Chart)、圓餅圖 (Donut Chart)、量表圖 (Guage Chart)、地圖圖例圖 (Map Legend Chart)、矩形圖 (Treemap Chart)、熱力圖 (Heatmap Chart)、極座標圖 (Polar Area Chart)。
+
+### 6. 歷史配置 (`history_config`) (可選)
+
+如果組件需要顯示歷史資料，則需要設定 `history_config` 參數。
+
+*   `history_config` 是一個物件，包含以下參數:
+    *   `color` (Null || Array of Strings): 歷史資料的顏色。如果為 `null`，則預設為圖表顏色。
+    *   `range` (Array of Strings): 用於從資料庫查詢資料的時間範圍，必須是長度為 2 的陣列。支援的時間詞彙包括 `month_ago`, `quarter_ago`, `halfyear_ago`, `year_ago`, `twoyear_ago`, `fiveyear_ago` 或 `tenyear_ago`。
+    *   `unit` (Null || String): 歷史資料的單位。如果為 `null`，則預設為圖表單位。
+
+### 7. 儀表板組件範例 (youbike_demand)
+
+以 https://citydashboard.taipei/api/v1/dashboard/youbike 為例，以下是其中一個組件 youbike_demand 的設定：
+
+```json
+{
+  "id": 147,
+  "index": "youbike_demand",
+  "name": "YouBike未設站區潛在需求(示範)",
+  "chart_config": {
+    "index": "youbike_demand",
+    "color": [
+      "#FFFFCC",
+      "#e7d198",
+      "#d1a26c",
+      "#b9734a",
+      "#9f4333",
+      "#800026"
+    ],
+    "types": [
+      "TreemapChart",
+      "BarChart"
+    ],
+    "unit": "個網格"
+  },
+  "history_config": null,
+  "map_config": [
+    {
+      "id": 11,
+      "city": "taipei",
+      "index": "youbike_demand",
+      "title": "潛在需求",
+      "type": "fill",
+      "source": "geojson",
+      "size": null,
+      "icon": null,
+      "paint": {
+        "fill-color": [
+          "match",
+          [
+            "get",
+            "category"
+          ],
+          "極低",
+          "#FFFFCC",
+          "低",
+          "#e7d198",
+          "中低",
+          "#d1a26c",
+          "中",
+          "#b9734a",
+          "高",
+          "#800026",
+          "#800026"
+        ],
+        "fill-opacity": 0.8
+      },
+      "property": [
+        {
+          "key": "category",
+          "name": "總體需求"
+        }
+      ]
+    }
+  ],
+  "map_filter": {
+    "mode": "byParam",
+    "byParam": {
+      "xParam": "category"
+    }
+  },
+  "time_from": "static",
+  "time_to": null,
+  "update_freq": null,
+  "update_freq_unit": "",
+  "source": "資訊局",
+  "short_desc": "展示YouBike未設站區域的潛在需求。",
+  "long_desc": "展示YouBike未設站區域的潛在需求，詳細預測方法可參考開源成果Github。資料來源為臺北市資訊局研究，此為示範性質組件，資料分析範圍為2023年7月整。",
+  "use_case": "本組件可讓您掌握目前未設站地區，以及該地區可能有多少需求。這有助於規劃YouBike的擴展，並規劃適當的資源以滿足日益增長的需求。",
+  "links": [
+    "https://data.taipei/dataset/detail?id=1aae7069-cb8d-4e6e-a0e3-83dd296d29b8"
+  ],
+  "contributors": [
+    "doit"
+  ],
+  "updated_at": "2024-11-20T09:22:08.746Z",
+  "query_type": "two_d",
+  "city": "taipei"
+}
+```
+
+接著它會去載入 https://citydashboard.taipei/api/v1/component/147/chart?city=taipei，來取得圖表用的資料，其中 147 是組件的 ID，資料的內容如下：
+
+```json
+{
+  "data": [
+    {
+      "data": [
+        {
+          "x": "極低",
+          "y": 59
+        },
+        {
+          "x": "低",
+          "y": 241
+        },
+        {
+          "x": "中低",
+          "y": 9
+        },
+        {
+          "x": "中",
+          "y": 8
+        },
+        {
+          "x": "高",
+          "y": 1
+        }
+      ]
+    }
+  ],
+  "status": "success"
+}
+```
+
+在地圖交叉比對的分頁中，開啟圖層時，由於 map_config[0].source 是 geojson，表示資料來源是前端伺服器中的靜態 geojson 檔案，瀏覽器會去載入 https://citydashboard.taipei/mapData/youbike_demand.geojson 來繪製圖層。
+
+youbike_demand.geojson 的內容如下：
+```json
+{
+  "type": "FeatureCollection",
+  "crs": {
+    "type": "name",
+    "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" }
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "properties": { "category": "低" },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [121.551465451477313, 24.98861665515507],
+            [121.553941826474343, 24.988607457507133],
+            [121.553931712815753, 24.986350463996128],
+            [121.551455383025854, 24.986359660701556],
+            [121.551465451477313, 24.98861665515507]
+          ]
+        ]
+      }
+    }
+    // ...
+  ]
+}
+```
+
+---
+
+**總結**
+
+建立一個儀表板組件涉及定義一個配置物件，這個物件**必須**包含基本識別資訊 (`index`, `id`, `city`, `name` 等)、資料類型 (`query_type`) 和圖表配置 (`chart_config`)。如果組件包含地理資料，則需要進一步配置 `map_config` 參數，包括地圖的類型、樣式、資料來源和顯示屬性。可以選擇性地配置 `map_filter` 來實現圖表與地圖之間的互動篩選，以及配置 `history_config` 來顯示歷史趨勢資料。理解不同 `query_type` 對應的資料格式和支援的圖表類型是成功呈現資料的關鍵。
+
+
+# 如何建立一個儀表板組件
+
+---
+
+## 1. 後端（BE）資料結構與 API
+
+### 資料表模型（見 `app/models/componentConfig.go`）
+- **components**：id, index, name
+- **query_charts**：index, city, query_type, query_chart, query_history, history_config, map_filter, map_config_ids, time_from, time_to, update_freq, update_freq_unit, source, short_desc, long_desc, use_case, links, contributors, created_at, updated_at
+- **component_charts**：index, color, types, unit
+- **component_maps**：id, index, title, type, source, size, icon, paint, property
+
+### API 路徑與操作（見 `app/controllers/componentConfig.go`）
+- **GET /api/v1/component**：查詢所有組件，支援分頁、搜尋、篩選、排序
+- **GET /api/v1/component/:id**：查詢單一組件（需帶 city 參數）
+- **PATCH /api/v1/component/:id**：更新組件設定
+- **PATCH /api/v1/component/:id/chart**：更新圖表設定
+- **PATCH /api/v1/component/:id/map**：更新地圖設定
+- **DELETE /api/v1/component/:id**：刪除組件（同時刪除 chart/map config）
+
+### 組件資料查詢與格式（見 `app/models/componentData.go`）
+- **查詢語法**（query_chart, query_history）由 query_charts 提供，API 會自動帶入 timeFrom/timeTo。
+- **資料格式**：
+  - two_d: [{x, y}]
+  - three_d/percent: [{name, data: [...] }]
+  - time: [{name, data: [{x, y}]}]
+  - map_legend: [{name, type, icon, value}]
+
+---
+
+## 2. 前端（FE）組件設定與渲染
+
+### 組件設定與渲染（見 `src/dashboardComponent/DashboardComponent.vue`）
+- **props.config**：組件設定物件，需包含 name, index, city, chart_config, map_config, map_filter, history_config, time_from, time_to, update_freq, update_freq_unit, source, short_desc, long_desc, use_case, links, contributors 等。
+- **chart_config**：color, types, unit, categories
+- **map_config**：地圖圖層設定（陣列），需對應地圖類型、paint、property 等（見 mapConfig.js）
+- **map_filter**：地圖篩選設定，mode: byParam/byLayer
+- **history_config**：歷史資料設定，range, color, unit
+
+### 地圖設定（見 `src/assets/configs/mapbox/mapConfig.js`）
+- **mapTypes**：支援 line, circle, fill, fill-extrusion, symbol, arc, voronoi, isoline
+- **paint/layout**：可複用 maplayerCommonPaint/maplayerCommonLayout
+- **城市預設中心點/縮放**：CityMapView
+
+---
+
+## 3. 建立組件的實作步驟
+
+1. **規劃組件內容**：決定 id, index, name, city, source, query_type、圖表/地圖/歷史/篩選需求
+2. **撰寫 SQL 查詢語法**：設計 query_chart, query_history，並確認資料格式
+3. **新增資料表資料**：於 components、query_charts、component_charts、component_maps 插入對應資料
+4. **設定前端組件 config**：於 FE 組件 props 傳入完整 config 物件，chart_config/map_config 格式需與後端一致
+5. **（如有地圖）設定 map_config**：參考 mapConfig.js，設計 paint/layout/property
+6. **API 串接與測試**：前端呼叫 /api/v1/component/:id?city=xxx 取得組件設定與資料，渲染圖表/地圖
+7. **互動功能**：如需地圖篩選、歷史資料切換，需於 config 設定 map_filter/history_config，前端自動支援
+8. **維護與刪除**：可用 PATCH/DELETE API 更新或移除組件
+
+---
+
+## 4. 自訂 Chart Component 的詳細步驟
+
+### a. 建立新組件檔案
+- 在 `src/dashboardComponent/components/` 下新增 `MyCustomChart.vue`。
+- 內容可參考 `BarChart.vue`，需設計好 props（如 chart_config、series、activeChart）與互動邏輯。
+
+### b. 在 DashboardComponent.vue import 新組件
+```js
+import MyCustomChart from "./components/MyCustomChart.vue";
+```
+
+### c. 在 returnChartComponent 增加對應 case
+```js
+case "MyCustomChart":
+    return svg ? MyCustomChartSvg : MyCustomChart;
+```
+（如有 SVG 預覽也要 import）
+
+### d. 在 chart_config.types 設定新名稱
+- 組件 config 物件的 `chart_config.types` 必須設為 `["MyCustomChart"]`。
+- 這個字串必須與 returnChartComponent 的 case 及 import 名稱一致。
+
+### e. props 傳遞
+- 新組件需設計好 props，至少要能接收 chart_config、series、activeChart，並根據 activeChart 決定是否顯示。
+
+### f. 測試
+- 將 config 傳給 DashboardComponent，確認能正確渲染新圖表。
+
+#### 實作範例（簡化版）
+```vue
+<!-- MyCustomChart.vue -->
+<script setup>
+import { ref } from "vue";
+const props = defineProps(["chart_config", "series", "activeChart"]);
+</script>
+<template>
+  <div v-if="activeChart === 'MyCustomChart'">
+    <!-- 你的自訂圖表內容 -->
+    <p>這是自訂圖表，資料長度：{{ series[0].data.length }}</p>
+  </div>
+</template>
+```
+```js
+// DashboardComponent.vue
+import MyCustomChart from "./components/MyCustomChart.vue";
+...
+case "MyCustomChart":
+    return MyCustomChart;
+```
+```js
+// config
+chart_config: {
+  color: ["#1976d2"],
+  types: ["MyCustomChart"],
+  unit: "件",
+  categories: null
+}
+```
+
+---
+
+## 5. 文件重點備註
+
+- **chart_config.types** 必須與 returnChartComponent 的 case 及 import 名稱一致。
+- **自訂組件** 需設計 props 並在 DashboardComponent import、switch/case。
+- **資料流**：config → DashboardComponent → returnChartComponent → 你的自訂組件。
+- **如果 types 裡的名稱沒有對應的 import 與 case，前端會無法正確渲染該圖表。**
+- **如果你只用現有的圖表（如 "BarChart"），則不需額外實作，只要 types 設定正確即可。**
+
+# 儀錶板組件 - 地圖相關的邏輯
+
+以下是針對 `componentConfig` 中地圖相關欄位與互動的開發文件整理，適用於後端資料設計、前端設定與地圖互動開發：
+
+---
+
+# componentConfig 地圖欄位開發文件
+
+## 1. map_config 欄位結構
+
+- `map_config` 是一個陣列，每個元素代表一個地圖圖層的設定物件。
+- 每個圖層物件需包含以下欄位：
+
+```js
+{
+  index: "unique_layer_id",      // 圖層唯一識別字串
+  title: "圖層名稱",             // 圖層顯示名稱
+  type: "circle" | "fill" | "line" | "symbol" | "arc" | "fill-extrusion" | "voronoi" | "isoline", // 圖層型態
+  source: "geojson" | "raster",  // 資料來源型態
+  size: "small" | "big" | null,  // 點圖層可選大小
+  icon: "metro" | "youbike" | ...| null, // symbol 圖層需指定 icon
+  paint: { ... },                // Mapbox paint 屬性，控制顏色、透明度、半徑等
+  property: [
+    { key: "field1", name: "欄位1", mode: null },
+    { key: "field2", name: "欄位2", mode: "video" }
+  ],                             // popup 顯示的屬性
+  city: "taipei" | "metrotaipei" // 資料來源城市
+}
+```
+
+- **paint/layout** 可複用 `src/assets/configs/mapbox/mapConfig.js` 中的 `maplayerCommonPaint`、`maplayerCommonLayout`。
+- **icon** 必須對應 Mapbox sprite 或專案自訂圖示。
+- **property** 陣列決定點擊地圖時 popup 顯示哪些屬性。
+
+---
+
+## 2. map_filter 欄位（地圖篩選互動）
+
+- `map_filter` 決定圖表與地圖的互動方式，常見模式如下：
+
+### a. byParam（依屬性篩選）
+```js
+map_filter: {
+  mode: "byParam",
+  byParam: {
+    xParam: "TOWNNAME", // 地圖屬性對應圖表 X 軸
+    yParam: null
+  }
+}
+```
+- 用戶點擊圖表 X 軸（如行政區），只顯示地圖上該屬性值的圖徵。
+
+### b. byLayer（切換圖層）
+```js
+map_filter: {
+  mode: "byLayer"
+}
+```
+- 用戶點擊圖表項目，切換顯示對應的地圖圖層。
+
+---
+
+## 3. DashboardComponent 事件與 map_config 對應
+
+- **@toggle="(value, map_config) => ..."**  
+  - value: true/false，開關圖層
+  - map_config: 該組件所有地圖圖層設定（陣列）
+
+- **@filter-by-param="(map_filter, map_config, x, y) => ..."**  
+  - map_filter: 篩選設定
+  - map_config: 圖層設定
+  - x/y: 圖表點擊的 X/Y 軸值，對應 property.key
+
+- **@filter-by-layer="(map_config, layer) => ..."**  
+  - map_config: 圖層設定
+  - layer: 要顯示的圖層名稱
+
+- **@clear-by-param-filter / @clear-by-layer-filter**  
+  - map_config: 圖層設定，清除篩選
+
+---
+
+## 4. map_config 實例
+
+```js
+[
+  {
+    index: "tp_district_fill",
+    title: "台北市行政區",
+    type: "fill",
+    source: "geojson",
+    size: null,
+    icon: null,
+    paint: {
+      "fill-color": "#1976d2",
+      "fill-opacity": 0.4
+    },
+    property: [
+      { key: "TOWNNAME", name: "行政區", mode: null },
+      { key: "COUNT", name: "數量", mode: null }
+    ],
+    city: "taipei"
+  },
+  {
+    index: "tp_spot_circle",
+    title: "地點分布",
+    type: "circle",
+    source: "geojson",
+    size: "small",
+    icon: null,
+    paint: {
+      "circle-color": "#ff9800",
+      "circle-radius": 6
+    },
+    property: [
+      { key: "NAME", name: "名稱", mode: null },
+      { key: "COUNT", name: "數量", mode: null }
+    ],
+    city: "taipei"
+  }
+]
+```
+
+---
+
+## 5. 進階互動範例
+
+- **圖表點擊篩選地圖**：BarChart 點擊「大安區」→ emit filterByParam，mapStore 只顯示 TOWNNAME="大安區" 的區塊。
+- **多圖層聯動**：一個組件可同時控制多個圖層（如 fill + circle），toggle/on/off 會同時作用於多個圖層。
+- **popup 屬性**：點擊地圖圖徵時，popup 內容由 map_config.property 決定。
+- **行政區/里界線疊加**：由 MapContainer.vue 控制，與組件圖層獨立。
+- **城市切換**：切換城市時，會自動切換對應城市的圖層（根據 config.city）。
+
+---
+
+## 6. 實作建議
+
+- **map_config** 必須為陣列，每個物件需有 index、type、paint、property 等欄位，對應 Mapbox 圖層設定。
+- **所有地圖互動（篩選、切換城市、開關圖層）都透過事件傳遞與 store 控制，確保資料流單向、可追蹤。**
+- **popup、圖層樣式、篩選條件都可在 map_config/property/map_filter 中靈活配置。**
+
+---
+
+# 地圖圖層動態增減的程式細節
+
+## 1. 圖層動態增減的核心流程
+
+### a. 新增圖層（addToMapLayerList）
+
+- **入口**：呼叫 `addToMapLayerList(map_config)`，map_config 是一個圖層設定陣列（通常來自 DashboardComponent 的 config.map_config）。
+- **流程**：
+  1. 逐一檢查每個圖層（element），組合出唯一的 layerId（如 `${index}-${type}-${city}`）。
+  2. 若該圖層已存在於 currentLayers，則直接開啟顯示（turnOnMapLayerVisibility），並加入 currentVisibleLayers。
+  3. 若圖層不存在，根據 source 屬性（geojson/raster）呼叫 fetchLocalGeoJson 或 addRasterSource 取得資料，然後呼叫 addGeojsonSource 或 addMapLayer 實際加到地圖上。
+
+### b. 移除/隱藏圖層（turnOffMapLayerVisibility）
+
+- **入口**：呼叫 `turnOffMapLayerVisibility(map_config)`，map_config 同上。
+- **流程**：
+  1. 逐一處理每個圖層，根據 layerId 找到對應圖層。
+  2. 若是 deck.gl 圖層（如 arc），則設 visible=false 並重新渲染。
+  3. 一般圖層則 setLayoutProperty(layerId, "visibility", "none")，並從 currentVisibleLayers 移除。
+  4. 清除 popup。
+
+### c. 完全移除圖層（clearOnlyLayers/clearEntireMap）
+
+- **clearOnlyLayers**：移除所有自訂圖層（removeLayer/removeSource），但不影響基本圖層與地圖本身。
+- **clearEntireMap**：清空所有狀態與地圖實體，通常在頁面切換時呼叫。
+
+---
+
+## 2. 圖層資料來源與格式
+
+- **geojson**：本地 `/mapData/${index}.geojson`，用於點、面、線等圖層。
+- **raster/vector**：遠端 geo_server，支援大範圍資料（如行政區、里界線）。
+- **特殊圖層**：arc/voronoi/isoline 需進行資料前處理（如計算泰森多邊形、等值線）。
+
+---
+
+## 3. 圖層動態增減的進階細節
+
+- **同一組件可同時加多個圖層**（map_config 為陣列）。
+- **圖層唯一性**：layerId 必須唯一，否則會覆蓋或衝突。
+- **圖層樣式**：paint/layout 可根據 icon/size/type 動態組合（支援多種樣式疊加）。
+- **圖層資料異常處理**：加載失敗會自動清理 source/layer 並從 loadingLayers 移除。
+- **圖層可見性切換**：已加載的圖層可隨時 setLayoutProperty 切換顯示/隱藏，無需重複加載。
+
+---
+
+## 4. 互動與事件對應
+
+- **@toggle**：呼叫 addToMapLayerList 或 turnOffMapLayerVisibility。
+- **@filter-by-param**：呼叫 filterByParam，根據屬性值 setFilter。
+- **@filter-by-layer**：呼叫 filterByLayer，根據圖層名稱 setLayoutProperty。
+- **@clear-by-param-filter / @clear-by-layer-filter**：清除篩選，恢復全部顯示。
+
+---
+
+## 5. 小結
+
+- **地圖圖層的增減完全動態、可多層疊加，支援多種資料來源與型態。**
+- **所有圖層操作都集中在 mapStore，確保狀態一致、效能最佳。**
+- **前端元件只需 emit 對應事件與 map_config，mapStore 會自動處理圖層的加載、顯示、隱藏、篩選等。**
