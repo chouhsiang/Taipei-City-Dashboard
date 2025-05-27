@@ -45,6 +45,12 @@ const parseMapLayers = computed(() => {
 	return { hasMap: hasMap, noMap: noMap };
 });
 
+const pinnedMapLayers = computed(() => {
+	return contentStore.cityDashboard.components?.filter((item) =>
+		contentStore.pinnedComponentIds.includes(item.id)
+	);
+});
+
 watch(
 	() => route.query.index,
 	(newIndex, oldIndex) => {
@@ -107,6 +113,10 @@ function shouldDisable(map_config) {
 			.length > 0
 	);
 }
+
+function handlePin(value, componentId) {
+	contentStore.togglePinnedComponentId(componentId);
+}
 </script>
 
 <template>
@@ -145,6 +155,10 @@ function shouldDisable(map_config) {
 					"
 					:toggle-disable="shouldDisable(item.map_config)"
 					:toggle-on="toggleOn.mapLayer[arrayIdx]"
+					:is-pinned="
+						contentStore.pinnedComponentIds.includes(item.id)
+					"
+					@pin="handlePin"
 					@info="
 						(item) => {
 							dialogStore.showMoreInfo(item);
@@ -250,6 +264,10 @@ function shouldDisable(map_config) {
 					"
 					:toggle-disable="shouldDisable(item.map_config)"
 					:toggle-on="toggleOn.hasMap[arrayIdx]"
+					:is-pinned="
+						contentStore.pinnedComponentIds.includes(item.id)
+					"
+					@pin="handlePin"
 					@info="
 						(item) => {
 							dialogStore.showMoreInfo(item);
@@ -327,6 +345,104 @@ function shouldDisable(map_config) {
 						}
 					"
 				/>
+
+				<h2 v-if="pinnedMapLayers.length > 0">釘選圖層</h2>
+				<DashboardComponent
+					v-for="(item, arrayIdx) in pinnedMapLayers"
+					:key="`map-layer-${item.index}-${item.city}`"
+					:config="item"
+					mode="halfmap"
+					:info-btn="true"
+					:active-city="item.city"
+					:select-btn="true"
+					:select-btn-disabled="
+						contentStore.cityManager.getSelectList(
+							contentStore.currentDashboard?.city
+						).length === 1
+					"
+					:select-btn-list="
+						contentStore.cityManager.getSelectList(
+							contentStore.currentDashboard?.city
+						)
+					"
+					:city-tag="
+						contentStore.cityManager.getTagList(
+							contentStore.currentDashboard?.city
+						)
+					"
+					:toggle-disable="shouldDisable(item.map_config)"
+					:toggle-on="toggleOn.basicLayer[arrayIdx]"
+					:is-pinned="
+						contentStore.pinnedComponentIds.includes(item.id)
+					"
+					@pin="handlePin"
+					@info="
+						(item) => {
+							dialogStore.showMoreInfo(item);
+						}
+					"
+					@toggle="
+						(value, map_config) => {
+							handleToggle(value, map_config);
+							toggleSwitchBtn(value, 'basicLayer', arrayIdx);
+						}
+					"
+					@filter-by-param="
+						(map_filter, map_config, x, y) => {
+							mapStore.filterByParam(
+								map_filter,
+								map_config,
+								x,
+								y
+							);
+						}
+					"
+					@filter-by-layer="
+						(map_config, layer) => {
+							mapStore.filterByLayer(map_config, layer);
+						}
+					"
+					@clear-by-param-filter="
+						(map_config) => {
+							mapStore.clearByParamFilter(map_config);
+						}
+					"
+					@clear-by-layer-filter="
+						(map_config) => {
+							mapStore.clearByLayerFilter(map_config);
+						}
+					"
+					@change-city="
+						(city) => {
+							const selectedData = contentStore.allMapLayers.find(
+								(data) => {
+									if (
+										data.index === item.index &&
+										data.city === city
+									) {
+										return data;
+									}
+								}
+							);
+
+							if (selectedData) {
+								mapStore.clearByParamFilter(item.map_config);
+								mapStore.turnOffMapLayerVisibility(
+									item.map_config
+								);
+								mapStore.addToMapLayerList(
+									selectedData.map_config
+								);
+
+								contentStore.setMapLayerData(
+									arrayIdx,
+									selectedData
+								);
+							}
+						}
+					"
+				/>
+
 				<h2 v-if="contentStore.mapLayers.length > 0">基本圖層</h2>
 				<DashboardComponent
 					v-for="(item, arrayIdx) in contentStore.mapLayers"
@@ -353,6 +469,10 @@ function shouldDisable(map_config) {
 					"
 					:toggle-disable="shouldDisable(item.map_config)"
 					:toggle-on="toggleOn.basicLayer[arrayIdx]"
+					:is-pinned="
+						contentStore.pinnedComponentIds.includes(item.id)
+					"
+					@pin="handlePin"
 					@info="
 						(item) => {
 							dialogStore.showMoreInfo(item);
@@ -444,6 +564,10 @@ function shouldDisable(map_config) {
 						)
 					"
 					:toggle-on="toggleOn.noMap[arrayIdx]"
+					:is-pinned="
+						contentStore.pinnedComponentIds.includes(item.id)
+					"
+					@pin="handlePin"
 					@info="
 						(item) => {
 							dialogStore.showMoreInfo(item);

@@ -74,6 +74,7 @@ const props = defineProps({
 	footer: { type: Boolean, default: true },
 	activeCity: { type: String, default: "" },
 	toggleOn: { type: Boolean, default: false },
+	isPinned: { type: Boolean, default: false },
 });
 
 const emits = defineEmits([
@@ -82,6 +83,7 @@ const emits = defineEmits([
 	"add",
 	"info",
 	"toggle",
+	"pin",
 	"filterByParam",
 	"filterByLayer",
 	"clearByParamFilter",
@@ -103,6 +105,13 @@ const toggleOn = computed({
 	get: () => props.toggleOn,
 	set: (value) => {
 		emits("toggle", value, props.config.map_config);
+	},
+});
+
+const isPinned = computed({
+	get: () => props.isPinned,
+	set: (value) => {
+		emits("pin", value, props.config.id);
 	},
 });
 
@@ -325,6 +334,15 @@ function returnChartComponent(name, svg) {
 				v-else-if="mode.includes('map')"
 				class="dashboardcomponent-header-toggle"
 			>
+				<label class="toggleswitch">
+					<input
+						v-model="isPinned"
+						type="checkbox"
+						:disabled="toggleDisable"
+					/>
+					<span class="toggleswitch-slider" />
+				</label>
+
 				<label class="toggleswitch">
 					<input
 						v-model="toggleOn"
