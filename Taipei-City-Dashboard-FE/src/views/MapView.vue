@@ -33,6 +33,8 @@ const toggleOn = ref({
 	basicLayer: [],
 });
 
+const pinnedMapLayerToggleOnSet = ref(new Set());
+
 // Separate components with maps from those without
 const parseMapLayers = computed(() => {
 	const hasMap = contentStore.currentDashboard.components?.filter(
@@ -45,11 +47,7 @@ const parseMapLayers = computed(() => {
 	return { hasMap: hasMap, noMap: noMap };
 });
 
-const pinnedMapLayers = computed(() => {
-	return contentStore.cityDashboard.components?.filter((item) =>
-		contentStore.pinnedComponentIds.includes(item.id)
-	);
-});
+const { pinnedMapLayers } = contentStore;
 
 watch(
 	() => route.query.index,
@@ -114,8 +112,12 @@ function shouldDisable(map_config) {
 	);
 }
 
-function handlePin(value, componentId) {
-	contentStore.togglePinnedComponentId(componentId);
+function handlePin(_value, componentId) {
+	contentStore.togglePinnedMapLayer(componentId);
+}
+
+function getIsPinned(componentId) {
+	return contentStore.pinnedMapLayers.some((item) => item.id === componentId);
 }
 </script>
 
@@ -155,9 +157,7 @@ function handlePin(value, componentId) {
 					"
 					:toggle-disable="shouldDisable(item.map_config)"
 					:toggle-on="toggleOn.mapLayer[arrayIdx]"
-					:is-pinned="
-						contentStore.pinnedComponentIds.includes(item.id)
-					"
+					:is-pinned="getIsPinned(item.id)"
 					@pin="handlePin"
 					@info="
 						(item) => {
@@ -264,9 +264,7 @@ function handlePin(value, componentId) {
 					"
 					:toggle-disable="shouldDisable(item.map_config)"
 					:toggle-on="toggleOn.hasMap[arrayIdx]"
-					:is-pinned="
-						contentStore.pinnedComponentIds.includes(item.id)
-					"
+					:is-pinned="getIsPinned(item.id)"
 					@pin="handlePin"
 					@info="
 						(item) => {
@@ -354,27 +352,11 @@ function handlePin(value, componentId) {
 					mode="halfmap"
 					:info-btn="true"
 					:active-city="item.city"
-					:select-btn="true"
-					:select-btn-disabled="
-						contentStore.cityManager.getSelectList(
-							contentStore.currentDashboard?.city
-						).length === 1
-					"
-					:select-btn-list="
-						contentStore.cityManager.getSelectList(
-							contentStore.currentDashboard?.city
-						)
-					"
-					:city-tag="
-						contentStore.cityManager.getTagList(
-							contentStore.currentDashboard?.city
-						)
-					"
+					:select-btn="false"
+					:city-tag="contentStore.cityManager.getTagList(item.city)"
 					:toggle-disable="shouldDisable(item.map_config)"
-					:toggle-on="toggleOn.basicLayer[arrayIdx]"
-					:is-pinned="
-						contentStore.pinnedComponentIds.includes(item.id)
-					"
+					:toggle-on="pinnedMapLayerToggleOnSet.has(item.id)"
+					:is-pinned="getIsPinned(item.id)"
 					@pin="handlePin"
 					@info="
 						(item) => {
@@ -384,7 +366,11 @@ function handlePin(value, componentId) {
 					@toggle="
 						(value, map_config) => {
 							handleToggle(value, map_config);
-							toggleSwitchBtn(value, 'basicLayer', arrayIdx);
+							if (value) {
+								pinnedMapLayerToggleOnSet.add(item.id);
+							} else {
+								pinnedMapLayerToggleOnSet.delete(item.id);
+							}
 						}
 					"
 					@filter-by-param="
@@ -469,9 +455,7 @@ function handlePin(value, componentId) {
 					"
 					:toggle-disable="shouldDisable(item.map_config)"
 					:toggle-on="toggleOn.basicLayer[arrayIdx]"
-					:is-pinned="
-						contentStore.pinnedComponentIds.includes(item.id)
-					"
+					:is-pinned="getIsPinned(item.id)"
 					@pin="handlePin"
 					@info="
 						(item) => {
@@ -564,9 +548,7 @@ function handlePin(value, componentId) {
 						)
 					"
 					:toggle-on="toggleOn.noMap[arrayIdx]"
-					:is-pinned="
-						contentStore.pinnedComponentIds.includes(item.id)
-					"
+					:is-pinned="getIsPinned(item.id)"
 					@pin="handlePin"
 					@info="
 						(item) => {

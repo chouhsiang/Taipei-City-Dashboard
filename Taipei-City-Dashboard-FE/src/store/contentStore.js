@@ -32,8 +32,8 @@ export const useContentStore = defineStore("content", {
 		allMapLayers: [],
 		// Picks out the favorites dashboard
 		favorites: null,
-		// Store pinned component ids to compare across maps
-		pinnedComponentIds: [],
+		// Store pinned map layer components data to compare across maps
+		pinnedMapLayers: [],
 		// Stores information of the current dashboard
 		currentDashboard: {
 			// /mapview or /dashboard
@@ -69,12 +69,18 @@ export const useContentStore = defineStore("content", {
 	}),
 	getters: {},
 	actions: {
-		togglePinnedComponentId(id) {
-			const index = this.pinnedComponentIds.indexOf(id);
+		togglePinnedMapLayer(id) {
+			const index = this.pinnedMapLayers.findIndex(
+				(item) => item.id === id
+			);
 			if (index > -1) {
-				this.pinnedComponentIds.splice(index, 1);
+				this.pinnedMapLayers.splice(index, 1);
 			} else {
-				this.pinnedComponentIds.push(id);
+				this.pinnedMapLayers.push(
+					this.currentDashboard.components.find(
+						(item) => item.id === id
+					)
+				);
 			}
 		},
 		setComponentData(index, component) {
