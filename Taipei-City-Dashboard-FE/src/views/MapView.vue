@@ -112,7 +112,7 @@ function shouldDisable(map_config) {
 	);
 }
 
-function handlePin(_value, componentId) {
+function handlePin(componentId) {
 	contentStore.togglePinnedMapLayer(componentId);
 }
 

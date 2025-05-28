@@ -109,13 +109,6 @@ const toggleOn = computed({
 	},
 });
 
-const isPinned = computed({
-	get: () => props.isPinned,
-	set: (value) => {
-		emits("pin", value, props.config.id);
-	},
-});
-
 const mousePosition = ref({ x: null, y: null });
 const showTagTooltip = ref(false);
 
@@ -335,9 +328,12 @@ function returnChartComponent(name, svg) {
 				v-else-if="mode.includes('map')"
 				class="dashboardcomponent-header-toggle"
 			>
-				<label v-if="pinBtn" class="pin">
-					<input v-model="isPinned" type="checkbox" />
-					<span>push_pin</span>
+				<label
+					v-if="pinBtn"
+					:class="{ pin: true, pinned: isPinned }"
+					@click="$emit('pin', config.id)"
+				>
+					push_pin
 				</label>
 
 				<label class="toggleswitch">
@@ -969,8 +965,12 @@ button:hover {
 }
 
 .pin {
-	span {
-		font-family: var(--font-icon);
+	cursor: pointer;
+	font-family: var(--font-icon);
+	color: #888787;
+
+	&.pinned {
+		color: #176ae0;
 	}
 }
 </style>
