@@ -12,6 +12,7 @@ import { useDialogStore } from "../../../store/dialogStore";
 
 import UserSettings from "../../dialogs/UserSettings.vue";
 import ContributorsList from "../../dialogs/ContributorsList.vue";
+import ThemeToggle from "../miscellaneous/ThemeToggle.vue";
 
 const route = useRoute();
 const authStore = useAuthStore();
@@ -84,6 +85,7 @@ const linkQuery = computed(() => {
           isFullscreen ? "fullscreen_exit" : "fullscreen"
         }}</span>
       </button>
+      <ThemeToggle class="hide-if-mobile" />
       <div class="navbar-user-info">
         <button><span>info</span></button>
         <ul>
@@ -195,7 +197,7 @@ const linkQuery = computed(() => {
 
 			img {
 				height: 45px;
-				filter: invert(1);
+				filter: var(--img-filter);
 			}
 		}
 	}

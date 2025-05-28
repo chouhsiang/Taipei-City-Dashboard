@@ -15,6 +15,7 @@ import { useAuthStore } from "./store/authStore";
 import { useDialogStore } from "./store/dialogStore";
 import { useContentStore } from "./store/contentStore";
 import { useMapStore } from "./store/mapStore";
+import { useThemeStore } from "./store/themeStore";
 
 import NavBar from "./components/utilities/bars/NavBar.vue";
 import SideBar from "./components/utilities/bars/SideBar.vue";
@@ -28,6 +29,7 @@ import LogIn from "./components/dialogs/LogIn.vue";
 const authStore = useAuthStore();
 const dialogStore = useDialogStore();
 const contentStore = useContentStore();
+const themeStore = useThemeStore();
 const timeToUpdate = ref(600);
 
 const mapStore = useMapStore();
@@ -108,6 +110,7 @@ watch(() => route.query, (query) => {
 
 onBeforeMount(() => {
 	authStore.initialChecks();
+	themeStore.initTheme();
 
 	let vh = window.innerHeight * 0.01;
 	document.documentElement.style.setProperty("--vh", `${vh}px`);
