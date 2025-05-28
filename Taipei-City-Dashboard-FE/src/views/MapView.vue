@@ -157,8 +157,6 @@ function getIsPinned(componentId) {
 					"
 					:toggle-disable="shouldDisable(item.map_config)"
 					:toggle-on="toggleOn.mapLayer[arrayIdx]"
-					:is-pinned="getIsPinned(item.id)"
-					@pin="handlePin"
 					@info="
 						(item) => {
 							dialogStore.showMoreInfo(item);
@@ -264,6 +262,7 @@ function getIsPinned(componentId) {
 					"
 					:toggle-disable="shouldDisable(item.map_config)"
 					:toggle-on="toggleOn.hasMap[arrayIdx]"
+					:pin-btn="true"
 					:is-pinned="getIsPinned(item.id)"
 					@pin="handlePin"
 					@info="
@@ -356,6 +355,7 @@ function getIsPinned(componentId) {
 					:city-tag="contentStore.cityManager.getTagList(item.city)"
 					:toggle-disable="shouldDisable(item.map_config)"
 					:toggle-on="pinnedMapLayerToggleOnSet.has(item.id)"
+					:pin-btn="true"
 					:is-pinned="getIsPinned(item.id)"
 					@pin="handlePin"
 					@info="
@@ -398,35 +398,6 @@ function getIsPinned(componentId) {
 							mapStore.clearByLayerFilter(map_config);
 						}
 					"
-					@change-city="
-						(city) => {
-							const selectedData = contentStore.allMapLayers.find(
-								(data) => {
-									if (
-										data.index === item.index &&
-										data.city === city
-									) {
-										return data;
-									}
-								}
-							);
-
-							if (selectedData) {
-								mapStore.clearByParamFilter(item.map_config);
-								mapStore.turnOffMapLayerVisibility(
-									item.map_config
-								);
-								mapStore.addToMapLayerList(
-									selectedData.map_config
-								);
-
-								contentStore.setMapLayerData(
-									arrayIdx,
-									selectedData
-								);
-							}
-						}
-					"
 				/>
 
 				<h2 v-if="contentStore.mapLayers.length > 0">基本圖層</h2>
@@ -455,8 +426,6 @@ function getIsPinned(componentId) {
 					"
 					:toggle-disable="shouldDisable(item.map_config)"
 					:toggle-on="toggleOn.basicLayer[arrayIdx]"
-					:is-pinned="getIsPinned(item.id)"
-					@pin="handlePin"
 					@info="
 						(item) => {
 							dialogStore.showMoreInfo(item);
@@ -548,6 +517,7 @@ function getIsPinned(componentId) {
 						)
 					"
 					:toggle-on="toggleOn.noMap[arrayIdx]"
+					:pin-btn="true"
 					:is-pinned="getIsPinned(item.id)"
 					@pin="handlePin"
 					@info="
