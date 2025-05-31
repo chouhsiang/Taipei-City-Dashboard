@@ -731,6 +731,227 @@ export const useContentStore = defineStore("content", {
 				this.setDashboards();
 			}
 		},
+		// 7. Call this function to export dashboard data to CSV
+		async exportDashboardToCSV() {
+			const dialogStore = useDialogStore();
+			
+			try {
+				// Get dashboard data - prefer editDashboard if available (for edit mode)
+				let dashboard = this.editDashboard.index ? this.editDashboard : this.currentDashboard;
+				
+				// If editDashboard is being used, we need to get the full component data
+				if (this.editDashboard.index && this.editDashboard.components.length > 0) {
+					// Get detailed component information for editDashboard
+					const detailedComponents = [];
+					
+					for (const component of this.editDashboard.components) {
+						// If component is just an ID, find the full component data
+						if (typeof component === 'string' || typeof component === 'number') {
+							// Look for the component in currentDashboard or cityDashboard
+							const fullComponent = this.currentDashboard.components?.find(c => c.id === component) ||
+												 this.cityDashboard.components?.find(c => c.id === component);
+							if (fullComponent) {
+								detailedComponents.push(fullComponent);
+							} else {
+								// Fallback: create minimal component data
+								detailedComponents.push({
+									id: component,
+									name: `組件 ${component}`,
+									short_desc: '',
+									chart_config: {},
+									city: '',
+									update_time: '',
+									source: ''
+								});
+							}
+						} else {
+							detailedComponents.push(component);
+						}
+					}
+					
+					dashboard = {
+						...this.editDashboard,
+						components: detailedComponents
+					};
+				}
+				
+				if (!dashboard || !dashboard.components || dashboard.components.length === 0) {
+					dialogStore.showNotification("error", "沒有可導出的儀表板數據");
+					return;
+				}
+
+				// Prepare CSV data
+				const csvData = [];
+				
+				// Add header
+				csvData.push(['儀表板名稱', '組件名稱', '組件ID', '組件說明', '組件類型', '城市', '更新時間', '數據來源']);
+				
+				// Add dashboard info and component data
+				dashboard.components.forEach(component => {
+					const row = [
+						dashboard.name || '未命名儀表板',
+						component.name || '未命名組件',
+						component.id || '',
+						component.short_desc || '',
+						component.chart_config?.chart_type || '',
+						component.city || '',
+						component.update_time || '',
+						component.source || ''
+					];
+					csvData.push(row);
+				});
+
+				// Convert to CSV string
+				const csvString = csvData.map(row => 
+					row.map(field => {
+						// Handle fields that contain commas, quotes, or line breaks
+						if (typeof field === 'string' && (field.includes(',') || field.includes('"') || field.includes('\n'))) {
+							return `"${field.replace(/"/g, '""')}"`;
+						}
+						return field;
+					}).join(',')
+				).join('\n');
+
+				// Create and download file
+				const blob = new Blob(['\ufeff' + csvString], { type: 'text/csv;charset=utf-8;' });
+				const link = document.createElement('a');
+				const url = URL.createObjectURL(blob);
+				
+				link.setAttribute('href', url);
+				link.setAttribute('download', `${dashboard.name || '儀表板'}_${new Date().toISOString().split('T')[0]}.csv`);
+				link.style.visibility = 'hidden';
+				
+				document.body.appendChild(link);
+				link.click();
+				document.body.removeChild(link);
+				
+				dialogStore.showNotification("success", "成功導出儀表板數據");
+			} catch (error) {
+				console.error("Error exporting dashboard to CSV:", error);
+				dialogStore.showNotification("error", "導出儀表板數據失敗");
+			}
+		},
+		// 8. Call this function to import dashboard data from CSV
+		async importDashboardFromCSV(file) {
+			const dialogStore = useDialogStore();
+			
+			try {
+				// Validate file type
+				if (!file.name.toLowerCase().endsWith('.csv')) {
+					dialogStore.showNotification("error", "請選擇 CSV 格式的文件");
+					return null;
+				}
+
+				// Read file content
+				const text = await new Promise((resolve, reject) => {
+					const reader = new FileReader();
+					reader.onload = (e) => resolve(e.target.result);
+					reader.onerror = (e) => reject(e);
+					reader.readAsText(file, 'utf-8');
+				});
+
+				// Parse CSV
+				const lines = text.split('\n').filter(line => line.trim());
+				if (lines.length < 2) {
+					dialogStore.showNotification("error", "CSV 文件格式不正確或為空");
+					return null;
+				}
+
+				// Skip header line and parse data
+				const dataLines = lines.slice(1);
+				const components = [];
+				let dashboardName = '';
+
+				for (const line of dataLines) {
+					// Simple CSV parsing (handles quoted fields)
+					const fields = this.parseCSVLine(line);
+					
+					if (fields.length >= 3) {
+						dashboardName = fields[0] || '導入的儀表板';
+						const componentId = fields[2]; // Component ID is in the 3rd column
+						
+						if (componentId && componentId.trim()) {
+							// Check if component exists
+							const existingComponent = await this.validateComponent(componentId.trim());
+							if (existingComponent) {
+								components.push(existingComponent);
+							}
+						}
+					}
+				}
+
+				if (components.length === 0) {
+					dialogStore.showNotification("error", "CSV 文件中沒有找到有效的組件");
+					return null;
+				}
+
+				// Remove duplicates based on component ID
+				const uniqueComponents = [...new Map(components.map(comp => [comp.id, comp])).values()];
+
+				dialogStore.showNotification("success", `成功導入 ${uniqueComponents.length} 個組件`);
+				
+				return {
+					name: dashboardName,
+					components: uniqueComponents
+				};
+
+			} catch (error) {
+				console.error("Error importing dashboard from CSV:", error);
+				dialogStore.showNotification("error", "導入儀表板失敗：" + error.message);
+				return null;
+			}
+		},
+		// 9. Helper function to parse CSV line with quoted field support
+		parseCSVLine(line) {
+			const fields = [];
+			let current = '';
+			let inQuotes = false;
+			
+			for (let i = 0; i < line.length; i++) {
+				const char = line[i];
+				
+				if (char === '"') {
+					if (inQuotes && line[i + 1] === '"') {
+						// Escaped quote
+						current += '"';
+						i++; // Skip next quote
+					} else {
+						// Toggle quote state
+						inQuotes = !inQuotes;
+					}
+				} else if (char === ',' && !inQuotes) {
+					// Field separator
+					fields.push(current);
+					current = '';
+				} else {
+					current += char;
+				}
+			}
+			
+			// Add last field
+			fields.push(current);
+			
+			return fields;
+		},
+		// 10. Helper function to validate if component exists
+		async validateComponent(componentId) {
+			try {
+				const response = await http.get(`/component/`, {
+					params: {
+						filtermode: "eq",
+						filterby: "id",
+						filtervalue: componentId
+					}
+				});
+				
+				if (response.data.results > 0) {
+					return response.data.data[0];
+				}
+			} catch (error) {
+				console.warn(`Component ${componentId} not found:`, error);
+			}
+			return null;
+		},
 		/*
 		wsConnect() {
 			const dialogStore = useDialogStore();
