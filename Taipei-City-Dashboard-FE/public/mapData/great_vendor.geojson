@@ -1,0 +1,7935 @@
+{
+	"type": "FeatureCollection",
+	"features": [
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.5180034, 25.0324803]
+			},
+			"properties": {
+				"market_name": "南門市場",
+				"vendor_name": "艾蕎安",
+				"country": "臺北市",
+				"grade": "5"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.5452778, 25.0786111]
+			},
+			"properties": {
+				"market_name": "大直市場",
+				"vendor_name": "鼎A9肉乾食品",
+				"country": "臺北市",
+				"grade": "5"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.5248153, 25.0441419]
+			},
+			"properties": {
+				"market_name": "華山市場",
+				"vendor_name": "松鼠Bonbon甜點店",
+				"country": "臺北市",
+				"grade": "5"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.5180034, 25.0324803]
+			},
+			"properties": {
+				"market_name": "南門市場",
+				"vendor_name": "南門牛羊肉店",
+				"country": "臺北市",
+				"grade": "5"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.5180034, 25.0324803]
+			},
+			"properties": {
+				"market_name": "南門市場",
+				"vendor_name": "盧記水產",
+				"country": "臺北市",
+				"grade": "5"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.5180034, 25.0324803]
+			},
+			"properties": {
+				"market_name": "南門市場",
+				"vendor_name": "盧記魚丸",
+				"country": "臺北市",
+				"grade": "5"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.5180034, 25.0324803]
+			},
+			"properties": {
+				"market_name": "南門市場",
+				"vendor_name": "多益肉莊",
+				"country": "臺北市",
+				"grade": "5"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.5180034, 25.0324803]
+			},
+			"properties": {
+				"market_name": "南門市場",
+				"vendor_name": "永順蔬菜號",
+				"country": "臺北市",
+				"grade": "5"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.5180034, 25.0324803]
+			},
+			"properties": {
+				"market_name": "南門市場",
+				"vendor_name": "南園食品店",
+				"country": "臺北市",
+				"grade": "5"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.5180034, 25.0324803]
+			},
+			"properties": {
+				"market_name": "南門市場",
+				"vendor_name": "阿榮海鮮號",
+				"country": "臺北市",
+				"grade": "5"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.5180034, 25.0324803]
+			},
+			"properties": {
+				"market_name": "南門市場",
+				"vendor_name": "立家湖州粽食品行",
+				"country": "臺北市",
+				"grade": "5"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.5180034, 25.0324803]
+			},
+			"properties": {
+				"market_name": "南門市場",
+				"vendor_name": "億長御坊",
+				"country": "臺北市",
+				"grade": "5"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.5180034, 25.0324803]
+			},
+			"properties": {
+				"market_name": "南門市場",
+				"vendor_name": "快車肉乾",
+				"country": "臺北市",
+				"grade": "5"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.5180034, 25.0324803]
+			},
+			"properties": {
+				"market_name": "南門市場",
+				"vendor_name": "上海火腿食品",
+				"country": "臺北市",
+				"grade": "5"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.5180034, 25.0324803]
+			},
+			"properties": {
+				"market_name": "南門市場",
+				"vendor_name": "萬有全手工金華火腿",
+				"country": "臺北市",
+				"grade": "5"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.5180034, 25.0324803]
+			},
+			"properties": {
+				"market_name": "南門市場",
+				"vendor_name": "大連食品",
+				"country": "臺北市",
+				"grade": "5"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.5180034, 25.0324803]
+			},
+			"properties": {
+				"market_name": "南門市場",
+				"vendor_name": "金龍肉乾創始店",
+				"country": "臺北市",
+				"grade": "5"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.5180034, 25.0324803]
+			},
+			"properties": {
+				"market_name": "南門市場",
+				"vendor_name": "逸湘齋食品行",
+				"country": "臺北市",
+				"grade": "5"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.5180034, 25.0324803]
+			},
+			"properties": {
+				"market_name": "南門市場",
+				"vendor_name": "翔記",
+				"country": "臺北市",
+				"grade": "5"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.5180034, 25.0324803]
+			},
+			"properties": {
+				"market_name": "南門市場",
+				"vendor_name": "Wa Curry Laksa印度咖哩叻沙",
+				"country": "臺北市",
+				"grade": "5"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.529548, 25.1118424]
+			},
+			"properties": {
+				"market_name": "士東市場",
+				"vendor_name": "士東水餃",
+				"country": "臺北市",
+				"grade": "5"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.529548, 25.1118424]
+			},
+			"properties": {
+				"market_name": "士東市場",
+				"vendor_name": "四行倉庫",
+				"country": "臺北市",
+				"grade": "5"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.529548, 25.1118424]
+			},
+			"properties": {
+				"market_name": "士東市場",
+				"vendor_name": "童家饅頭",
+				"country": "臺北市",
+				"grade": "5"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.529548, 25.1118424]
+			},
+			"properties": {
+				"market_name": "士東市場",
+				"vendor_name": "貪杯咖啡",
+				"country": "臺北市",
+				"grade": "5"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.5349937, 25.013569]
+			},
+			"properties": {
+				"market_name": "水源市場",
+				"vendor_name": "索菲烤布蕾",
+				"country": "臺北市",
+				"grade": "5"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.4984426, 25.0385988]
+			},
+			"properties": {
+				"market_name": "華西街觀光夜市",
+				"vendor_name": "台南?仔麵",
+				"country": "臺北市",
+				"grade": "5"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.4984426, 25.0385988]
+			},
+			"properties": {
+				"market_name": "華西街觀光夜市",
+				"vendor_name": "iROO服飾",
+				"country": "臺北市",
+				"grade": "5"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.4984426, 25.0385988]
+			},
+			"properties": {
+				"market_name": "華西街觀光夜市",
+				"vendor_name": "小王煮瓜",
+				"country": "臺北市",
+				"grade": "5"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.5019223, 25.0357683]
+			},
+			"properties": {
+				"market_name": "東三水街臨時攤販集中場",
+				"vendor_name": "永恆製麵",
+				"country": "臺北市",
+				"grade": "5"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.524156, 25.089734]
+			},
+			"properties": {
+				"market_name": "士林夜市(社團法人台北市士林夜市商圈聯合會)",
+				"vendor_name": "丞祖胡椒餅",
+				"country": "臺北市",
+				"grade": "4"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.524156, 25.089734]
+			},
+			"properties": {
+				"market_name": "士林夜市(社團法人台北市士林夜市商圈聯合會)",
+				"vendor_name": "冠記麻辣魚蛋",
+				"country": "臺北市",
+				"grade": "4"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.5248153, 25.0441419]
+			},
+			"properties": {
+				"market_name": "華山市場",
+				"vendor_name": "飛鼠文化工作室",
+				"country": "臺北市",
+				"grade": "4"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.5180034, 25.0324803]
+			},
+			"properties": {
+				"market_name": "南門市場",
+				"vendor_name": "德慶港點",
+				"country": "臺北市",
+				"grade": "4"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.5180034, 25.0324803]
+			},
+			"properties": {
+				"market_name": "南門市場",
+				"vendor_name": "成記道口燒雞",
+				"country": "臺北市",
+				"grade": "4"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.5180034, 25.0324803]
+			},
+			"properties": {
+				"market_name": "南門市場",
+				"vendor_name": "徐徐咖啡",
+				"country": "臺北市",
+				"grade": "4"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.5180034, 25.0324803]
+			},
+			"properties": {
+				"market_name": "南門市場",
+				"vendor_name": "合興糕糰店",
+				"country": "臺北市",
+				"grade": "4"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.5180034, 25.0324803]
+			},
+			"properties": {
+				"market_name": "南門市場",
+				"vendor_name": "珊妮服飾",
+				"country": "臺北市",
+				"grade": "4"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.5180034, 25.0324803]
+			},
+			"properties": {
+				"market_name": "南門市場",
+				"vendor_name": "帶玉山",
+				"country": "臺北市",
+				"grade": "4"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.5180034, 25.0324803]
+			},
+			"properties": {
+				"market_name": "南門市場",
+				"vendor_name": "Renee獨尚風格",
+				"country": "臺北市",
+				"grade": "4"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.5180034, 25.0324803]
+			},
+			"properties": {
+				"market_name": "南門市場",
+				"vendor_name": "明星炸醬麵",
+				"country": "臺北市",
+				"grade": "4"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.5180034, 25.0324803]
+			},
+			"properties": {
+				"market_name": "南門市場",
+				"vendor_name": "瓜瓜樂田園美食餐坊",
+				"country": "臺北市",
+				"grade": "4"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.5180034, 25.0324803]
+			},
+			"properties": {
+				"market_name": "南門市場",
+				"vendor_name": "史料味極",
+				"country": "臺北市",
+				"grade": "4"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.5180034, 25.0324803]
+			},
+			"properties": {
+				"market_name": "南門市場",
+				"vendor_name": "正味羊肉",
+				"country": "臺北市",
+				"grade": "4"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.5180034, 25.0324803]
+			},
+			"properties": {
+				"market_name": "南門市場",
+				"vendor_name": "南園老店—鍾記湖州粽",
+				"country": "臺北市",
+				"grade": "4"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.5180034, 25.0324803]
+			},
+			"properties": {
+				"market_name": "南門市場",
+				"vendor_name": "金龍肉乾南門本舖",
+				"country": "臺北市",
+				"grade": "4"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.529548, 25.1118424]
+			},
+			"properties": {
+				"market_name": "士東市場",
+				"vendor_name": "八卿潮滷",
+				"country": "臺北市",
+				"grade": "4"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.5349937, 25.013569]
+			},
+			"properties": {
+				"market_name": "水源市場",
+				"vendor_name": "野果小點",
+				"country": "臺北市",
+				"grade": "4"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.5349937, 25.013569]
+			},
+			"properties": {
+				"market_name": "水源市場",
+				"vendor_name": "大山東餅鋪",
+				"country": "臺北市",
+				"grade": "4"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.5483738, 25.0265017]
+			},
+			"properties": {
+				"market_name": "成功市場",
+				"vendor_name": "滷味灶咖",
+				"country": "臺北市",
+				"grade": "4"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.5476083, 25.00009542]
+			},
+			"properties": {
+				"market_name": "興隆市場",
+				"vendor_name": "阿文土雞",
+				"country": "臺北市",
+				"grade": "4"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [126.279294, 37.782304]
+			},
+			"properties": {
+				"market_name": "大龍市場",
+				"vendor_name": "大龍雞生雞",
+				"country": "臺北市",
+				"grade": "4"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.4984426, 25.0385988]
+			},
+			"properties": {
+				"market_name": "華西街觀光夜市",
+				"vendor_name": "北海道新鮮魷魚",
+				"country": "臺北市",
+				"grade": "4"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.4984426, 25.0385988]
+			},
+			"properties": {
+				"market_name": "華西街觀光夜市",
+				"vendor_name": "華西街珍果",
+				"country": "臺北市",
+				"grade": "4"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.5019223, 25.0357683]
+			},
+			"properties": {
+				"market_name": "東三水街臨時攤販集中場",
+				"vendor_name": "大豐魚丸店",
+				"country": "臺北市",
+				"grade": "4"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.524156, 25.089734]
+			},
+			"properties": {
+				"market_name": "士林夜市(社團法人台北市士林夜市商圈聯合會)",
+				"vendor_name": "大上海生煎包",
+				"country": "臺北市",
+				"grade": "4"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.524156, 25.089734]
+			},
+			"properties": {
+				"market_name": "士林夜市(社團法人台北市士林夜市商圈聯合會)",
+				"vendor_name": "阿輝麵線",
+				"country": "臺北市",
+				"grade": "4"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [120.8246564, 24.5022586]
+			},
+			"properties": {
+				"market_name": "公館觀光夜市",
+				"vendor_name": "阿鸞法國手工麵包",
+				"country": "臺北市",
+				"grade": "4"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [120.8246564, 24.5022586]
+			},
+			"properties": {
+				"market_name": "公館觀光夜市",
+				"vendor_name": "雄記蔥抓餅",
+				"country": "臺北市",
+				"grade": "4"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.5180034, 25.0324803]
+			},
+			"properties": {
+				"market_name": "南門市場",
+				"vendor_name": "光揚生鮮家禽",
+				"country": "臺北市",
+				"grade": "3"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.5180034, 25.0324803]
+			},
+			"properties": {
+				"market_name": "南門市場",
+				"vendor_name": "老林記素食齋菜",
+				"country": "臺北市",
+				"grade": "3"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.5180034, 25.0324803]
+			},
+			"properties": {
+				"market_name": "南門市場",
+				"vendor_name": "良梁糕點小舖",
+				"country": "臺北市",
+				"grade": "3"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.5180034, 25.0324803]
+			},
+			"properties": {
+				"market_name": "南門市場",
+				"vendor_name": "正興雞鴨店",
+				"country": "臺北市",
+				"grade": "3"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.5180034, 25.0324803]
+			},
+			"properties": {
+				"market_name": "南門市場",
+				"vendor_name": "嬌諾精品",
+				"country": "臺北市",
+				"grade": "3"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.5180034, 25.0324803]
+			},
+			"properties": {
+				"market_name": "南門市場",
+				"vendor_name": "佳暉百貨行",
+				"country": "臺北市",
+				"grade": "3"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.5180034, 25.0324803]
+			},
+			"properties": {
+				"market_name": "南門市場",
+				"vendor_name": "新多食品",
+				"country": "臺北市",
+				"grade": "3"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.5180034, 25.0324803]
+			},
+			"properties": {
+				"market_name": "南門市場",
+				"vendor_name": "蘭亭金石書畫藝廊",
+				"country": "臺北市",
+				"grade": "3"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.529548, 25.1118424]
+			},
+			"properties": {
+				"market_name": "士東市場",
+				"vendor_name": "ㄚ卿熟食",
+				"country": "臺北市",
+				"grade": "3"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.5248153, 25.0441419]
+			},
+			"properties": {
+				"market_name": "華山市場",
+				"vendor_name": "朵朵香",
+				"country": "臺北市",
+				"grade": "3"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.5248153, 25.0441419]
+			},
+			"properties": {
+				"market_name": "華山市場",
+				"vendor_name": "彈多力農產品手工製作小鋪",
+				"country": "臺北市",
+				"grade": "3"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.5349937, 25.013569]
+			},
+			"properties": {
+				"market_name": "水源市場",
+				"vendor_name": "巧藝斗八",
+				"country": "臺北市",
+				"grade": "3"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.5349937, 25.013569]
+			},
+			"properties": {
+				"market_name": "水源市場",
+				"vendor_name": "金美玉銀樓",
+				"country": "臺北市",
+				"grade": "3"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.5349937, 25.013569]
+			},
+			"properties": {
+				"market_name": "水源市場",
+				"vendor_name": "公館米粉湯",
+				"country": "臺北市",
+				"grade": "3"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.5349937, 25.013569]
+			},
+			"properties": {
+				"market_name": "水源市場",
+				"vendor_name": "祥滿速食餐坊",
+				"country": "臺北市",
+				"grade": "3"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.5349937, 25.013569]
+			},
+			"properties": {
+				"market_name": "水源市場",
+				"vendor_name": "W.Studio(美甲皮膚管理)",
+				"country": "臺北市",
+				"grade": "3"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.5349937, 25.013569]
+			},
+			"properties": {
+				"market_name": "水源市場",
+				"vendor_name": "錦衣玉石號",
+				"country": "臺北市",
+				"grade": "3"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.5483738, 25.0265017]
+			},
+			"properties": {
+				"market_name": "成功市場",
+				"vendor_name": "樂樂百貨",
+				"country": "臺北市",
+				"grade": "3"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.5452778, 25.0786111]
+			},
+			"properties": {
+				"market_name": "大直市場",
+				"vendor_name": "福家滴雞精",
+				"country": "臺北市",
+				"grade": "3"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.5775774, 25.0430691]
+			},
+			"properties": {
+				"market_name": "永春市場",
+				"vendor_name": "大業牛肉",
+				"country": "臺北市",
+				"grade": "3"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.5105513, 25.0545446]
+			},
+			"properties": {
+				"market_name": "永樂布業商場3樓",
+				"vendor_name": "展藝行",
+				"country": "臺北市",
+				"grade": "3"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [126.279294, 37.782304]
+			},
+			"properties": {
+				"market_name": "大龍市場",
+				"vendor_name": "大龍雞",
+				"country": "臺北市",
+				"grade": "3"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.5423372, 25.0547706]
+			},
+			"properties": {
+				"market_name": "長春市場",
+				"vendor_name": "國鴻蔬菜號",
+				"country": "臺北市",
+				"grade": "3"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.5423372, 25.0547706]
+			},
+			"properties": {
+				"market_name": "長春市場",
+				"vendor_name": "李陳隨魚號",
+				"country": "臺北市",
+				"grade": "3"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.501754, 25.039328]
+			},
+			"properties": {
+				"market_name": "直興市場",
+				"vendor_name": "就愛咖哩",
+				"country": "臺北市",
+				"grade": "3"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.5665585, 25.0824612]
+			},
+			"properties": {
+				"market_name": "西湖市場",
+				"vendor_name": "二哥自製手感麵食",
+				"country": "臺北市",
+				"grade": "3"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.5452778, 25.0786111]
+			},
+			"properties": {
+				"market_name": "大直市場",
+				"vendor_name": "8號極品海鮮",
+				"country": "臺北市",
+				"grade": "3"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.5452778, 25.0786111]
+			},
+			"properties": {
+				"market_name": "大直市場",
+				"vendor_name": "春?蔬果",
+				"country": "臺北市",
+				"grade": "3"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.5452778, 25.0786111]
+			},
+			"properties": {
+				"market_name": "大直市場",
+				"vendor_name": "慈蓮素食",
+				"country": "臺北市",
+				"grade": "3"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.5775774, 25.0430691]
+			},
+			"properties": {
+				"market_name": "永春市場",
+				"vendor_name": "春和油飯",
+				"country": "臺北市",
+				"grade": "3"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.5775774, 25.0430691]
+			},
+			"properties": {
+				"market_name": "永春市場",
+				"vendor_name": "上味香",
+				"country": "臺北市",
+				"grade": "3"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.5775774, 25.0430691]
+			},
+			"properties": {
+				"market_name": "永春市場",
+				"vendor_name": "白金山貢丸",
+				"country": "臺北市",
+				"grade": "3"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.5775774, 25.0430691]
+			},
+			"properties": {
+				"market_name": "永春市場",
+				"vendor_name": "鼎香肉品專賣店",
+				"country": "臺北市",
+				"grade": "3"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.5775774, 25.0430691]
+			},
+			"properties": {
+				"market_name": "永春市場",
+				"vendor_name": "嘟嘟咖啡",
+				"country": "臺北市",
+				"grade": "3"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.5604944, 25.0363392]
+			},
+			"properties": {
+				"market_name": "光復市場",
+				"vendor_name": "光復一元行",
+				"country": "臺北市",
+				"grade": "3"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [106.6722817, 10.7581989]
+			},
+			"properties": {
+				"market_name": "安東市場",
+				"vendor_name": "肉多肉舖",
+				"country": "臺北市",
+				"grade": "3"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [106.6722817, 10.7581989]
+			},
+			"properties": {
+				"market_name": "安東市場",
+				"vendor_name": "嗎哪私廚",
+				"country": "臺北市",
+				"grade": "3"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [106.6722817, 10.7581989]
+			},
+			"properties": {
+				"market_name": "安東市場",
+				"vendor_name": "安東水產",
+				"country": "臺北市",
+				"grade": "3"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [106.6722817, 10.7581989]
+			},
+			"properties": {
+				"market_name": "安東市場",
+				"vendor_name": "三日蔬果行",
+				"country": "臺北市",
+				"grade": "3"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [106.6722817, 10.7581989]
+			},
+			"properties": {
+				"market_name": "安東市場",
+				"vendor_name": "詠儀精品服飾",
+				"country": "臺北市",
+				"grade": "3"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.5294518, 25.0285863]
+			},
+			"properties": {
+				"market_name": "錦安市場",
+				"vendor_name": "流浣泉茶莊",
+				"country": "臺北市",
+				"grade": "3"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.5294518, 25.0285863]
+			},
+			"properties": {
+				"market_name": "錦安市場",
+				"vendor_name": "珍閣古文物",
+				"country": "臺北市",
+				"grade": "3"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.5294518, 25.0285863]
+			},
+			"properties": {
+				"market_name": "錦安市場",
+				"vendor_name": "雅玩陶坊",
+				"country": "臺北市",
+				"grade": "3"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.5294518, 25.0285863]
+			},
+			"properties": {
+				"market_name": "錦安市場",
+				"vendor_name": "松成記",
+				"country": "臺北市",
+				"grade": "3"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.5294518, 25.0285863]
+			},
+			"properties": {
+				"market_name": "錦安市場",
+				"vendor_name": "東西洋行",
+				"country": "臺北市",
+				"grade": "3"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.6145028, 25.0453694]
+			},
+			"properties": {
+				"market_name": "中研市場",
+				"vendor_name": "站前壽司-中研店",
+				"country": "臺北市",
+				"grade": "3"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.5476083, 25.00009542]
+			},
+			"properties": {
+				"market_name": "興隆市場",
+				"vendor_name": "真料理",
+				"country": "臺北市",
+				"grade": "3"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.5476083, 25.00009542]
+			},
+			"properties": {
+				"market_name": "興隆市場",
+				"vendor_name": "熊愛家貝果",
+				"country": "臺北市",
+				"grade": "3"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.5104598, 25.0548835]
+			},
+			"properties": {
+				"market_name": "永樂市場1樓",
+				"vendor_name": "建翔蔬果店",
+				"country": "臺北市",
+				"grade": "3"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.5105513, 25.0545446]
+			},
+			"properties": {
+				"market_name": "永樂布業商場3樓",
+				"vendor_name": "采繡專業刺繡設計工作室",
+				"country": "臺北市",
+				"grade": "3"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.5105513, 25.0545446]
+			},
+			"properties": {
+				"market_name": "永樂布業商場3樓",
+				"vendor_name": "?枺縫紉製作所",
+				"country": "臺北市",
+				"grade": "3"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.4998885, 25.0349881]
+			},
+			"properties": {
+				"market_name": "龍山商場飲食部",
+				"vendor_name": "享瘦美味複合式料理",
+				"country": "臺北市",
+				"grade": "3"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.5483738, 25.0265017]
+			},
+			"properties": {
+				"market_name": "成功市場",
+				"vendor_name": "成功雨傘老店",
+				"country": "臺北市",
+				"grade": "3"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.5483738, 25.0265017]
+			},
+			"properties": {
+				"market_name": "成功市場",
+				"vendor_name": "雞籠天婦羅",
+				"country": "臺北市",
+				"grade": "3"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.5483738, 25.0265017]
+			},
+			"properties": {
+				"market_name": "成功市場",
+				"vendor_name": "合霖蔬菜行",
+				"country": "臺北市",
+				"grade": "3"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.5483738, 25.0265017]
+			},
+			"properties": {
+				"market_name": "成功市場",
+				"vendor_name": "天天鮮蔬果行",
+				"country": "臺北市",
+				"grade": "3"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.5483738, 25.0265017]
+			},
+			"properties": {
+				"market_name": "成功市場",
+				"vendor_name": "水果王子",
+				"country": "臺北市",
+				"grade": "3"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.524156, 25.089734]
+			},
+			"properties": {
+				"market_name": "士林夜市(社團法人台北市士林夜市商圈聯合會)",
+				"vendor_name": "亞米亞米仙草奶凍",
+				"country": "臺北市",
+				"grade": "3"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.5243504, 25.0884972]
+			},
+			"properties": {
+				"market_name": "士林夜市(社團法人台北市士林夜市國際觀光發展協會)",
+				"vendor_name": "爆漿車輪餅",
+				"country": "臺北市",
+				"grade": "3"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.4984426, 25.0385988]
+			},
+			"properties": {
+				"market_name": "華西街觀光夜市",
+				"vendor_name": "月老湯包",
+				"country": "臺北市",
+				"grade": "3"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.4984426, 25.0385988]
+			},
+			"properties": {
+				"market_name": "華西街觀光夜市",
+				"vendor_name": "沛對原汁排骨湯",
+				"country": "臺北市",
+				"grade": "3"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.4984426, 25.0385988]
+			},
+			"properties": {
+				"market_name": "華西街觀光夜市",
+				"vendor_name": "龍鳳唱片行",
+				"country": "臺北市",
+				"grade": "3"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.4984426, 25.0385988]
+			},
+			"properties": {
+				"market_name": "華西街觀光夜市",
+				"vendor_name": "大?肉羹",
+				"country": "臺北市",
+				"grade": "3"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.4984426, 25.0385988]
+			},
+			"properties": {
+				"market_name": "華西街觀光夜市",
+				"vendor_name": "慧宇豆花",
+				"country": "臺北市",
+				"grade": "3"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.4984426, 25.0385988]
+			},
+			"properties": {
+				"market_name": "華西街觀光夜市",
+				"vendor_name": "北港甜湯",
+				"country": "臺北市",
+				"grade": "3"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.5331394, 25.053641]
+			},
+			"properties": {
+				"market_name": "四平街攤販集中場",
+				"vendor_name": "譽展蜜餞行",
+				"country": "臺北市",
+				"grade": "3"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.4976133, 25.036731]
+			},
+			"properties": {
+				"market_name": "艋舺夜市",
+				"vendor_name": "八豆咬臭豆腐",
+				"country": "臺北市",
+				"grade": "3"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.4976133, 25.036731]
+			},
+			"properties": {
+				"market_name": "艋舺夜市",
+				"vendor_name": "難忘胡椒蝦",
+				"country": "臺北市",
+				"grade": "3"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.5153641, 25.0566808]
+			},
+			"properties": {
+				"market_name": "寧夏夜市",
+				"vendor_name": "秋雲潤餅",
+				"country": "臺北市",
+				"grade": "3"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.5153641, 25.0566808]
+			},
+			"properties": {
+				"market_name": "寧夏夜市",
+				"vendor_name": "幸花明太子起司烤餅",
+				"country": "臺北市",
+				"grade": "3"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.5153641, 25.0566808]
+			},
+			"properties": {
+				"market_name": "寧夏夜市",
+				"vendor_name": "Fun Sun G雞排",
+				"country": "臺北市",
+				"grade": "3"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.5153641, 25.0566808]
+			},
+			"properties": {
+				"market_name": "寧夏夜市",
+				"vendor_name": "鴻記蔥餅捲",
+				"country": "臺北市",
+				"grade": "3"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.5153641, 25.0566808]
+			},
+			"properties": {
+				"market_name": "寧夏夜市",
+				"vendor_name": "林振櫂燒麻糬",
+				"country": "臺北市",
+				"grade": "3"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.5153641, 25.0566808]
+			},
+			"properties": {
+				"market_name": "寧夏夜市",
+				"vendor_name": "童年木瓜牛奶",
+				"country": "臺北市",
+				"grade": "3"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [120.8246564, 24.5022586]
+			},
+			"properties": {
+				"market_name": "公館觀光夜市",
+				"vendor_name": "回味麵煎餅",
+				"country": "臺北市",
+				"grade": "3"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [120.8246564, 24.5022586]
+			},
+			"properties": {
+				"market_name": "公館觀光夜市",
+				"vendor_name": "玉米妹煎餃",
+				"country": "臺北市",
+				"grade": "3"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [120.8246564, 24.5022586]
+			},
+			"properties": {
+				"market_name": "公館觀光夜市",
+				"vendor_name": "公館章魚燒、蝦仁燒、玉米燒",
+				"country": "臺北市",
+				"grade": "3"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [120.8246564, 24.5022586]
+			},
+			"properties": {
+				"market_name": "公館觀光夜市",
+				"vendor_name": "日日春多元美食-可麗餅",
+				"country": "臺北市",
+				"grade": "3"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [120.8246564, 24.5022586]
+			},
+			"properties": {
+				"market_name": "公館觀光夜市",
+				"vendor_name": "阿蓮日式車輪餅",
+				"country": "臺北市",
+				"grade": "3"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [120.8246564, 24.5022586]
+			},
+			"properties": {
+				"market_name": "公館觀光夜市",
+				"vendor_name": "公館煎餃",
+				"country": "臺北市",
+				"grade": "3"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.5331394, 25.053641]
+			},
+			"properties": {
+				"market_name": "四平街攤販集中場",
+				"vendor_name": "零度服飾",
+				"country": "臺北市",
+				"grade": "3"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.5331394, 25.053641]
+			},
+			"properties": {
+				"market_name": "四平街攤販集中場",
+				"vendor_name": "紅姑娘服飾店",
+				"country": "臺北市",
+				"grade": "3"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.5331394, 25.053641]
+			},
+			"properties": {
+				"market_name": "四平街攤販集中場",
+				"vendor_name": "惠馨",
+				"country": "臺北市",
+				"grade": "3"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.5331394, 25.053641]
+			},
+			"properties": {
+				"market_name": "四平街攤販集中場",
+				"vendor_name": "四平陽光豆花",
+				"country": "臺北市",
+				"grade": "3"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.5243036, 25.0658309]
+			},
+			"properties": {
+				"market_name": "雙城街攤販集中場",
+				"vendor_name": "餃子有廖",
+				"country": "臺北市",
+				"grade": "3"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.524156, 25.089734]
+			},
+			"properties": {
+				"market_name": "士林夜市(社團法人台北市士林夜市商圈聯合會)",
+				"vendor_name": "美人果汁",
+				"country": "臺北市",
+				"grade": "3"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.524156, 25.089734]
+			},
+			"properties": {
+				"market_name": "士林夜市(社團法人台北市士林夜市商圈聯合會)",
+				"vendor_name": "士林?包胎、牛舌餅",
+				"country": "臺北市",
+				"grade": "3"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.524156, 25.089734]
+			},
+			"properties": {
+				"market_name": "士林夜市(社團法人台北市士林夜市商圈聯合會)",
+				"vendor_name": "好吸HITS THE SPOT",
+				"country": "臺北市",
+				"grade": "3"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.524156, 25.089734]
+			},
+			"properties": {
+				"market_name": "士林夜市(社團法人台北市士林夜市商圈聯合會)",
+				"vendor_name": "冠記大腸包小腸",
+				"country": "臺北市",
+				"grade": "3"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.4984426, 25.0385988]
+			},
+			"properties": {
+				"market_name": "華西街觀光夜市",
+				"vendor_name": "日興牛肉",
+				"country": "臺北市",
+				"grade": "3"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.4984426, 25.0385988]
+			},
+			"properties": {
+				"market_name": "華西街觀光夜市",
+				"vendor_name": "一肥仔",
+				"country": "臺北市",
+				"grade": "3"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.4984426, 25.0385988]
+			},
+			"properties": {
+				"market_name": "華西街觀光夜市",
+				"vendor_name": "香菘河內烤肉粉專賣店",
+				"country": "臺北市",
+				"grade": "3"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.4984426, 25.0385988]
+			},
+			"properties": {
+				"market_name": "華西街觀光夜市",
+				"vendor_name": "鮮切生魚片",
+				"country": "臺北市",
+				"grade": "3"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.4984426, 25.0385988]
+			},
+			"properties": {
+				"market_name": "華西街觀光夜市",
+				"vendor_name": "KAWA COFFEE",
+				"country": "臺北市",
+				"grade": "3"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.4976133, 25.036731]
+			},
+			"properties": {
+				"market_name": "艋舺夜市",
+				"vendor_name": "古早味涼糕、新港飴、夾心糕",
+				"country": "臺北市",
+				"grade": "3"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.4976133, 25.036731]
+			},
+			"properties": {
+				"market_name": "艋舺夜市",
+				"vendor_name": "香香服飾店",
+				"country": "臺北市",
+				"grade": "3"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.4976133, 25.036731]
+			},
+			"properties": {
+				"market_name": "艋舺夜市",
+				"vendor_name": "現炒花生",
+				"country": "臺北市",
+				"grade": "3"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.4976133, 25.036731]
+			},
+			"properties": {
+				"market_name": "艋舺夜市",
+				"vendor_name": "香娥鞋行",
+				"country": "臺北市",
+				"grade": "3"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.4976133, 25.036731]
+			},
+			"properties": {
+				"market_name": "艋舺夜市",
+				"vendor_name": "九億無骨排骨酥",
+				"country": "臺北市",
+				"grade": "3"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.4976133, 25.036731]
+			},
+			"properties": {
+				"market_name": "艋舺夜市",
+				"vendor_name": "土豆龍花生捲冰淇淋",
+				"country": "臺北市",
+				"grade": "3"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.4976133, 25.036731]
+			},
+			"properties": {
+				"market_name": "艋舺夜市",
+				"vendor_name": "陳媽媽仙草冰",
+				"country": "臺北市",
+				"grade": "3"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.4976133, 25.036731]
+			},
+			"properties": {
+				"market_name": "艋舺夜市",
+				"vendor_name": "陳媽媽豬血糕",
+				"country": "臺北市",
+				"grade": "3"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.4976133, 25.036731]
+			},
+			"properties": {
+				"market_name": "艋舺夜市",
+				"vendor_name": "巧滷香川鴨",
+				"country": "臺北市",
+				"grade": "3"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.4976191, 25.0367563]
+			},
+			"properties": {
+				"market_name": "梧州街臨時攤販集中場",
+				"vendor_name": "友家生魚片",
+				"country": "臺北市",
+				"grade": "3"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.4976191, 25.0367563]
+			},
+			"properties": {
+				"market_name": "梧州街臨時攤販集中場",
+				"vendor_name": "阿華生魚片",
+				"country": "臺北市",
+				"grade": "3"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.4976191, 25.0367563]
+			},
+			"properties": {
+				"market_name": "梧州街臨時攤販集中場",
+				"vendor_name": "正老牌炒鱔魚",
+				"country": "臺北市",
+				"grade": "3"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.4976191, 25.0367563]
+			},
+			"properties": {
+				"market_name": "梧州街臨時攤販集中場",
+				"vendor_name": "七年級藥燉排骨",
+				"country": "臺北市",
+				"grade": "3"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.4976191, 25.0367563]
+			},
+			"properties": {
+				"market_name": "梧州街臨時攤販集中場",
+				"vendor_name": "七年級花生豬腳",
+				"country": "臺北市",
+				"grade": "3"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.5552365, 25.0299755]
+			},
+			"properties": {
+				"market_name": "臨江街臨時攤販集中場",
+				"vendor_name": "好吸",
+				"country": "臺北市",
+				"grade": "3"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.5552365, 25.0299755]
+			},
+			"properties": {
+				"market_name": "臨江街臨時攤販集中場",
+				"vendor_name": "食雞道沙威瑪",
+				"country": "臺北市",
+				"grade": "3"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.5552365, 25.0299755]
+			},
+			"properties": {
+				"market_name": "臨江街臨時攤販集中場",
+				"vendor_name": "瑪拉桑香腸",
+				"country": "臺北市",
+				"grade": "3"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.4993021, 25.03687412]
+			},
+			"properties": {
+				"market_name": "廣州街臨時攤販集中場",
+				"vendor_name": "營養三明治",
+				"country": "臺北市",
+				"grade": "3"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.4993021, 25.03687412]
+			},
+			"properties": {
+				"market_name": "廣州街臨時攤販集中場",
+				"vendor_name": "寶哥白甘蔗汁",
+				"country": "臺北市",
+				"grade": "3"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.4993021, 25.03687412]
+			},
+			"properties": {
+				"market_name": "廣州街臨時攤販集中場",
+				"vendor_name": "阿惠皮件、皮帶、手機皮套",
+				"country": "臺北市",
+				"grade": "3"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.5153641, 25.0566808]
+			},
+			"properties": {
+				"market_name": "寧夏夜市",
+				"vendor_name": "好吸HITS THE SPOT",
+				"country": "臺北市",
+				"grade": "3"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.5059244, 25.0291811]
+			},
+			"properties": {
+				"market_name": "南機場臨時攤販集中場",
+				"vendor_name": "好吸HITS THE SPOT",
+				"country": "臺北市",
+				"grade": "3"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [120.8246564, 24.5022586]
+			},
+			"properties": {
+				"market_name": "公館觀光夜市",
+				"vendor_name": "公館炸雞",
+				"country": "臺北市",
+				"grade": "3"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [120.8246564, 24.5022586]
+			},
+			"properties": {
+				"market_name": "公館觀光夜市",
+				"vendor_name": "紫米牛奶",
+				"country": "臺北市",
+				"grade": "3"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [120.8246564, 24.5022586]
+			},
+			"properties": {
+				"market_name": "公館觀光夜市",
+				"vendor_name": "爆漿車輪餅",
+				"country": "臺北市",
+				"grade": "3"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [120.8246564, 24.5022586]
+			},
+			"properties": {
+				"market_name": "公館觀光夜市",
+				"vendor_name": "辣個芭樂",
+				"country": "臺北市",
+				"grade": "3"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [120.8246564, 24.5022586]
+			},
+			"properties": {
+				"market_name": "公館觀光夜市",
+				"vendor_name": "美鳳美食 白糖粿",
+				"country": "臺北市",
+				"grade": "3"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [120.8246564, 24.5022586]
+			},
+			"properties": {
+				"market_name": "公館觀光夜市",
+				"vendor_name": "青蛙撞鮮奶",
+				"country": "臺北市",
+				"grade": "3"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [120.8246564, 24.5022586]
+			},
+			"properties": {
+				"market_name": "公館觀光夜市",
+				"vendor_name": "阿蘭韭菜盒",
+				"country": "臺北市",
+				"grade": "3"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [120.8246564, 24.5022586]
+			},
+			"properties": {
+				"market_name": "公館觀光夜市",
+				"vendor_name": "爆漿雞腿捲",
+				"country": "臺北市",
+				"grade": "3"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.5180034, 25.0324803]
+			},
+			"properties": {
+				"market_name": "南門市場",
+				"vendor_name": "合歡刀削麵",
+				"country": "臺北市",
+				"grade": "2"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.5452778, 25.0786111]
+			},
+			"properties": {
+				"market_name": "大直市場",
+				"vendor_name": "宏富蔬果",
+				"country": "臺北市",
+				"grade": "2"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.5452778, 25.0786111]
+			},
+			"properties": {
+				"market_name": "大直市場",
+				"vendor_name": "阿坤現撈魚",
+				"country": "臺北市",
+				"grade": "2"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.5452778, 25.0786111]
+			},
+			"properties": {
+				"market_name": "大直市場",
+				"vendor_name": "明發蔬果",
+				"country": "臺北市",
+				"grade": "2"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.5321965, 25.0602224]
+			},
+			"properties": {
+				"market_name": "松江市場",
+				"vendor_name": "南北雞鴨店",
+				"country": "臺北市",
+				"grade": "2"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.5775774, 25.0430691]
+			},
+			"properties": {
+				"market_name": "永春市場",
+				"vendor_name": "齊樺鮮食專門店",
+				"country": "臺北市",
+				"grade": "2"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.5775774, 25.0430691]
+			},
+			"properties": {
+				"market_name": "永春市場",
+				"vendor_name": "羅家麵店",
+				"country": "臺北市",
+				"grade": "2"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.5604944, 25.0363392]
+			},
+			"properties": {
+				"market_name": "光復市場",
+				"vendor_name": "雜七雜八",
+				"country": "臺北市",
+				"grade": "2"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.5604944, 25.0363392]
+			},
+			"properties": {
+				"market_name": "光復市場",
+				"vendor_name": "雙之家服飾精品館",
+				"country": "臺北市",
+				"grade": "2"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [106.6722817, 10.7581989]
+			},
+			"properties": {
+				"market_name": "安東市場",
+				"vendor_name": "藝之坊花藝工作室",
+				"country": "臺北市",
+				"grade": "2"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.6145028, 25.0453694]
+			},
+			"properties": {
+				"market_name": "中研市場",
+				"vendor_name": "歐一喜",
+				"country": "臺北市",
+				"grade": "2"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.6145028, 25.0453694]
+			},
+			"properties": {
+				"market_name": "中研市場",
+				"vendor_name": "阿郎牛肉麵",
+				"country": "臺北市",
+				"grade": "2"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.6145028, 25.0453694]
+			},
+			"properties": {
+				"market_name": "中研市場",
+				"vendor_name": "學徒?豬排拉麵",
+				"country": "臺北市",
+				"grade": "2"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.5243504, 25.0884972]
+			},
+			"properties": {
+				"market_name": "士林夜市(社團法人台北市士林夜市國際觀光發展協會)",
+				"vendor_name": "好雞匯鹹水雞",
+				"country": "臺北市",
+				"grade": "2"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [120.8246564, 24.5022586]
+			},
+			"properties": {
+				"market_name": "公館觀光夜市",
+				"vendor_name": "阿郎鹹酥雞",
+				"country": "臺北市",
+				"grade": "2"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [120.8246564, 24.5022586]
+			},
+			"properties": {
+				"market_name": "公館觀光夜市",
+				"vendor_name": "珍珠芭樂",
+				"country": "臺北市",
+				"grade": "2"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [120.8246564, 24.5022586]
+			},
+			"properties": {
+				"market_name": "公館觀光夜市",
+				"vendor_name": "龍哥無骨雞腿排",
+				"country": "臺北市",
+				"grade": "2"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.5331394, 25.053641]
+			},
+			"properties": {
+				"market_name": "四平街攤販集中場",
+				"vendor_name": "髮夾?家",
+				"country": "臺北市",
+				"grade": "2"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.5331394, 25.053641]
+			},
+			"properties": {
+				"market_name": "四平街攤販集中場",
+				"vendor_name": "隆祥皮件店",
+				"country": "臺北市",
+				"grade": "2"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.5331394, 25.053641]
+			},
+			"properties": {
+				"market_name": "四平街攤販集中場",
+				"vendor_name": "澀谷光碟屋",
+				"country": "臺北市",
+				"grade": "2"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.5331394, 25.053641]
+			},
+			"properties": {
+				"market_name": "四平街攤販集中場",
+				"vendor_name": "二手服飾精品小物",
+				"country": "臺北市",
+				"grade": "2"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.5331394, 25.053641]
+			},
+			"properties": {
+				"market_name": "四平街攤販集中場",
+				"vendor_name": "阿玲服飾店",
+				"country": "臺北市",
+				"grade": "2"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.5331394, 25.053641]
+			},
+			"properties": {
+				"market_name": "四平街攤販集中場",
+				"vendor_name": "小玲皮包",
+				"country": "臺北市",
+				"grade": "2"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.5331394, 25.053641]
+			},
+			"properties": {
+				"market_name": "四平街攤販集中場",
+				"vendor_name": "謝媽媽成衣門市",
+				"country": "臺北市",
+				"grade": "2"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.5243036, 25.0658309]
+			},
+			"properties": {
+				"market_name": "雙城街攤販集中場",
+				"vendor_name": "本地蔬菜新鮮水果",
+				"country": "臺北市",
+				"grade": "2"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.524156, 25.089734]
+			},
+			"properties": {
+				"market_name": "士林夜市(社團法人台北市士林夜市商圈聯合會)",
+				"vendor_name": "一品芳銅鑼燒",
+				"country": "臺北市",
+				"grade": "2"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.4976133, 25.036731]
+			},
+			"properties": {
+				"market_name": "艋舺夜市",
+				"vendor_name": "一條根之家",
+				"country": "臺北市",
+				"grade": "2"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.4976191, 25.0367563]
+			},
+			"properties": {
+				"market_name": "梧州街臨時攤販集中場",
+				"vendor_name": "蒜頭青蛙湯",
+				"country": "臺北市",
+				"grade": "2"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.4976191, 25.0367563]
+			},
+			"properties": {
+				"market_name": "梧州街臨時攤販集中場",
+				"vendor_name": "寶字號香菇豬腳",
+				"country": "臺北市",
+				"grade": "2"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.4976191, 25.0367563]
+			},
+			"properties": {
+				"market_name": "梧州街臨時攤販集中場",
+				"vendor_name": "鹹菜鴨",
+				"country": "臺北市",
+				"grade": "2"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.4976191, 25.0367563]
+			},
+			"properties": {
+				"market_name": "梧州街臨時攤販集中場",
+				"vendor_name": "老三豬腳",
+				"country": "臺北市",
+				"grade": "2"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.4976191, 25.0367563]
+			},
+			"properties": {
+				"market_name": "梧州街臨時攤販集中場",
+				"vendor_name": "萬華原汁排骨湯(豬小妹)",
+				"country": "臺北市",
+				"grade": "2"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.5321965, 25.0602224]
+			},
+			"properties": {
+				"market_name": "松江市場",
+				"vendor_name": "隆如商店",
+				"country": "臺北市",
+				"grade": "1"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.5321965, 25.0602224]
+			},
+			"properties": {
+				"market_name": "松江市場",
+				"vendor_name": "養生蔬果汁",
+				"country": "臺北市",
+				"grade": "1"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.5321965, 25.0602224]
+			},
+			"properties": {
+				"market_name": "松江市場",
+				"vendor_name": "松江市場1F16",
+				"country": "臺北市",
+				"grade": "1"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.5604944, 25.0363392]
+			},
+			"properties": {
+				"market_name": "光復市場",
+				"vendor_name": "忠記基隆海鮮舖",
+				"country": "臺北市",
+				"grade": "1"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.5105513, 25.0545446]
+			},
+			"properties": {
+				"market_name": "永樂布業商場3樓",
+				"vendor_name": "聖億纖維",
+				"country": "臺北市",
+				"grade": "1"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.5105513, 25.0545446]
+			},
+			"properties": {
+				"market_name": "永樂布業商場3樓",
+				"vendor_name": "雪麗工作室",
+				"country": "臺北市",
+				"grade": "1"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.524156, 25.089734]
+			},
+			"properties": {
+				"market_name": "士林夜市(社團法人台北市士林夜市商圈聯合會)",
+				"vendor_name": "高雄肉圓",
+				"country": "臺北市",
+				"grade": "1"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.524156, 25.089734]
+			},
+			"properties": {
+				"market_name": "士林夜市(社團法人台北市士林夜市商圈聯合會)",
+				"vendor_name": "大姆指一口煎",
+				"country": "臺北市",
+				"grade": "1"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.5552365, 25.0299755]
+			},
+			"properties": {
+				"market_name": "臨江街臨時攤販集中場",
+				"vendor_name": "鍾通化魷魚羹",
+				"country": "臺北市",
+				"grade": "1"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.513949, 25.0086951]
+			},
+			"properties": {
+				"market_name": "樂華觀光夜市",
+				"vendor_name": "小義大利咖啡",
+				"country": "新北市",
+				"grade": "5"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.8056816, 25.1068421]
+			},
+			"properties": {
+				"market_name": "瑞芳美食廣場",
+				"vendor_name": "豐味肉羹",
+				"country": "新北市",
+				"grade": "5"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.4337291, 25.0562107]
+			},
+			"properties": {
+				"market_name": "泰山公有零售市場",
+				"vendor_name": "素清手作布工坊",
+				"country": "新北市",
+				"grade": "5"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.6588692, 25.06635289]
+			},
+			"properties": {
+				"market_name": "秀豐公有零售市場",
+				"vendor_name": "魯牛作坊",
+				"country": "新北市",
+				"grade": "5"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.6582769, 25.0662485]
+			},
+			"properties": {
+				"market_name": "汐止觀光夜市",
+				"vendor_name": "邱記龍鳳腿牛肉麵",
+				"country": "新北市",
+				"grade": "5"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.6582769, 25.0662485]
+			},
+			"properties": {
+				"market_name": "汐止觀光夜市",
+				"vendor_name": "剉冰女王",
+				"country": "新北市",
+				"grade": "5"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [120.2248743, 22.8188113]
+			},
+			"properties": {
+				"market_name": "永安公有零售市場",
+				"vendor_name": "沐爵烘焙坊",
+				"country": "新北市",
+				"grade": "5"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.4391675, 25.0831794]
+			},
+			"properties": {
+				"market_name": "五股公有零售市場",
+				"vendor_name": "荳牛肉鋪",
+				"country": "新北市",
+				"grade": "5"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.4391675, 25.0831794]
+			},
+			"properties": {
+				"market_name": "五股公有零售市場",
+				"vendor_name": "汐柚咖啡",
+				"country": "新北市",
+				"grade": "5"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.4391675, 25.0831794]
+			},
+			"properties": {
+				"market_name": "五股公有零售市場",
+				"vendor_name": "希望蔬果",
+				"country": "新北市",
+				"grade": "5"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [113.3707755, 23.118494]
+			},
+			"properties": {
+				"market_name": "中正美食廣場",
+				"vendor_name": "幸福咖啡",
+				"country": "新北市",
+				"grade": "5"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [113.3707755, 23.118494]
+			},
+			"properties": {
+				"market_name": "中正美食廣場",
+				"vendor_name": "拾叁號手作咖啡茶飲",
+				"country": "新北市",
+				"grade": "5"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [113.3707755, 23.118494]
+			},
+			"properties": {
+				"market_name": "中正美食廣場",
+				"vendor_name": "豬豬可麗餅 x 食堂",
+				"country": "新北市",
+				"grade": "5"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.3427262, 24.9614967]
+			},
+			"properties": {
+				"market_name": "鶯歌美食廣場",
+				"vendor_name": "去哪咖啡",
+				"country": "新北市",
+				"grade": "5"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.3427262, 24.9614967]
+			},
+			"properties": {
+				"market_name": "鶯歌美食廣場",
+				"vendor_name": "盛匠合食",
+				"country": "新北市",
+				"grade": "5"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.513949, 25.0086951]
+			},
+			"properties": {
+				"market_name": "樂華觀光夜市",
+				"vendor_name": "永美雪花冰",
+				"country": "新北市",
+				"grade": "4"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.513949, 25.0086951]
+			},
+			"properties": {
+				"market_name": "樂華觀光夜市",
+				"vendor_name": "樂華姐妹巨無霸豬血糕",
+				"country": "新北市",
+				"grade": "4"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.513949, 25.0086951]
+			},
+			"properties": {
+				"market_name": "樂華觀光夜市",
+				"vendor_name": "御品香營養三明治",
+				"country": "新北市",
+				"grade": "4"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.513949, 25.0086951]
+			},
+			"properties": {
+				"market_name": "樂華觀光夜市",
+				"vendor_name": "亞洲水果",
+				"country": "新北市",
+				"grade": "4"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.513949, 25.0086951]
+			},
+			"properties": {
+				"market_name": "樂華觀光夜市",
+				"vendor_name": "阿泰鐵板燒",
+				"country": "新北市",
+				"grade": "4"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.513949, 25.0086951]
+			},
+			"properties": {
+				"market_name": "樂華觀光夜市",
+				"vendor_name": "虎茶飲品",
+				"country": "新北市",
+				"grade": "4"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.513949, 25.0086951]
+			},
+			"properties": {
+				"market_name": "樂華觀光夜市",
+				"vendor_name": "泰桑哩 Sonny Cha Thai",
+				"country": "新北市",
+				"grade": "4"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [120.2248743, 22.8188113]
+			},
+			"properties": {
+				"market_name": "永安公有零售市場",
+				"vendor_name": "三兄弟牧草雞",
+				"country": "新北市",
+				"grade": "4"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [120.2248743, 22.8188113]
+			},
+			"properties": {
+				"market_name": "永安公有零售市場",
+				"vendor_name": "永安包子店",
+				"country": "新北市",
+				"grade": "4"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [120.2248743, 22.8188113]
+			},
+			"properties": {
+				"market_name": "永安公有零售市場",
+				"vendor_name": "呂永發肉號",
+				"country": "新北市",
+				"grade": "4"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [120.2248743, 22.8188113]
+			},
+			"properties": {
+				"market_name": "永安公有零售市場",
+				"vendor_name": "楊伯伯牛肉專賣店",
+				"country": "新北市",
+				"grade": "4"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [120.2248743, 22.8188113]
+			},
+			"properties": {
+				"market_name": "永安公有零售市場",
+				"vendor_name": "源川水產",
+				"country": "新北市",
+				"grade": "4"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [120.2248743, 22.8188113]
+			},
+			"properties": {
+				"market_name": "永安公有零售市場",
+				"vendor_name": "楊伯伯牛肉專賣店",
+				"country": "新北市",
+				"grade": "4"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [120.2248743, 22.8188113]
+			},
+			"properties": {
+				"market_name": "永安公有零售市場",
+				"vendor_name": "源川水產",
+				"country": "新北市",
+				"grade": "4"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.4337291, 25.0562107]
+			},
+			"properties": {
+				"market_name": "泰山公有零售市場",
+				"vendor_name": "玉福臨珠寶精品",
+				"country": "新北市",
+				"grade": "4"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.4337291, 25.0562107]
+			},
+			"properties": {
+				"market_name": "泰山公有零售市場",
+				"vendor_name": "喜元坊",
+				"country": "新北市",
+				"grade": "4"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.4337291, 25.0562107]
+			},
+			"properties": {
+				"market_name": "泰山公有零售市場",
+				"vendor_name": "家錚雜貨舖",
+				"country": "新北市",
+				"grade": "4"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.4337291, 25.0562107]
+			},
+			"properties": {
+				"market_name": "泰山公有零售市場",
+				"vendor_name": "艾力飛魚坊",
+				"country": "新北市",
+				"grade": "4"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.4337291, 25.0562107]
+			},
+			"properties": {
+				"market_name": "泰山公有零售市場",
+				"vendor_name": "阿發海產",
+				"country": "新北市",
+				"grade": "4"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.4337291, 25.0562107]
+			},
+			"properties": {
+				"market_name": "泰山公有零售市場",
+				"vendor_name": "阿美清潔蔬菜",
+				"country": "新北市",
+				"grade": "4"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.4337291, 25.0562107]
+			},
+			"properties": {
+				"market_name": "泰山公有零售市場",
+				"vendor_name": "快樂機器人有限公司",
+				"country": "新北市",
+				"grade": "4"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.6299579, 25.06855235]
+			},
+			"properties": {
+				"market_name": "金龍公有零售市場",
+				"vendor_name": "山姆蔬蔬",
+				"country": "新北市",
+				"grade": "4"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.6299579, 25.06855235]
+			},
+			"properties": {
+				"market_name": "金龍公有零售市場",
+				"vendor_name": "宜蘭龜山島",
+				"country": "新北市",
+				"grade": "4"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.6239762, 25.03971075]
+			},
+			"properties": {
+				"market_name": "林森公有攤販集中區",
+				"vendor_name": "黎明咖啡",
+				"country": "新北市",
+				"grade": "4"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.6239762, 25.03971075]
+			},
+			"properties": {
+				"market_name": "林森公有攤販集中區",
+				"vendor_name": "阿綾の水果",
+				"country": "新北市",
+				"grade": "4"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.6239762, 25.03971075]
+			},
+			"properties": {
+				"market_name": "林森公有攤販集中區",
+				"vendor_name": "Rumi CAFE(Rumi 咖啡)",
+				"country": "新北市",
+				"grade": "4"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.3914102, 25.0778437]
+			},
+			"properties": {
+				"market_name": "林口公有零售市場",
+				"vendor_name": "新東源肉鬆",
+				"country": "新北市",
+				"grade": "4"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.3914102, 25.0778437]
+			},
+			"properties": {
+				"market_name": "林口公有零售市場",
+				"vendor_name": "昱達火鍋料",
+				"country": "新北市",
+				"grade": "4"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.3914102, 25.0778437]
+			},
+			"properties": {
+				"market_name": "林口公有零售市場",
+				"vendor_name": "小鮮肉水餃",
+				"country": "新北市",
+				"grade": "4"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.3914102, 25.0778437]
+			},
+			"properties": {
+				"market_name": "林口公有零售市場",
+				"vendor_name": "文華燒雞鴨鋪",
+				"country": "新北市",
+				"grade": "4"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [120.8306465, 24.2534331]
+			},
+			"properties": {
+				"market_name": "東勢公有零售市場",
+				"vendor_name": "奶油飛吧手作坊",
+				"country": "新北市",
+				"grade": "4"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [120.8306465, 24.2534331]
+			},
+			"properties": {
+				"market_name": "東勢公有零售市場",
+				"vendor_name": "旺福蔬菜",
+				"country": "新北市",
+				"grade": "4"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.6588692, 25.06635289]
+			},
+			"properties": {
+				"market_name": "秀豐公有零售市場",
+				"vendor_name": "錦發師日式蔬食",
+				"country": "新北市",
+				"grade": "4"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.6588692, 25.06635289]
+			},
+			"properties": {
+				"market_name": "秀豐公有零售市場",
+				"vendor_name": "阿國生鮮蔬果",
+				"country": "新北市",
+				"grade": "4"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.6588692, 25.06635289]
+			},
+			"properties": {
+				"market_name": "秀豐公有零售市場",
+				"vendor_name": "明珠海鮮",
+				"country": "新北市",
+				"grade": "4"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.6588692, 25.06635289]
+			},
+			"properties": {
+				"market_name": "秀豐公有零售市場",
+				"vendor_name": "三多力",
+				"country": "新北市",
+				"grade": "4"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.6588692, 25.06635289]
+			},
+			"properties": {
+				"market_name": "秀豐公有零售市場",
+				"vendor_name": "大雅哄炸雞",
+				"country": "新北市",
+				"grade": "4"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.6588692, 25.06635289]
+			},
+			"properties": {
+				"market_name": "秀豐公有零售市場",
+				"vendor_name": "德記燒雞",
+				"country": "新北市",
+				"grade": "4"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.4391675, 25.0831794]
+			},
+			"properties": {
+				"market_name": "五股公有零售市場",
+				"vendor_name": "原木屋滷味坊",
+				"country": "新北市",
+				"grade": "4"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.4391675, 25.0831794]
+			},
+			"properties": {
+				"market_name": "五股公有零售市場",
+				"vendor_name": "一起咖啡",
+				"country": "新北市",
+				"grade": "4"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.4391675, 25.0831794]
+			},
+			"properties": {
+				"market_name": "五股公有零售市場",
+				"vendor_name": "蘿蔔田",
+				"country": "新北市",
+				"grade": "4"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.4391675, 25.0831794]
+			},
+			"properties": {
+				"market_name": "五股公有零售市場",
+				"vendor_name": "Cooking Mama 蔬菜市集",
+				"country": "新北市",
+				"grade": "4"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.4391675, 25.0831794]
+			},
+			"properties": {
+				"market_name": "五股公有零售市場",
+				"vendor_name": "MarBo 萬寶冷凍食品",
+				"country": "新北市",
+				"grade": "4"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.4391675, 25.0831794]
+			},
+			"properties": {
+				"market_name": "五股公有零售市場",
+				"vendor_name": "奕銘生活館",
+				"country": "新北市",
+				"grade": "4"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.4391675, 25.0831794]
+			},
+			"properties": {
+				"market_name": "五股公有零售市場",
+				"vendor_name": "珍好麥食品",
+				"country": "新北市",
+				"grade": "4"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.4391675, 25.0831794]
+			},
+			"properties": {
+				"market_name": "五股公有零售市場",
+				"vendor_name": "解懮小鋪",
+				"country": "新北市",
+				"grade": "4"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.4391675, 25.0831794]
+			},
+			"properties": {
+				"market_name": "五股公有零售市場",
+				"vendor_name": "東雞農園商行",
+				"country": "新北市",
+				"grade": "4"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.4391675, 25.0831794]
+			},
+			"properties": {
+				"market_name": "五股公有零售市場",
+				"vendor_name": "原豆讚",
+				"country": "新北市",
+				"grade": "4"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.4391675, 25.0831794]
+			},
+			"properties": {
+				"market_name": "五股公有零售市場",
+				"vendor_name": "源生煎包",
+				"country": "新北市",
+				"grade": "4"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.4391675, 25.0831794]
+			},
+			"properties": {
+				"market_name": "五股公有零售市場",
+				"vendor_name": "雞極年輕人",
+				"country": "新北市",
+				"grade": "4"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [113.3707755, 23.118494]
+			},
+			"properties": {
+				"market_name": "中正美食廣場",
+				"vendor_name": "なす手作潤餅捲",
+				"country": "新北市",
+				"grade": "4"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [113.3707755, 23.118494]
+			},
+			"properties": {
+				"market_name": "中正美食廣場",
+				"vendor_name": "尚品蔬食坊",
+				"country": "新北市",
+				"grade": "4"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [113.3707755, 23.118494]
+			},
+			"properties": {
+				"market_name": "中正美食廣場",
+				"vendor_name": "王記飲品",
+				"country": "新北市",
+				"grade": "4"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [113.3707755, 23.118494]
+			},
+			"properties": {
+				"market_name": "中正美食廣場",
+				"vendor_name": "盧記大腸紅麵線純手工粉圓",
+				"country": "新北市",
+				"grade": "4"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [113.3707755, 23.118494]
+			},
+			"properties": {
+				"market_name": "中正美食廣場",
+				"vendor_name": "出羽屋",
+				"country": "新北市",
+				"grade": "4"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [113.3707755, 23.118494]
+			},
+			"properties": {
+				"market_name": "中正美食廣場",
+				"vendor_name": "解懮食堂",
+				"country": "新北市",
+				"grade": "4"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.3705762, 24.9349336]
+			},
+			"properties": {
+				"market_name": "三峽公有零售市場",
+				"vendor_name": "珈琲瑀",
+				"country": "新北市",
+				"grade": "4"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.0909338, 24.737402]
+			},
+			"properties": {
+				"market_name": "中央公有零售市場",
+				"vendor_name": "ZEN IN˙好食",
+				"country": "新北市",
+				"grade": "4"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.0909338, 24.737402]
+			},
+			"properties": {
+				"market_name": "中央公有零售市場",
+				"vendor_name": "藝起來串臉社會企業",
+				"country": "新北市",
+				"grade": "4"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.4916519, 25.0569573]
+			},
+			"properties": {
+				"market_name": "光明公有零售市場",
+				"vendor_name": "韌REN",
+				"country": "新北市",
+				"grade": "4"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.4916519, 25.0569573]
+			},
+			"properties": {
+				"market_name": "光明公有零售市場",
+				"vendor_name": "愛德家居",
+				"country": "新北市",
+				"grade": "4"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.4743441, 25.00380739]
+			},
+			"properties": {
+				"market_name": "民享公有零售市場",
+				"vendor_name": "布袋冷凍海鮮",
+				"country": "新北市",
+				"grade": "4"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.4743441, 25.00380739]
+			},
+			"properties": {
+				"market_name": "民享公有零售市場",
+				"vendor_name": "澎湖生鮮海產",
+				"country": "新北市",
+				"grade": "4"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [120.5992118, 22.3602579]
+			},
+			"properties": {
+				"market_name": "枋寮公有零售市場",
+				"vendor_name": "牟家青島水餃坊",
+				"country": "新北市",
+				"grade": "4"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [120.5992118, 22.3602579]
+			},
+			"properties": {
+				"market_name": "枋寮公有零售市場",
+				"vendor_name": "菜市仔coffee",
+				"country": "新北市",
+				"grade": "4"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [120.5992118, 22.3602579]
+			},
+			"properties": {
+				"market_name": "枋寮公有零售市場",
+				"vendor_name": "鄉村田園",
+				"country": "新北市",
+				"grade": "4"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [120.5992118, 22.3602579]
+			},
+			"properties": {
+				"market_name": "枋寮公有零售市場",
+				"vendor_name": "福濱水果行",
+				"country": "新北市",
+				"grade": "4"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.3427262, 24.9614967]
+			},
+			"properties": {
+				"market_name": "鶯歌美食廣場",
+				"vendor_name": "天麗泰式異國料理坊",
+				"country": "新北市",
+				"grade": "4"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.3427262, 24.9614967]
+			},
+			"properties": {
+				"market_name": "鶯歌美食廣場",
+				"vendor_name": "滋味嘉",
+				"country": "新北市",
+				"grade": "4"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.3427262, 24.9614967]
+			},
+			"properties": {
+				"market_name": "鶯歌美食廣場",
+				"vendor_name": "微甜小賣所",
+				"country": "新北市",
+				"grade": "4"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.3999255, 25.1465144]
+			},
+			"properties": {
+				"market_name": "下庄公有零售市場",
+				"vendor_name": "張媽媽米苔目",
+				"country": "新北市",
+				"grade": "3"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.0909338, 24.737402]
+			},
+			"properties": {
+				"market_name": "中央公有零售市場",
+				"vendor_name": "本韻寶",
+				"country": "新北市",
+				"grade": "3"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.0909338, 24.737402]
+			},
+			"properties": {
+				"market_name": "中央公有零售市場",
+				"vendor_name": "禾記小吃",
+				"country": "新北市",
+				"grade": "3"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.0909338, 24.737402]
+			},
+			"properties": {
+				"market_name": "中央公有零售市場",
+				"vendor_name": "安安肉舖",
+				"country": "新北市",
+				"grade": "3"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.0909338, 24.737402]
+			},
+			"properties": {
+				"market_name": "中央公有零售市場",
+				"vendor_name": "佳美素食",
+				"country": "新北市",
+				"grade": "3"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.0909338, 24.737402]
+			},
+			"properties": {
+				"market_name": "中央公有零售市場",
+				"vendor_name": "阿柱魚舖子",
+				"country": "新北市",
+				"grade": "3"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.0909338, 24.737402]
+			},
+			"properties": {
+				"market_name": "中央公有零售市場",
+				"vendor_name": "阿雪の店",
+				"country": "新北市",
+				"grade": "3"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.0909338, 24.737402]
+			},
+			"properties": {
+				"market_name": "中央公有零售市場",
+				"vendor_name": "阿博的雞肉",
+				"country": "新北市",
+				"grade": "3"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.0909338, 24.737402]
+			},
+			"properties": {
+				"market_name": "中央公有零售市場",
+				"vendor_name": "阿蓮土雞店",
+				"country": "新北市",
+				"grade": "3"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.0909338, 24.737402]
+			},
+			"properties": {
+				"market_name": "中央公有零售市場",
+				"vendor_name": "阿興自然滷",
+				"country": "新北市",
+				"grade": "3"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.0909338, 24.737402]
+			},
+			"properties": {
+				"market_name": "中央公有零售市場",
+				"vendor_name": "峸老滷湘川滷味",
+				"country": "新北市",
+				"grade": "3"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.0909338, 24.737402]
+			},
+			"properties": {
+				"market_name": "中央公有零售市場",
+				"vendor_name": "映竹豬肉舖",
+				"country": "新北市",
+				"grade": "3"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.0909338, 24.737402]
+			},
+			"properties": {
+				"market_name": "中央公有零售市場",
+				"vendor_name": "桂村肉品舖",
+				"country": "新北市",
+				"grade": "3"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.0909338, 24.737402]
+			},
+			"properties": {
+				"market_name": "中央公有零售市場",
+				"vendor_name": "麥格問仙草仙",
+				"country": "新北市",
+				"grade": "3"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.0909338, 24.737402]
+			},
+			"properties": {
+				"market_name": "中央公有零售市場",
+				"vendor_name": "圓圓圈鬆餅",
+				"country": "新北市",
+				"grade": "3"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.0909338, 24.737402]
+			},
+			"properties": {
+				"market_name": "中央公有零售市場",
+				"vendor_name": "新興號摃圓",
+				"country": "新北市",
+				"grade": "3"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.0909338, 24.737402]
+			},
+			"properties": {
+				"market_name": "中央公有零售市場",
+				"vendor_name": "萬隆豬肉專賣店",
+				"country": "新北市",
+				"grade": "3"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.0909338, 24.737402]
+			},
+			"properties": {
+				"market_name": "中央公有零售市場",
+				"vendor_name": "馥御私房手作茶",
+				"country": "新北市",
+				"grade": "3"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.0909338, 24.737402]
+			},
+			"properties": {
+				"market_name": "中央公有零售市場",
+				"vendor_name": "麗玉肉舖",
+				"country": "新北市",
+				"grade": "3"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.0909338, 24.737402]
+			},
+			"properties": {
+				"market_name": "中央公有零售市場",
+				"vendor_name": "寶珠豬肉",
+				"country": "新北市",
+				"grade": "3"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.4916519, 25.0569573]
+			},
+			"properties": {
+				"market_name": "光明公有零售市場",
+				"vendor_name": "光明花坊",
+				"country": "新北市",
+				"grade": "3"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.4916519, 25.0569573]
+			},
+			"properties": {
+				"market_name": "光明公有零售市場",
+				"vendor_name": "何老闆精緻肉品專賣店",
+				"country": "新北市",
+				"grade": "3"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.4916519, 25.0569573]
+			},
+			"properties": {
+				"market_name": "光明公有零售市場",
+				"vendor_name": "佺億海產",
+				"country": "新北市",
+				"grade": "3"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.4916519, 25.0569573]
+			},
+			"properties": {
+				"market_name": "光明公有零售市場",
+				"vendor_name": "味鄉小吃",
+				"country": "新北市",
+				"grade": "3"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.501243, 25.0636022]
+			},
+			"properties": {
+				"market_name": "重新公有零售市場",
+				"vendor_name": "健榮行",
+				"country": "新北市",
+				"grade": "3"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.501243, 25.0636022]
+			},
+			"properties": {
+				"market_name": "重新公有零售市場",
+				"vendor_name": "湯海豆花",
+				"country": "新北市",
+				"grade": "3"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.501243, 25.0636022]
+			},
+			"properties": {
+				"market_name": "重新公有零售市場",
+				"vendor_name": "湯海意麵",
+				"country": "新北市",
+				"grade": "3"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.4391675, 25.0831794]
+			},
+			"properties": {
+				"market_name": "五股公有零售市場",
+				"vendor_name": "101甘蔗雞",
+				"country": "新北市",
+				"grade": "3"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.4391675, 25.0831794]
+			},
+			"properties": {
+				"market_name": "五股公有零售市場",
+				"vendor_name": "三本味職人手做料理",
+				"country": "新北市",
+				"grade": "3"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.4391675, 25.0831794]
+			},
+			"properties": {
+				"market_name": "五股公有零售市場",
+				"vendor_name": "月琴小舖",
+				"country": "新北市",
+				"grade": "3"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.4391675, 25.0831794]
+			},
+			"properties": {
+				"market_name": "五股公有零售市場",
+				"vendor_name": "本丸海苔飯卷",
+				"country": "新北市",
+				"grade": "3"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.4391675, 25.0831794]
+			},
+			"properties": {
+				"market_name": "五股公有零售市場",
+				"vendor_name": "行天宮油飯旺家五股總店",
+				"country": "新北市",
+				"grade": "3"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.4391675, 25.0831794]
+			},
+			"properties": {
+				"market_name": "五股公有零售市場",
+				"vendor_name": "坎蒂絲蒔花小舖",
+				"country": "新北市",
+				"grade": "3"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.4391675, 25.0831794]
+			},
+			"properties": {
+				"market_name": "五股公有零售市場",
+				"vendor_name": "宏宏蔬果",
+				"country": "新北市",
+				"grade": "3"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.4391675, 25.0831794]
+			},
+			"properties": {
+				"market_name": "五股公有零售市場",
+				"vendor_name": "希望菜菜",
+				"country": "新北市",
+				"grade": "3"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.4391675, 25.0831794]
+			},
+			"properties": {
+				"market_name": "五股公有零售市場",
+				"vendor_name": "佳佳水餃",
+				"country": "新北市",
+				"grade": "3"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.4391675, 25.0831794]
+			},
+			"properties": {
+				"market_name": "五股公有零售市場",
+				"vendor_name": "昇輝生活館",
+				"country": "新北市",
+				"grade": "3"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.4391675, 25.0831794]
+			},
+			"properties": {
+				"market_name": "五股公有零售市場",
+				"vendor_name": "芝芝杏仁茶室",
+				"country": "新北市",
+				"grade": "3"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.4391675, 25.0831794]
+			},
+			"properties": {
+				"market_name": "五股公有零售市場",
+				"vendor_name": "阿銘商行",
+				"country": "新北市",
+				"grade": "3"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.4391675, 25.0831794]
+			},
+			"properties": {
+				"market_name": "五股公有零售市場",
+				"vendor_name": "流奶與蜜",
+				"country": "新北市",
+				"grade": "3"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.4391675, 25.0831794]
+			},
+			"properties": {
+				"market_name": "五股公有零售市場",
+				"vendor_name": "美吉生鮮蔬果",
+				"country": "新北市",
+				"grade": "3"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.4391675, 25.0831794]
+			},
+			"properties": {
+				"market_name": "五股公有零售市場",
+				"vendor_name": "海口舖",
+				"country": "新北市",
+				"grade": "3"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.4391675, 25.0831794]
+			},
+			"properties": {
+				"market_name": "五股公有零售市場",
+				"vendor_name": "起初食堂",
+				"country": "新北市",
+				"grade": "3"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.4391675, 25.0831794]
+			},
+			"properties": {
+				"market_name": "五股公有零售市場",
+				"vendor_name": "張家手工水餃",
+				"country": "新北市",
+				"grade": "3"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.4391675, 25.0831794]
+			},
+			"properties": {
+				"market_name": "五股公有零售市場",
+				"vendor_name": "魚寶貝私房小舖",
+				"country": "新北市",
+				"grade": "3"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.4391675, 25.0831794]
+			},
+			"properties": {
+				"market_name": "五股公有零售市場",
+				"vendor_name": "菁菁水果鋪",
+				"country": "新北市",
+				"grade": "3"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.4391675, 25.0831794]
+			},
+			"properties": {
+				"market_name": "五股公有零售市場",
+				"vendor_name": "雅雯林口黑豬肉",
+				"country": "新北市",
+				"grade": "3"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.4391675, 25.0831794]
+			},
+			"properties": {
+				"market_name": "五股公有零售市場",
+				"vendor_name": "滌慮齋素食",
+				"country": "新北市",
+				"grade": "3"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.4391675, 25.0831794]
+			},
+			"properties": {
+				"market_name": "五股公有零售市場",
+				"vendor_name": "福安豬",
+				"country": "新北市",
+				"grade": "3"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.4391675, 25.0831794]
+			},
+			"properties": {
+				"market_name": "五股公有零售市場",
+				"vendor_name": "臺灣新雞王2",
+				"country": "新北市",
+				"grade": "3"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.4391675, 25.0831794]
+			},
+			"properties": {
+				"market_name": "五股公有零售市場",
+				"vendor_name": "輝哥紅糟鰻魚",
+				"country": "新北市",
+				"grade": "3"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.4391675, 25.0831794]
+			},
+			"properties": {
+				"market_name": "五股公有零售市場",
+				"vendor_name": "鄰家厝放山土雞",
+				"country": "新北市",
+				"grade": "3"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.4391675, 25.0831794]
+			},
+			"properties": {
+				"market_name": "五股公有零售市場",
+				"vendor_name": "雙生緣商行",
+				"country": "新北市",
+				"grade": "3"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.4391675, 25.0831794]
+			},
+			"properties": {
+				"market_name": "五股公有零售市場",
+				"vendor_name": "鵝卡桑上等鵝肉",
+				"country": "新北市",
+				"grade": "3"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [120.2248743, 22.8188113]
+			},
+			"properties": {
+				"market_name": "永安公有零售市場",
+				"vendor_name": "一傘一傘亮晶晶",
+				"country": "新北市",
+				"grade": "3"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [120.2248743, 22.8188113]
+			},
+			"properties": {
+				"market_name": "永安公有零售市場",
+				"vendor_name": "三合食品",
+				"country": "新北市",
+				"grade": "3"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [120.2248743, 22.8188113]
+			},
+			"properties": {
+				"market_name": "永安公有零售市場",
+				"vendor_name": "千鋒服飾修改衣服",
+				"country": "新北市",
+				"grade": "3"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [120.2248743, 22.8188113]
+			},
+			"properties": {
+				"market_name": "永安公有零售市場",
+				"vendor_name": "名人精品服飾",
+				"country": "新北市",
+				"grade": "3"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [120.2248743, 22.8188113]
+			},
+			"properties": {
+				"market_name": "永安公有零售市場",
+				"vendor_name": "至尊雞",
+				"country": "新北市",
+				"grade": "3"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [120.2248743, 22.8188113]
+			},
+			"properties": {
+				"market_name": "永安公有零售市場",
+				"vendor_name": "來就買獸肉店",
+				"country": "新北市",
+				"grade": "3"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [120.2248743, 22.8188113]
+			},
+			"properties": {
+				"market_name": "永安公有零售市場",
+				"vendor_name": "欣潮珠寶",
+				"country": "新北市",
+				"grade": "3"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [120.2248743, 22.8188113]
+			},
+			"properties": {
+				"market_name": "永安公有零售市場",
+				"vendor_name": "采衣",
+				"country": "新北市",
+				"grade": "3"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [120.2248743, 22.8188113]
+			},
+			"properties": {
+				"market_name": "永安公有零售市場",
+				"vendor_name": "阿文黑豬肉水餃",
+				"country": "新北市",
+				"grade": "3"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [120.2248743, 22.8188113]
+			},
+			"properties": {
+				"market_name": "永安公有零售市場",
+				"vendor_name": "草屯農家廚房",
+				"country": "新北市",
+				"grade": "3"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [120.2248743, 22.8188113]
+			},
+			"properties": {
+				"market_name": "永安公有零售市場",
+				"vendor_name": "翎麗精品服飾",
+				"country": "新北市",
+				"grade": "3"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [120.2248743, 22.8188113]
+			},
+			"properties": {
+				"market_name": "永安公有零售市場",
+				"vendor_name": "新鮮豬肉攤",
+				"country": "新北市",
+				"grade": "3"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [120.2248743, 22.8188113]
+			},
+			"properties": {
+				"market_name": "永安公有零售市場",
+				"vendor_name": "碧綠屋",
+				"country": "新北市",
+				"grade": "3"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [120.2248743, 22.8188113]
+			},
+			"properties": {
+				"market_name": "永安公有零售市場",
+				"vendor_name": "黛比精品髮飾",
+				"country": "新北市",
+				"grade": "3"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.513949, 25.0086951]
+			},
+			"properties": {
+				"market_name": "樂華觀光夜市",
+				"vendor_name": "好吸HITS THE SPOT",
+				"country": "新北市",
+				"grade": "3"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.6582769, 25.0662485]
+			},
+			"properties": {
+				"market_name": "汐止觀光夜市",
+				"vendor_name": "功夫大帝",
+				"country": "新北市",
+				"grade": "3"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.6582769, 25.0662485]
+			},
+			"properties": {
+				"market_name": "汐止觀光夜市",
+				"vendor_name": "正宗圓環滷肉飯",
+				"country": "新北市",
+				"grade": "3"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.6582769, 25.0662485]
+			},
+			"properties": {
+				"market_name": "汐止觀光夜市",
+				"vendor_name": "老爹的餃",
+				"country": "新北市",
+				"grade": "3"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.6582769, 25.0662485]
+			},
+			"properties": {
+				"market_name": "汐止觀光夜市",
+				"vendor_name": "灶飯食堂",
+				"country": "新北市",
+				"grade": "3"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.6582769, 25.0662485]
+			},
+			"properties": {
+				"market_name": "汐止觀光夜市",
+				"vendor_name": "來吃生魚片",
+				"country": "新北市",
+				"grade": "3"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.6582769, 25.0662485]
+			},
+			"properties": {
+				"market_name": "汐止觀光夜市",
+				"vendor_name": "店長鴨血",
+				"country": "新北市",
+				"grade": "3"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.6582769, 25.0662485]
+			},
+			"properties": {
+				"market_name": "汐止觀光夜市",
+				"vendor_name": "拎粥公砂鍋粥",
+				"country": "新北市",
+				"grade": "3"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.6582769, 25.0662485]
+			},
+			"properties": {
+				"market_name": "汐止觀光夜市",
+				"vendor_name": "東山鴨頭6號",
+				"country": "新北市",
+				"grade": "3"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.6588692, 25.06635289]
+			},
+			"properties": {
+				"market_name": "秀豐公有零售市場",
+				"vendor_name": "9998海鮮",
+				"country": "新北市",
+				"grade": "3"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.6588692, 25.06635289]
+			},
+			"properties": {
+				"market_name": "秀豐公有零售市場",
+				"vendor_name": "功夫高手、手工蛋糕",
+				"country": "新北市",
+				"grade": "3"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.6588692, 25.06635289]
+			},
+			"properties": {
+				"market_name": "秀豐公有零售市場",
+				"vendor_name": "生鮮本土溫控豬肉",
+				"country": "新北市",
+				"grade": "3"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.6588692, 25.06635289]
+			},
+			"properties": {
+				"market_name": "秀豐公有零售市場",
+				"vendor_name": "好雞庄",
+				"country": "新北市",
+				"grade": "3"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.6588692, 25.06635289]
+			},
+			"properties": {
+				"market_name": "秀豐公有零售市場",
+				"vendor_name": "竹筍、新鮮蔬菜",
+				"country": "新北市",
+				"grade": "3"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.6588692, 25.06635289]
+			},
+			"properties": {
+				"market_name": "秀豐公有零售市場",
+				"vendor_name": "卷卷屋",
+				"country": "新北市",
+				"grade": "3"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.6588692, 25.06635289]
+			},
+			"properties": {
+				"market_name": "秀豐公有零售市場",
+				"vendor_name": "宜家鮮蔬園",
+				"country": "新北市",
+				"grade": "3"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.6588692, 25.06635289]
+			},
+			"properties": {
+				"market_name": "秀豐公有零售市場",
+				"vendor_name": "放山雞",
+				"country": "新北市",
+				"grade": "3"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.6588692, 25.06635289]
+			},
+			"properties": {
+				"market_name": "秀豐公有零售市場",
+				"vendor_name": "社后塩酥雞",
+				"country": "新北市",
+				"grade": "3"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.6588692, 25.06635289]
+			},
+			"properties": {
+				"market_name": "秀豐公有零售市場",
+				"vendor_name": "香蕉龍水果",
+				"country": "新北市",
+				"grade": "3"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.6588692, 25.06635289]
+			},
+			"properties": {
+				"market_name": "秀豐公有零售市場",
+				"vendor_name": "海鮮人家",
+				"country": "新北市",
+				"grade": "3"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.6588692, 25.06635289]
+			},
+			"properties": {
+				"market_name": "秀豐公有零售市場",
+				"vendor_name": "基隆海鮮",
+				"country": "新北市",
+				"grade": "3"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.6588692, 25.06635289]
+			},
+			"properties": {
+				"market_name": "秀豐公有零售市場",
+				"vendor_name": "黃豆黃",
+				"country": "新北市",
+				"grade": "3"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.6588692, 25.06635289]
+			},
+			"properties": {
+				"market_name": "秀豐公有零售市場",
+				"vendor_name": "黃金雞",
+				"country": "新北市",
+				"grade": "3"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.6588692, 25.06635289]
+			},
+			"properties": {
+				"market_name": "秀豐公有零售市場",
+				"vendor_name": "錦精品屋",
+				"country": "新北市",
+				"grade": "3"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.6588692, 25.06635289]
+			},
+			"properties": {
+				"market_name": "秀豐公有零售市場",
+				"vendor_name": "鵝肉周",
+				"country": "新北市",
+				"grade": "3"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.640863, 25.0659879]
+			},
+			"properties": {
+				"market_name": "忠厚公有零售市場",
+				"vendor_name": "市場這一攤(東南亞的味)",
+				"country": "新北市",
+				"grade": "3"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.640863, 25.0659879]
+			},
+			"properties": {
+				"market_name": "忠厚公有零售市場",
+				"vendor_name": "忠厚咖啡",
+				"country": "新北市",
+				"grade": "3"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.6239762, 25.03971075]
+			},
+			"properties": {
+				"market_name": "林森攤販集中場",
+				"vendor_name": "178生鮮蔬果",
+				"country": "新北市",
+				"grade": "3"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.6239762, 25.03971075]
+			},
+			"properties": {
+				"market_name": "林森攤販集中場",
+				"vendor_name": "178埔里放山雞 ",
+				"country": "新北市",
+				"grade": "3"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.6239762, 25.03971075]
+			},
+			"properties": {
+				"market_name": "林森攤販集中場",
+				"vendor_name": "合一水餃",
+				"country": "新北市",
+				"grade": "3"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.6299579, 25.06855235]
+			},
+			"properties": {
+				"market_name": "金龍公有零售市場",
+				"vendor_name": "阿德製麵",
+				"country": "新北市",
+				"grade": "3"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.6299579, 25.06855235]
+			},
+			"properties": {
+				"market_name": "金龍公有零售市場",
+				"vendor_name": "粥遊列國",
+				"country": "新北市",
+				"grade": "3"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.6299579, 25.06855235]
+			},
+			"properties": {
+				"market_name": "金龍公有零售市場",
+				"vendor_name": "豪吃牛肉舖",
+				"country": "新北市",
+				"grade": "3"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.6299579, 25.06855235]
+			},
+			"properties": {
+				"market_name": "金龍公有零售市場",
+				"vendor_name": "劉記小福包",
+				"country": "新北市",
+				"grade": "3"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.6299579, 25.06855235]
+			},
+			"properties": {
+				"market_name": "金龍公有零售市場",
+				"vendor_name": "線生活原住民工藝坊品",
+				"country": "新北市",
+				"grade": "3"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.4581567, 25.0130272]
+			},
+			"properties": {
+				"market_name": "黃石公有零售市場",
+				"vendor_name": "王家肉羹",
+				"country": "新北市",
+				"grade": "3"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.4581567, 25.0130272]
+			},
+			"properties": {
+				"market_name": "黃石公有零售市場",
+				"vendor_name": "阿明海鮮",
+				"country": "新北市",
+				"grade": "3"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.4581567, 25.0130272]
+			},
+			"properties": {
+				"market_name": "黃石公有零售市場",
+				"vendor_name": "風權號牛肉店",
+				"country": "新北市",
+				"grade": "3"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [120.8306465, 24.2534331]
+			},
+			"properties": {
+				"market_name": "東勢公有零售市場",
+				"vendor_name": "Younger(心漾格)",
+				"country": "新北市",
+				"grade": "3"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [120.8306465, 24.2534331]
+			},
+			"properties": {
+				"market_name": "東勢公有零售市場",
+				"vendor_name": "心心向榮茶行",
+				"country": "新北市",
+				"grade": "3"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [120.8306465, 24.2534331]
+			},
+			"properties": {
+				"market_name": "東勢公有零售市場",
+				"vendor_name": "永裕蔬果",
+				"country": "新北市",
+				"grade": "3"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [120.8306465, 24.2534331]
+			},
+			"properties": {
+				"market_name": "東勢公有零售市場",
+				"vendor_name": "尚美挽臉",
+				"country": "新北市",
+				"grade": "3"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [120.8306465, 24.2534331]
+			},
+			"properties": {
+				"market_name": "東勢公有零售市場",
+				"vendor_name": "金水黑豬肉",
+				"country": "新北市",
+				"grade": "3"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [120.8306465, 24.2534331]
+			},
+			"properties": {
+				"market_name": "東勢公有零售市場",
+				"vendor_name": "阿珠粿店南北貨",
+				"country": "新北市",
+				"grade": "3"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [120.8306465, 24.2534331]
+			},
+			"properties": {
+				"market_name": "東勢公有零售市場",
+				"vendor_name": "青青生機",
+				"country": "新北市",
+				"grade": "3"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [120.8306465, 24.2534331]
+			},
+			"properties": {
+				"market_name": "東勢公有零售市場",
+				"vendor_name": "家欣美容精品坊",
+				"country": "新北市",
+				"grade": "3"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.3914102, 25.0778437]
+			},
+			"properties": {
+				"market_name": "林口公有零售市場",
+				"vendor_name": "文生蔬果",
+				"country": "新北市",
+				"grade": "3"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.3914102, 25.0778437]
+			},
+			"properties": {
+				"market_name": "林口公有零售市場",
+				"vendor_name": "阿錦燒雞",
+				"country": "新北市",
+				"grade": "3"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.3914102, 25.0778437]
+			},
+			"properties": {
+				"market_name": "林口公有零售市場",
+				"vendor_name": "香菇豬肉",
+				"country": "新北市",
+				"grade": "3"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.3914102, 25.0778437]
+			},
+			"properties": {
+				"market_name": "林口公有零售市場",
+				"vendor_name": "蔬菜妹",
+				"country": "新北市",
+				"grade": "3"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [120.2823218, 22.6249215]
+			},
+			"properties": {
+				"market_name": "第一公有零售市場",
+				"vendor_name": "秀英水果",
+				"country": "新北市",
+				"grade": "3"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [120.2823218, 22.6249215]
+			},
+			"properties": {
+				"market_name": "第一公有零售市場",
+				"vendor_name": "長榮肉舖",
+				"country": "新北市",
+				"grade": "3"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [120.2823218, 22.6249215]
+			},
+			"properties": {
+				"market_name": "第一公有零售市場",
+				"vendor_name": "阿滿姨油飯蘿蔔糕",
+				"country": "新北市",
+				"grade": "3"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.4337291, 25.0562107]
+			},
+			"properties": {
+				"market_name": "泰山公有零售市場",
+				"vendor_name": "Cres日本代購",
+				"country": "新北市",
+				"grade": "3"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.4337291, 25.0562107]
+			},
+			"properties": {
+				"market_name": "泰山公有零售市場",
+				"vendor_name": "MIA潮T男女運動休閒團體服",
+				"country": "新北市",
+				"grade": "3"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.4337291, 25.0562107]
+			},
+			"properties": {
+				"market_name": "泰山公有零售市場",
+				"vendor_name": "wewehouse",
+				"country": "新北市",
+				"grade": "3"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.4337291, 25.0562107]
+			},
+			"properties": {
+				"market_name": "泰山公有零售市場",
+				"vendor_name": "八里水產",
+				"country": "新北市",
+				"grade": "3"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.4337291, 25.0562107]
+			},
+			"properties": {
+				"market_name": "泰山公有零售市場",
+				"vendor_name": "上琪美髮工作室",
+				"country": "新北市",
+				"grade": "3"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.4337291, 25.0562107]
+			},
+			"properties": {
+				"market_name": "泰山公有零售市場",
+				"vendor_name": "光美服飾百貨",
+				"country": "新北市",
+				"grade": "3"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.4337291, 25.0562107]
+			},
+			"properties": {
+				"market_name": "泰山公有零售市場",
+				"vendor_name": "合口味客家、韓式料理",
+				"country": "新北市",
+				"grade": "3"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.4337291, 25.0562107]
+			},
+			"properties": {
+				"market_name": "泰山公有零售市場",
+				"vendor_name": "好朋友水果攤",
+				"country": "新北市",
+				"grade": "3"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.4337291, 25.0562107]
+			},
+			"properties": {
+				"market_name": "泰山公有零售市場",
+				"vendor_name": "衣田服飾",
+				"country": "新北市",
+				"grade": "3"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.4337291, 25.0562107]
+			},
+			"properties": {
+				"market_name": "泰山公有零售市場",
+				"vendor_name": "吳媽媽手工水餃",
+				"country": "新北市",
+				"grade": "3"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.4337291, 25.0562107]
+			},
+			"properties": {
+				"market_name": "泰山公有零售市場",
+				"vendor_name": "金沙舖異國服飾精品",
+				"country": "新北市",
+				"grade": "3"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.4337291, 25.0562107]
+			},
+			"properties": {
+				"market_name": "泰山公有零售市場",
+				"vendor_name": "阿美小吃店",
+				"country": "新北市",
+				"grade": "3"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.4337291, 25.0562107]
+			},
+			"properties": {
+				"market_name": "泰山公有零售市場",
+				"vendor_name": "拾藝生活百貨",
+				"country": "新北市",
+				"grade": "3"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.4337291, 25.0562107]
+			},
+			"properties": {
+				"market_name": "泰山公有零售市場",
+				"vendor_name": "泰霖肉鋪",
+				"country": "新北市",
+				"grade": "3"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.4337291, 25.0562107]
+			},
+			"properties": {
+				"market_name": "泰山公有零售市場",
+				"vendor_name": "張小姐的店",
+				"country": "新北市",
+				"grade": "3"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.4337291, 25.0562107]
+			},
+			"properties": {
+				"market_name": "泰山公有零售市場",
+				"vendor_name": "推拿",
+				"country": "新北市",
+				"grade": "3"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.4337291, 25.0562107]
+			},
+			"properties": {
+				"market_name": "泰山公有零售市場",
+				"vendor_name": "蛋營養",
+				"country": "新北市",
+				"grade": "3"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.4337291, 25.0562107]
+			},
+			"properties": {
+				"market_name": "泰山公有零售市場",
+				"vendor_name": "蜜萱冷熱豆花",
+				"country": "新北市",
+				"grade": "3"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.4337291, 25.0562107]
+			},
+			"properties": {
+				"market_name": "泰山公有零售市場",
+				"vendor_name": "臻好吃米粉湯",
+				"country": "新北市",
+				"grade": "3"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.4337291, 25.0562107]
+			},
+			"properties": {
+				"market_name": "泰山公有零售市場",
+				"vendor_name": "臻品內衣",
+				"country": "新北市",
+				"grade": "3"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.4337291, 25.0562107]
+			},
+			"properties": {
+				"market_name": "泰山公有零售市場",
+				"vendor_name": "蘭彩美妍工作室",
+				"country": "新北市",
+				"grade": "3"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [120.1772118, 23.161317]
+			},
+			"properties": {
+				"market_name": "中山公有零售市場",
+				"vendor_name": "囍洋洋塔羅牌占卜",
+				"country": "新北市",
+				"grade": "3"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.4397723, 25.170059]
+			},
+			"properties": {
+				"market_name": "淡水中正美食廣場",
+				"vendor_name": "風水聚財油畫",
+				"country": "新北市",
+				"grade": "3"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.4397723, 25.170059]
+			},
+			"properties": {
+				"market_name": "淡水中正美食廣場",
+				"vendor_name": "晴天泰式簡餐",
+				"country": "新北市",
+				"grade": "3"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.4397723, 25.170059]
+			},
+			"properties": {
+				"market_name": "淡水中正美食廣場",
+				"vendor_name": "楊二姊粥湯品",
+				"country": "新北市",
+				"grade": "3"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [120.2823218, 22.6249215]
+			},
+			"properties": {
+				"market_name": "第一公有零售市場",
+				"vendor_name": "上等鮮肉",
+				"country": "新北市",
+				"grade": "3"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [120.2823218, 22.6249215]
+			},
+			"properties": {
+				"market_name": "第一公有零售市場",
+				"vendor_name": "巨佳食品",
+				"country": "新北市",
+				"grade": "3"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [120.2823218, 22.6249215]
+			},
+			"properties": {
+				"market_name": "第一公有零售市場",
+				"vendor_name": "全味香肉鬆店",
+				"country": "新北市",
+				"grade": "3"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [120.2823218, 22.6249215]
+			},
+			"properties": {
+				"market_name": "第一公有零售市場",
+				"vendor_name": "宏碁肉品",
+				"country": "新北市",
+				"grade": "3"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [120.2823218, 22.6249215]
+			},
+			"properties": {
+				"market_name": "第一公有零售市場",
+				"vendor_name": "阿芬鮮雞攤",
+				"country": "新北市",
+				"grade": "3"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [120.2823218, 22.6249215]
+			},
+			"properties": {
+				"market_name": "第一公有零售市場",
+				"vendor_name": "特莉莎烘焙坊",
+				"country": "新北市",
+				"grade": "3"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [120.2823218, 22.6249215]
+			},
+			"properties": {
+				"market_name": "第一公有零售市場",
+				"vendor_name": "魚之鄉",
+				"country": "新北市",
+				"grade": "3"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.8056816, 25.1068421]
+			},
+			"properties": {
+				"market_name": "瑞芳美食廣場",
+				"vendor_name": "21號米苔目",
+				"country": "新北市",
+				"grade": "3"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.6896172, 25.204757]
+			},
+			"properties": {
+				"market_name": "萬里野柳臨時賣店區",
+				"vendor_name": "女王牧場",
+				"country": "新北市",
+				"grade": "3"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.6896172, 25.204757]
+			},
+			"properties": {
+				"market_name": "萬里野柳臨時賣店區",
+				"vendor_name": "北港林記",
+				"country": "新北市",
+				"grade": "3"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.6896172, 25.204757]
+			},
+			"properties": {
+				"market_name": "萬里野柳臨時賣店區",
+				"vendor_name": "巨峰葡萄",
+				"country": "新北市",
+				"grade": "3"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.6896172, 25.204757]
+			},
+			"properties": {
+				"market_name": "萬里野柳臨時賣店區",
+				"vendor_name": "盛志芸品",
+				"country": "新北市",
+				"grade": "3"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.6896172, 25.204757]
+			},
+			"properties": {
+				"market_name": "萬里野柳臨時賣店區",
+				"vendor_name": "順興號",
+				"country": "新北市",
+				"grade": "3"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.4290654, 24.9995652]
+			},
+			"properties": {
+				"market_name": "保安攤販集中區",
+				"vendor_name": "芭樂嫂水果店",
+				"country": "新北市",
+				"grade": "3"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.4290654, 24.9995652]
+			},
+			"properties": {
+				"market_name": "保安攤販集中區",
+				"vendor_name": "金枝服飾坊",
+				"country": "新北市",
+				"grade": "3"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.4290654, 24.9995652]
+			},
+			"properties": {
+				"market_name": "保安攤販集中區",
+				"vendor_name": "威宏肉品店",
+				"country": "新北市",
+				"grade": "3"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.4290654, 24.9995652]
+			},
+			"properties": {
+				"market_name": "保安攤販集中區",
+				"vendor_name": "真鮮水果",
+				"country": "新北市",
+				"grade": "3"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.4290654, 24.9995652]
+			},
+			"properties": {
+				"market_name": "保安攤販集中區",
+				"vendor_name": "真鮮蔬菜",
+				"country": "新北市",
+				"grade": "3"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.4290654, 24.9995652]
+			},
+			"properties": {
+				"market_name": "保安攤販集中區",
+				"vendor_name": "劍海鮮水產魚舖",
+				"country": "新北市",
+				"grade": "3"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.4290654, 24.9995652]
+			},
+			"properties": {
+				"market_name": "保安攤販集中區",
+				"vendor_name": "鮮魚號",
+				"country": "新北市",
+				"grade": "3"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.4593824, 25.0902932]
+			},
+			"properties": {
+				"market_name": "永平公有零售市場",
+				"vendor_name": "小雅早餐",
+				"country": "新北市",
+				"grade": "3"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.4593824, 25.0902932]
+			},
+			"properties": {
+				"market_name": "永平公有零售市場",
+				"vendor_name": "東雞農園商行",
+				"country": "新北市",
+				"grade": "3"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.4593824, 25.0902932]
+			},
+			"properties": {
+				"market_name": "永平公有零售市場",
+				"vendor_name": "亮亮河粉",
+				"country": "新北市",
+				"grade": "3"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.4593824, 25.0902932]
+			},
+			"properties": {
+				"market_name": "永平公有零售市場",
+				"vendor_name": "春年牛肉麵",
+				"country": "新北市",
+				"grade": "3"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.4593824, 25.0902932]
+			},
+			"properties": {
+				"market_name": "永平公有零售市場",
+				"vendor_name": "美惠精品行",
+				"country": "新北市",
+				"grade": "3"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.4593824, 25.0902932]
+			},
+			"properties": {
+				"market_name": "永平公有零售市場",
+				"vendor_name": "挽臉美容",
+				"country": "新北市",
+				"grade": "3"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.4593824, 25.0902932]
+			},
+			"properties": {
+				"market_name": "永平公有零售市場",
+				"vendor_name": "廖家興油飯店",
+				"country": "新北市",
+				"grade": "3"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.3427262, 24.9614967]
+			},
+			"properties": {
+				"market_name": "鶯歌公有零售市場",
+				"vendor_name": "鮮OD 肉",
+				"country": "新北市",
+				"grade": "3"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.3427262, 24.9614967]
+			},
+			"properties": {
+				"market_name": "鶯歌美食廣場",
+				"vendor_name": "咕溜的鴨血店",
+				"country": "新北市",
+				"grade": "3"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.3427262, 24.9614967]
+			},
+			"properties": {
+				"market_name": "鶯歌美食廣場",
+				"vendor_name": "芙琳卡甜點屋",
+				"country": "新北市",
+				"grade": "3"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.3427262, 24.9614967]
+			},
+			"properties": {
+				"market_name": "鶯歌美食廣場",
+				"vendor_name": "美美泰式奶茶",
+				"country": "新北市",
+				"grade": "3"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.3427262, 24.9614967]
+			},
+			"properties": {
+				"market_name": "鶯歌美食廣場",
+				"vendor_name": "英姐麵疙瘩",
+				"country": "新北市",
+				"grade": "3"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.3427262, 24.9614967]
+			},
+			"properties": {
+				"market_name": "鶯歌美食廣場",
+				"vendor_name": "蝦角惑",
+				"country": "新北市",
+				"grade": "3"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.3427262, 24.9614967]
+			},
+			"properties": {
+				"market_name": "鶯歌美食廣場",
+				"vendor_name": "歡樂米",
+				"country": "新北市",
+				"grade": "3"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.3705762, 24.9349336]
+			},
+			"properties": {
+				"market_name": "三峽公有零售市場",
+				"vendor_name": "虹妤美容坊",
+				"country": "新北市",
+				"grade": "3"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.3705762, 24.9349336]
+			},
+			"properties": {
+				"market_name": "三峽公有零售市場",
+				"vendor_name": "皇琪茗茶",
+				"country": "新北市",
+				"grade": "3"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.3705762, 24.9349336]
+			},
+			"properties": {
+				"market_name": "三峽公有零售市場",
+				"vendor_name": "品瑄美容工作坊",
+				"country": "新北市",
+				"grade": "3"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.3705762, 24.9349336]
+			},
+			"properties": {
+				"market_name": "三峽公有零售市場",
+				"vendor_name": "正一台東放山雞",
+				"country": "新北市",
+				"grade": "3"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.3705762, 24.9349336]
+			},
+			"properties": {
+				"market_name": "三峽公有零售市場",
+				"vendor_name": "咖啡玉石藝品店",
+				"country": "新北市",
+				"grade": "3"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.3705762, 24.9349336]
+			},
+			"properties": {
+				"market_name": "三峽公有零售市場",
+				"vendor_name": "玉華閣",
+				"country": "新北市",
+				"grade": "3"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.3705762, 24.9349336]
+			},
+			"properties": {
+				"market_name": "三峽公有零售市場",
+				"vendor_name": "詹太太手工食品",
+				"country": "新北市",
+				"grade": "3"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.3705762, 24.9349336]
+			},
+			"properties": {
+				"market_name": "三峽公有零售市場",
+				"vendor_name": "韓國空運服飾",
+				"country": "新北市",
+				"grade": "3"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.3705762, 24.9349336]
+			},
+			"properties": {
+				"market_name": "三峽公有零售市場",
+				"vendor_name": "寶麗坊珠寶",
+				"country": "新北市",
+				"grade": "3"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.4743441, 25.00380739]
+			},
+			"properties": {
+				"market_name": "民享公有零售市場",
+				"vendor_name": "一虎服飾",
+				"country": "新北市",
+				"grade": "3"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.4743441, 25.00380739]
+			},
+			"properties": {
+				"market_name": "民享公有零售市場",
+				"vendor_name": "小魚衣坊",
+				"country": "新北市",
+				"grade": "3"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.4743441, 25.00380739]
+			},
+			"properties": {
+				"market_name": "民享公有零售市場",
+				"vendor_name": "明治製麵",
+				"country": "新北市",
+				"grade": "3"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.4743441, 25.00380739]
+			},
+			"properties": {
+				"market_name": "民享公有零售市場",
+				"vendor_name": "金娟美甲美婕",
+				"country": "新北市",
+				"grade": "3"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.4743441, 25.00380739]
+			},
+			"properties": {
+				"market_name": "民享公有零售市場",
+				"vendor_name": "阿美火鍋料",
+				"country": "新北市",
+				"grade": "3"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.4743441, 25.00380739]
+			},
+			"properties": {
+				"market_name": "民享公有零售市場",
+				"vendor_name": "信億百貨",
+				"country": "新北市",
+				"grade": "3"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.4743441, 25.00380739]
+			},
+			"properties": {
+				"market_name": "民享公有零售市場",
+				"vendor_name": "胡姥姥素膳坊",
+				"country": "新北市",
+				"grade": "3"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.4743441, 25.00380739]
+			},
+			"properties": {
+				"market_name": "民享公有零售市場",
+				"vendor_name": "賴媽手工素水餃",
+				"country": "新北市",
+				"grade": "3"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [120.5992118, 22.3602579]
+			},
+			"properties": {
+				"market_name": "枋寮公有零售市場",
+				"vendor_name": "黑豬的店",
+				"country": "新北市",
+				"grade": "3"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [120.5992118, 22.3602579]
+			},
+			"properties": {
+				"market_name": "枋寮公有零售市場",
+				"vendor_name": "旗艦金豬",
+				"country": "新北市",
+				"grade": "3"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.0909338, 24.737402]
+			},
+			"properties": {
+				"market_name": "中央公有零售市場",
+				"vendor_name": "爪爪包",
+				"country": "新北市",
+				"grade": "2"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.0909338, 24.737402]
+			},
+			"properties": {
+				"market_name": "中央公有零售市場",
+				"vendor_name": "阿好二手雜貨舖",
+				"country": "新北市",
+				"grade": "2"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.0909338, 24.737402]
+			},
+			"properties": {
+				"market_name": "中央公有零售市場",
+				"vendor_name": "春生蔬果店",
+				"country": "新北市",
+				"grade": "2"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.0909338, 24.737402]
+			},
+			"properties": {
+				"market_name": "中央公有零售市場",
+				"vendor_name": "美麗服飾",
+				"country": "新北市",
+				"grade": "2"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.4916519, 25.0569573]
+			},
+			"properties": {
+				"market_name": "光明公有零售市場",
+				"vendor_name": "李珮玲精品服飾",
+				"country": "新北市",
+				"grade": "2"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.501243, 25.0636022]
+			},
+			"properties": {
+				"market_name": "重新公有零售市場",
+				"vendor_name": "甜甜商店",
+				"country": "新北市",
+				"grade": "2"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.501243, 25.0636022]
+			},
+			"properties": {
+				"market_name": "重新公有零售市場",
+				"vendor_name": "豬血糕",
+				"country": "新北市",
+				"grade": "2"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.3705762, 24.9349336]
+			},
+			"properties": {
+				"market_name": "三峽公有零售市場",
+				"vendor_name": "阿香麵店",
+				"country": "新北市",
+				"grade": "2"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.3705762, 24.9349336]
+			},
+			"properties": {
+				"market_name": "三峽公有零售市場",
+				"vendor_name": "珍石美",
+				"country": "新北市",
+				"grade": "2"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.3705762, 24.9349336]
+			},
+			"properties": {
+				"market_name": "三峽公有零售市場",
+				"vendor_name": "修改衣服",
+				"country": "新北市",
+				"grade": "2"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.3705762, 24.9349336]
+			},
+			"properties": {
+				"market_name": "三峽公有零售市場",
+				"vendor_name": "郭崇仁肉商",
+				"country": "新北市",
+				"grade": "2"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.3705762, 24.9349336]
+			},
+			"properties": {
+				"market_name": "三峽公有零售市場",
+				"vendor_name": "鈴華淑女時尚服飾",
+				"country": "新北市",
+				"grade": "2"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.3705762, 24.9349336]
+			},
+			"properties": {
+				"market_name": "三峽公有零售市場",
+				"vendor_name": "寶玉精品店",
+				"country": "新北市",
+				"grade": "2"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.3705762, 24.9349336]
+			},
+			"properties": {
+				"market_name": "三峽公有零售市場",
+				"vendor_name": "寶玉精品服飾店",
+				"country": "新北市",
+				"grade": "2"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.4743441, 25.00380739]
+			},
+			"properties": {
+				"market_name": "民享公有零售市場",
+				"vendor_name": "日日新服飾店",
+				"country": "新北市",
+				"grade": "2"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.4743441, 25.00380739]
+			},
+			"properties": {
+				"market_name": "民享公有零售市場",
+				"vendor_name": "世界肉品",
+				"country": "新北市",
+				"grade": "2"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.4743441, 25.00380739]
+			},
+			"properties": {
+				"market_name": "民享公有零售市場",
+				"vendor_name": "民有糖果行",
+				"country": "新北市",
+				"grade": "2"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.4743441, 25.00380739]
+			},
+			"properties": {
+				"market_name": "民享公有零售市場",
+				"vendor_name": "永利水果行",
+				"country": "新北市",
+				"grade": "2"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.4743441, 25.00380739]
+			},
+			"properties": {
+				"market_name": "民享公有零售市場",
+				"vendor_name": "全味香肉鬆",
+				"country": "新北市",
+				"grade": "2"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.4743441, 25.00380739]
+			},
+			"properties": {
+				"market_name": "民享公有零售市場",
+				"vendor_name": "阿嘉燒臘店",
+				"country": "新北市",
+				"grade": "2"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.4743441, 25.00380739]
+			},
+			"properties": {
+				"market_name": "民享公有零售市場",
+				"vendor_name": "胡姥姥素食坊",
+				"country": "新北市",
+				"grade": "2"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.4743441, 25.00380739]
+			},
+			"properties": {
+				"market_name": "民享公有零售市場",
+				"vendor_name": "德峰服飾店",
+				"country": "新北市",
+				"grade": "2"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.4743441, 25.00380739]
+			},
+			"properties": {
+				"market_name": "民享公有零售市場",
+				"vendor_name": "豬豬的店",
+				"country": "新北市",
+				"grade": "2"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.5099043, 24.9944738]
+			},
+			"properties": {
+				"market_name": "和平街臨時攤販集中區",
+				"vendor_name": "鵝肉安",
+				"country": "新北市",
+				"grade": "2"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [120.2248743, 22.8188113]
+			},
+			"properties": {
+				"market_name": "永安公有零售市場",
+				"vendor_name": "永安水餃",
+				"country": "新北市",
+				"grade": "2"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [120.2248743, 22.8188113]
+			},
+			"properties": {
+				"market_name": "永安公有零售市場",
+				"vendor_name": "永安生鮮蔬果",
+				"country": "新北市",
+				"grade": "2"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [120.2248743, 22.8188113]
+			},
+			"properties": {
+				"market_name": "永安公有零售市場",
+				"vendor_name": "永安商號",
+				"country": "新北市",
+				"grade": "2"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [120.2248743, 22.8188113]
+			},
+			"properties": {
+				"market_name": "永安公有零售市場",
+				"vendor_name": "永豐越南美食小館",
+				"country": "新北市",
+				"grade": "2"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [120.2248743, 22.8188113]
+			},
+			"properties": {
+				"market_name": "永安公有零售市場",
+				"vendor_name": "宏裕切麵店",
+				"country": "新北市",
+				"grade": "2"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [120.2248743, 22.8188113]
+			},
+			"properties": {
+				"market_name": "永安公有零售市場",
+				"vendor_name": "阿粉南北貨",
+				"country": "新北市",
+				"grade": "2"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [120.2248743, 22.8188113]
+			},
+			"properties": {
+				"market_name": "永安公有零售市場",
+				"vendor_name": "阿德魚攤",
+				"country": "新北市",
+				"grade": "2"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.5167281, 25.0135193]
+			},
+			"properties": {
+				"market_name": "溪州公有零售市場",
+				"vendor_name": "土雞專賣店",
+				"country": "新北市",
+				"grade": "2"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.5167281, 25.0135193]
+			},
+			"properties": {
+				"market_name": "溪州公有零售市場",
+				"vendor_name": "良成肉品商號",
+				"country": "新北市",
+				"grade": "2"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.5167281, 25.0135193]
+			},
+			"properties": {
+				"market_name": "溪州公有零售市場",
+				"vendor_name": "洪太太手工水餃",
+				"country": "新北市",
+				"grade": "2"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.5167281, 25.0135193]
+			},
+			"properties": {
+				"market_name": "溪州公有零售市場",
+				"vendor_name": "詠婷海產魚號",
+				"country": "新北市",
+				"grade": "2"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.5167281, 25.0135193]
+			},
+			"properties": {
+				"market_name": "溪州公有零售市場",
+				"vendor_name": "溪州豆干",
+				"country": "新北市",
+				"grade": "2"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.6582769, 25.0662485]
+			},
+			"properties": {
+				"market_name": "汐止觀光夜市",
+				"vendor_name": "臺北阿郎鹹酥雞",
+				"country": "新北市",
+				"grade": "2"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.6588692, 25.06635289]
+			},
+			"properties": {
+				"market_name": "秀豐公有零售市場",
+				"vendor_name": "水餃、餛飩、各種飲料",
+				"country": "新北市",
+				"grade": "2"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.6588692, 25.06635289]
+			},
+			"properties": {
+				"market_name": "秀豐公有零售市場",
+				"vendor_name": "沈記港式蘿蔔糕",
+				"country": "新北市",
+				"grade": "2"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.6588692, 25.06635289]
+			},
+			"properties": {
+				"market_name": "秀豐公有零售市場",
+				"vendor_name": "宜蘭黑豬肉",
+				"country": "新北市",
+				"grade": "2"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.6588692, 25.06635289]
+			},
+			"properties": {
+				"market_name": "秀豐公有零售市場",
+				"vendor_name": "林家進口牛羊肉",
+				"country": "新北市",
+				"grade": "2"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.6239762, 25.03971075]
+			},
+			"properties": {
+				"market_name": "林森攤販集中場",
+				"vendor_name": "修改衣褲雜貨坊",
+				"country": "新北市",
+				"grade": "2"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.6239762, 25.03971075]
+			},
+			"properties": {
+				"market_name": "林森攤販集中場",
+				"vendor_name": "嘉蓓德俐",
+				"country": "新北市",
+				"grade": "2"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.6299579, 25.06855235]
+			},
+			"properties": {
+				"market_name": "金龍公有零售市場",
+				"vendor_name": "髮藝造型設計",
+				"country": "新北市",
+				"grade": "2"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.4581567, 25.0130272]
+			},
+			"properties": {
+				"market_name": "黃石公有零售市場",
+				"vendor_name": "幸美菜攤",
+				"country": "新北市",
+				"grade": "2"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [120.8306465, 24.2534331]
+			},
+			"properties": {
+				"market_name": "東勢公有零售市場",
+				"vendor_name": "五福金紙店",
+				"country": "新北市",
+				"grade": "2"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.3914102, 25.0778437]
+			},
+			"properties": {
+				"market_name": "林口公有零售市場",
+				"vendor_name": "麗英古早味油飯",
+				"country": "新北市",
+				"grade": "2"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [120.2823218, 22.6249215]
+			},
+			"properties": {
+				"market_name": "第一公有零售市場",
+				"vendor_name": "獅子林純手工蛋捲專賣店",
+				"country": "新北市",
+				"grade": "2"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [120.2823218, 22.6249215]
+			},
+			"properties": {
+				"market_name": "第一公有零售市場",
+				"vendor_name": "獅子林餅舖",
+				"country": "新北市",
+				"grade": "2"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [120.2823218, 22.6249215]
+			},
+			"properties": {
+				"market_name": "第一公有零售市場",
+				"vendor_name": "劉記肉鬆食品行",
+				"country": "新北市",
+				"grade": "2"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [120.2823218, 22.6249215]
+			},
+			"properties": {
+				"market_name": "第一公有零售市場",
+				"vendor_name": "霖森美食",
+				"country": "新北市",
+				"grade": "2"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.4337291, 25.0562107]
+			},
+			"properties": {
+				"market_name": "泰山公有零售市場",
+				"vendor_name": "10號素食",
+				"country": "新北市",
+				"grade": "2"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.4337291, 25.0562107]
+			},
+			"properties": {
+				"market_name": "泰山公有零售市場",
+				"vendor_name": "168水果",
+				"country": "新北市",
+				"grade": "2"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.4337291, 25.0562107]
+			},
+			"properties": {
+				"market_name": "泰山公有零售市場",
+				"vendor_name": "三媽清粥小菜",
+				"country": "新北市",
+				"grade": "2"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.4337291, 25.0562107]
+			},
+			"properties": {
+				"market_name": "泰山公有零售市場",
+				"vendor_name": "世界勇",
+				"country": "新北市",
+				"grade": "2"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.4337291, 25.0562107]
+			},
+			"properties": {
+				"market_name": "泰山公有零售市場",
+				"vendor_name": "印象精品服飾",
+				"country": "新北市",
+				"grade": "2"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.4337291, 25.0562107]
+			},
+			"properties": {
+				"market_name": "泰山公有零售市場",
+				"vendor_name": "好一服飾百貨",
+				"country": "新北市",
+				"grade": "2"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.4337291, 25.0562107]
+			},
+			"properties": {
+				"market_name": "泰山公有零售市場",
+				"vendor_name": "來來羊肉焿",
+				"country": "新北市",
+				"grade": "2"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.4337291, 25.0562107]
+			},
+			"properties": {
+				"market_name": "泰山公有零售市場",
+				"vendor_name": "和樂手工水餃",
+				"country": "新北市",
+				"grade": "2"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.4337291, 25.0562107]
+			},
+			"properties": {
+				"market_name": "泰山公有零售市場",
+				"vendor_name": "花香服飾百貨",
+				"country": "新北市",
+				"grade": "2"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.4337291, 25.0562107]
+			},
+			"properties": {
+				"market_name": "泰山公有零售市場",
+				"vendor_name": "美甲",
+				"country": "新北市",
+				"grade": "2"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.4337291, 25.0562107]
+			},
+			"properties": {
+				"market_name": "泰山公有零售市場",
+				"vendor_name": "美容美甲工作室",
+				"country": "新北市",
+				"grade": "2"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.4337291, 25.0562107]
+			},
+			"properties": {
+				"market_name": "泰山公有零售市場",
+				"vendor_name": "美髮美容院",
+				"country": "新北市",
+				"grade": "2"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.4337291, 25.0562107]
+			},
+			"properties": {
+				"market_name": "泰山公有零售市場",
+				"vendor_name": "惜惜果菜類",
+				"country": "新北市",
+				"grade": "2"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.4337291, 25.0562107]
+			},
+			"properties": {
+				"market_name": "泰山公有零售市場",
+				"vendor_name": "理髮100",
+				"country": "新北市",
+				"grade": "2"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.4337291, 25.0562107]
+			},
+			"properties": {
+				"market_name": "泰山公有零售市場",
+				"vendor_name": "勝美內衣",
+				"country": "新北市",
+				"grade": "2"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.4337291, 25.0562107]
+			},
+			"properties": {
+				"market_name": "泰山公有零售市場",
+				"vendor_name": "稻香伴手禮",
+				"country": "新北市",
+				"grade": "2"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.4337291, 25.0562107]
+			},
+			"properties": {
+				"market_name": "泰山公有零售市場",
+				"vendor_name": "賺1 元水果行",
+				"country": "新北市",
+				"grade": "2"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.4337291, 25.0562107]
+			},
+			"properties": {
+				"market_name": "泰山公有零售市場",
+				"vendor_name": "瀚德舶來品",
+				"country": "新北市",
+				"grade": "2"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.4337291, 25.0562107]
+			},
+			"properties": {
+				"market_name": "泰山公有零售市場",
+				"vendor_name": "麗麗菜攤行",
+				"country": "新北市",
+				"grade": "2"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.4337291, 25.0562107]
+			},
+			"properties": {
+				"market_name": "泰山公有零售市場",
+				"vendor_name": "馨雄鮮花店",
+				"country": "新北市",
+				"grade": "2"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [120.2823218, 22.6249215]
+			},
+			"properties": {
+				"market_name": "第一公有零售市場",
+				"vendor_name": "水力美水果店",
+				"country": "新北市",
+				"grade": "2"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [120.2823218, 22.6249215]
+			},
+			"properties": {
+				"market_name": "第一公有零售市場",
+				"vendor_name": "尚饌雞肉店",
+				"country": "新北市",
+				"grade": "2"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [120.2823218, 22.6249215]
+			},
+			"properties": {
+				"market_name": "第一公有零售市場",
+				"vendor_name": "香香蔬菜",
+				"country": "新北市",
+				"grade": "2"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [120.2823218, 22.6249215]
+			},
+			"properties": {
+				"market_name": "第一公有零售市場",
+				"vendor_name": "陳記魚丸號",
+				"country": "新北市",
+				"grade": "2"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.6896172, 25.204757]
+			},
+			"properties": {
+				"market_name": "萬里野柳臨時賣店區",
+				"vendor_name": "上美特產行",
+				"country": "新北市",
+				"grade": "2"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.4290654, 24.9995652]
+			},
+			"properties": {
+				"market_name": "保安攤販集中區",
+				"vendor_name": "吳小弟水果攤",
+				"country": "新北市",
+				"grade": "2"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.4290654, 24.9995652]
+			},
+			"properties": {
+				"market_name": "保安攤販集中區",
+				"vendor_name": "阿貞廚房",
+				"country": "新北市",
+				"grade": "2"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.4290654, 24.9995652]
+			},
+			"properties": {
+				"market_name": "保安攤販集中區",
+				"vendor_name": "楊家鹹豬肉",
+				"country": "新北市",
+				"grade": "2"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.4290654, 24.9995652]
+			},
+			"properties": {
+				"market_name": "保安攤販集中區",
+				"vendor_name": "阿進的魚店",
+				"country": "新北市",
+				"grade": "2"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.4290654, 24.9995652]
+			},
+			"properties": {
+				"market_name": "保安攤販集中區",
+				"vendor_name": "阿麗麻糬",
+				"country": "新北市",
+				"grade": "2"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.4290654, 24.9995652]
+			},
+			"properties": {
+				"market_name": "保安攤販集中區",
+				"vendor_name": "泰山漁貨",
+				"country": "新北市",
+				"grade": "2"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.4290654, 24.9995652]
+			},
+			"properties": {
+				"market_name": "保安攤販集中區",
+				"vendor_name": "魚仔攤",
+				"country": "新北市",
+				"grade": "2"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.4290654, 24.9995652]
+			},
+			"properties": {
+				"market_name": "保安攤販集中區",
+				"vendor_name": "新鮮蔬果",
+				"country": "新北市",
+				"grade": "2"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.4290654, 24.9995652]
+			},
+			"properties": {
+				"market_name": "保安攤販集中區",
+				"vendor_name": "新鮮雞肉",
+				"country": "新北市",
+				"grade": "2"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.4290654, 24.9995652]
+			},
+			"properties": {
+				"market_name": "保安攤販集中區",
+				"vendor_name": "樹哥鮮菜舖",
+				"country": "新北市",
+				"grade": "2"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.4593824, 25.0902932]
+			},
+			"properties": {
+				"market_name": "永平公有零售市場",
+				"vendor_name": "日昇蔬菜雜貨行",
+				"country": "新北市",
+				"grade": "2"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.4593824, 25.0902932]
+			},
+			"properties": {
+				"market_name": "永平公有零售市場",
+				"vendor_name": "阿文黑豬肉",
+				"country": "新北市",
+				"grade": "2"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.4593824, 25.0902932]
+			},
+			"properties": {
+				"market_name": "永平公有零售市場",
+				"vendor_name": "阿月專業修改衣服",
+				"country": "新北市",
+				"grade": "2"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.4593824, 25.0902932]
+			},
+			"properties": {
+				"market_name": "永平公有零售市場",
+				"vendor_name": "秋萍服飾修改衣服",
+				"country": "新北市",
+				"grade": "2"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.4593824, 25.0902932]
+			},
+			"properties": {
+				"market_name": "永平公有零售市場",
+				"vendor_name": "髮之屋",
+				"country": "新北市",
+				"grade": "2"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.3427262, 24.9614967]
+			},
+			"properties": {
+				"market_name": "鶯歌公有零售市場",
+				"vendor_name": "王品雞肉舖",
+				"country": "新北市",
+				"grade": "2"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.3427262, 24.9614967]
+			},
+			"properties": {
+				"market_name": "鶯歌公有零售市場",
+				"vendor_name": "艾樂蜜",
+				"country": "新北市",
+				"grade": "2"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.4916519, 25.0569573]
+			},
+			"properties": {
+				"market_name": "光明公有零售市場",
+				"vendor_name": "味聖素食",
+				"country": "新北市",
+				"grade": "1"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.501243, 25.0636022]
+			},
+			"properties": {
+				"market_name": "重新公有零售市場",
+				"vendor_name": "達美西服",
+				"country": "新北市",
+				"grade": "1"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.5167281, 25.0135193]
+			},
+			"properties": {
+				"market_name": "溪州公有零售市場",
+				"vendor_name": "阿娥修改衣服",
+				"country": "新北市",
+				"grade": "1"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.6239762, 25.03971075]
+			},
+			"properties": {
+				"market_name": "林森攤販集中場",
+				"vendor_name": "王哥男女內衣店",
+				"country": "新北市",
+				"grade": "1"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.4553377, 25.0074329]
+			},
+			"properties": {
+				"market_name": "湳興公有零售市場",
+				"vendor_name": "001號攤位",
+				"country": "新北市",
+				"grade": "1"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.4553377, 25.0074329]
+			},
+			"properties": {
+				"market_name": "湳興公有零售市場",
+				"vendor_name": "龍川魚貨",
+				"country": "新北市",
+				"grade": "1"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.4581567, 25.0130272]
+			},
+			"properties": {
+				"market_name": "黃石公有零售市場",
+				"vendor_name": "朱媽媽百寶服飾",
+				"country": "新北市",
+				"grade": "1"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.4581567, 25.0130272]
+			},
+			"properties": {
+				"market_name": "黃石公有零售市場",
+				"vendor_name": "福慧五金瓷器",
+				"country": "新北市",
+				"grade": "1"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.4337291, 25.0562107]
+			},
+			"properties": {
+				"market_name": "泰山公有零售市場",
+				"vendor_name": "九六鳳梨",
+				"country": "新北市",
+				"grade": "1"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.4337291, 25.0562107]
+			},
+			"properties": {
+				"market_name": "泰山公有零售市場",
+				"vendor_name": "熊媽媽美食",
+				"country": "新北市",
+				"grade": "1"
+			}
+		}
+	]
+}
