@@ -21,6 +21,8 @@
 	
 	--color-taipei: #1411AC;
 	--color-metrotaipei: #ac7811;
+
+	--color-button-color: #fff;
 }
 
 /* Dark Theme */
@@ -33,6 +35,11 @@
 	--color-component-background: #282a2c;
 	--color-overlay: rgba(0, 0, 0, 0.65);
 	--img-filter: invert(1);
+	--navbar-background-color: rgb(85, 85, 85);
+
+	--dashboard-component-control-group-background-color: rgb(77, 77, 77);
+	--dashboard-component-control-group-active-background-color: #888787;
+
 }
 
 /* Light Theme */
@@ -45,6 +52,16 @@
 	--color-component-background: #f9fafb;
 	--color-overlay: rgba(255, 255, 255, 0.85);
 	--img-filter: invert(0);
+
+	--color-favorite: #f4445c;
+	--color-my-dashboard: #fbdd4b;
+	--color-public-dashboard: #2065d6;
+
+	--dashboard-component-color: #d1d5db;
+	--dashboard-component-control-group-button-color: #dadde1;
+	--dashboard-component-control-group-background-color: #a3a8b2;
+	--dashboard-component-control-group-active-background-color: #6b7280;
+	--navbar-background-color: rgb(230, 230, 230);
 }
 
 * {

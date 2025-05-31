@@ -26,6 +26,7 @@ const themeStore = useThemeStore();
 	align-items: center;
 
 	&-button {
+		margin-right: var(--font-m);
 		display: flex;
 		align-items: center;
 		justify-content: center;

@@ -15,6 +15,7 @@ const props = defineProps({
 	index: { type: String },
 	city: { type: String },
 	expanded: { type: Boolean },
+	style: { type: Object },
 });
 
 const authStore = useAuthStore();
@@ -45,7 +46,7 @@ const linkActiveOrNot = computed(() => {
     :to="tabLink"
     :class="{ sidebartab: true, 'sidebartab-active': linkActiveOrNot }"
   >
-    <span :title="!expanded ? title : ''">{{ icon }}</span>
+    <span :style="style" :title="!expanded ? title : ''">{{ icon }}</span>
     <h3 v-if="expanded">
       {{ title }}
     </h3>

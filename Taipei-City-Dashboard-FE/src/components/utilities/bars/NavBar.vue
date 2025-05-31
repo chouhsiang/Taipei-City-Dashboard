@@ -284,7 +284,7 @@ const linkQuery = computed(() => {
 				top: 55px;
 				padding: 8px;
 				border-radius: 5px;
-				background-color: rgb(85, 85, 85);
+				background-color: var(--navbar-background-color);
 				opacity: 0;
 				transition: opacity 0.25s;
 				z-index: 10;
