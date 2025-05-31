@@ -246,6 +246,11 @@ export const useMapStore = defineStore("map", {
 		collectIconsFromGeoJson(data) {
 			const iconUrls = new Set();
 			
+			// Check for top-level icon in FeatureCollection
+			if (data && data.icon) {
+				iconUrls.add(data.icon);
+			}
+			
 			if (data && data.features) {
 				data.features.forEach(feature => {
 					if (feature.properties && feature.properties.icon) {
@@ -514,15 +519,23 @@ export const useMapStore = defineStore("map", {
 				// Check if the current layer's data actually has any dynamic icons
 				// by looking at the source data
 				let hasDynamicIcons = false;
+				let hasTopLevelIcon = false;
 				const source = this.map.getSource(`${map_config.layerId}-source`);
-				if (source && source._data && source._data.features) {
-					hasDynamicIcons = source._data.features.some(feature => 
-						feature.properties && feature.properties.icon
-					);
+				if (source && source._data) {
+					// Check for feature-level icons
+					if (source._data.features) {
+						hasDynamicIcons = source._data.features.some(feature => 
+							feature.properties && feature.properties.icon
+						);
+					}
+					// Check for top-level icon
+					if (source._data.icon) {
+						hasTopLevelIcon = true;
+					}
 				}
 				
-				// Only apply dynamic icon logic if this layer has dynamic icons OR if we want to mix dynamic and static icons
-				if (hasDynamicIcons) {
+				// Only apply dynamic icon logic if this layer has dynamic icons OR top-level icon
+				if (hasDynamicIcons || hasTopLevelIcon) {
 					// Use dynamic icon configuration
 					extra_layout_configs = {
 						...extra_layout_configs,
@@ -531,14 +544,29 @@ export const useMapStore = defineStore("map", {
 					
 					// Create dynamic icon-image expression
 					const iconExpression = ["case"];
+					
+					// Add conditions for feature-level icons
 					Object.entries(this.iconMapping).forEach(([iconUrl, iconId]) => {
 						iconExpression.push(["==", ["get", "icon"], iconUrl]);
 						iconExpression.push(iconId);
 					});
 					
-					// Fallback to the original hardcoded icon if available
+					// If there's a top-level icon, use it as fallback for features without icons
+					if (hasTopLevelIcon && source && source._data && source._data.icon) {
+						const topLevelIconUrl = source._data.icon;
+						if (this.iconMapping[topLevelIconUrl]) {
+							// Add condition for features without icon property
+							iconExpression.push(["==", ["get", "icon"], null]);
+							iconExpression.push(this.iconMapping[topLevelIconUrl]);
+						}
+					}
+					
+					// Final fallback to the original hardcoded icon if available
 					let fallbackIcon = "";
-					if (map_config.icon) {
+					if (hasTopLevelIcon && source && source._data && source._data.icon && this.iconMapping[source._data.icon]) {
+						// Use the top-level icon as the ultimate fallback
+						fallbackIcon = this.iconMapping[source._data.icon];
+					} else if (map_config.icon) {
 						// If there's a specific icon config, use that icon name
 						fallbackIcon = map_config.icon;
 					} else if (maplayerCommonLayout[map_config.type] && maplayerCommonLayout[map_config.type]["icon-image"]) {
