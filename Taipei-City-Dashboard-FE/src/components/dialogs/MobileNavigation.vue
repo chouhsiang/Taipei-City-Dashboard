@@ -5,12 +5,15 @@ import { onMounted, ref, watch } from "vue";
 import { useDialogStore } from "../../store/dialogStore";
 import { useContentStore } from "../../store/contentStore";
 import { useAuthStore } from "../../store/authStore";
+import { useThemeStore } from "../../store/themeStore";
 
 import SideBarTab from "../utilities/miscellaneous/SideBarTab.vue";
+import ThemeToggle from "../utilities/miscellaneous/ThemeToggle.vue";
 
 const dialogStore = useDialogStore();
 const contentStore = useContentStore();
 const authStore = useAuthStore();
+const themeStore = useThemeStore();
 
 // The collapsed states are for each dashboard
 const collapsedStates = ref({
@@ -138,6 +141,10 @@ onMounted(() => {
                 </div>
               </transition>
             </template>
+            <div class="mobilenavigation-theme">
+              <h2>主題設定</h2>
+              <ThemeToggle />
+            </div>
           </div>
         </div>
       </div>
@@ -168,7 +175,7 @@ onMounted(() => {
 		padding: var(--font-m);
 		border: solid 1px var(--color-border);
 		border-radius: 5px;
-		background-color: rgb(30, 30, 30);
+		background-color: var(--color-component-background);
 		transform: translateY(0);
 		z-index: 2;
 	}
@@ -180,7 +187,7 @@ onMounted(() => {
 		position: absolute;
 		top: 0;
 		left: 0;
-		background-color: rgba(0, 0, 0, 0.66);
+		background-color: var(--color-overlay);
 	}
 }
 
@@ -212,6 +219,22 @@ onMounted(() => {
 		margin: 0.5rem 0 0.5rem 18px;
 		font-size: var(--font-s);
 		font-style: italic;
+	}
+
+	&-theme {
+		margin-top: 1rem;
+		padding-top: 1rem;
+		border-top: 1px solid var(--color-border);
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		gap: 0.5rem;
+
+		h2 {
+			margin: 0;
+			color: var(--color-normal-text);
+			font-size: var(--font-s);
+		}
 	}
 }
 
