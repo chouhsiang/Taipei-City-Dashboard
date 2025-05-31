@@ -1,5 +1,6 @@
 {
 	"type": "FeatureCollection",
+	"icon": "https://i.ibb.co/LXdChVsW/heart.png",
 	"features": [
 		{
 			"type": "Feature",
