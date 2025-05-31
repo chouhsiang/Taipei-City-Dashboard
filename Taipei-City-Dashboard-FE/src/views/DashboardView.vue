@@ -105,6 +105,7 @@ function handleMoreInfo(item) {
     <DashboardComponent
       v-for="item in contentStore.currentDashboard.components"
       :key="`${item.index}-${item.city}`"
+      :style="{ border: '1px solid var(--dashboard-component-color)' }"
       :config="item"
       :info-btn="true"
       :active-city="item.city"

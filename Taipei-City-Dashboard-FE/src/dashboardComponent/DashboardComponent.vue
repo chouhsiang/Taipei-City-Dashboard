@@ -708,9 +708,9 @@ button:hover {
 				margin: 0 2px;
 				padding: 4px 4px;
 				border-radius: 5px;
-				background-color: rgb(77, 77, 77);
+				background-color: var(--dashboard-component-control-group-background-color);
 				opacity: 0.6;
-				color: var(--color-complement-text);
+				color: var(--dashboard-component-control-group-button-color);
 				font-size: var(--font-s);
 				text-align: center;
 				transition: color 0.2s, opacity 0.2s;
@@ -723,7 +723,7 @@ button:hover {
 			}
 	
 			&-active {
-				background-color: var(--color-complement-text);
+				background-color: var(--dashboard-component-control-group-active-background-color);
 				color: white;
 			}
 		}
