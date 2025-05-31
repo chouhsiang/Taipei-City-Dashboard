@@ -53,8 +53,8 @@ function handleOpenSettings() {
         class="settingsbar-settings hide-if-mobile"
       >
         <button @click="handleOpenSettings">
-          <span>settings</span>
-          <p>設定</p>
+          <span>edit</span>
+          <p>編輯</p>
         </button>
       </div>
       <AddEditDashboards />
@@ -126,28 +126,26 @@ function handleOpenSettings() {
 			align-items: center;
 			border-radius: 5px;
 			margin-left: 4px;
+			padding: 4px 8px;
+			background-color: var(--color-highlight);
+			color: var(--color-normal-text);
 
 			p {
-				width: 0px;
+				margin: 0;
+				margin-left: 4px;
 				max-height: 1.2rem;
 				font-size: 0.8rem;
-				text-align: left;
-				transition: width 0.2s, color 0.2s;
-				overflow-x: hidden;
-			}
-
-			&:hover p {
-				width: 55px;
-				color: var(--color-highlight);
+				white-space: nowrap;
+				color: white;
 			}
 
 			span {
-				color: var(--color-complement-text);
-				transition: color 0.2s;
+				color: white;
+				font-size: 0.9rem;
 			}
 
-			&:hover span {
-				color: var(--color-highlight);
+			&:hover {
+				opacity: 0.9;
 			}
 		}
 	}
