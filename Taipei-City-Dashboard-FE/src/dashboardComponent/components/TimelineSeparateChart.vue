@@ -24,6 +24,22 @@ const chartOptions = ref({
 			},
 		},
 	},
+	annotations: {
+		yaxis: [
+			{
+				y: 0,
+				borderColor: "#999",
+				strokeDashArray: 4,
+				label: {
+					show: false,
+					style: {
+						color: "#999",
+						background: "#fff",
+					},
+				},
+			},
+		],
+	},
 	colors: [...props.chart_config.color],
 	dataLabels: {
 		enabled: false,
@@ -48,12 +64,7 @@ const chartOptions = ref({
 		width: 2,
 	},
 	tooltip: {
-		custom: function ({
-			series,
-			seriesIndex,
-			dataPointIndex,
-			w,
-		}) {
+		custom: function ({ series, seriesIndex, dataPointIndex, w }) {
 			// The class "chart-tooltip" could be edited in /assets/styles/chartStyles.css
 			return (
 				'<div class="chart-tooltip">' +
@@ -90,9 +101,6 @@ const chartOptions = ref({
 		},
 		type: "datetime",
 	},
-	yaxis: {
-		min: 0,
-	},
 });
 
 function parseTime(time) {
@@ -101,14 +109,13 @@ function parseTime(time) {
 </script>
 
 <template>
-  <div v-if="activeChart === 'TimelineSeparateChart'">
-    <VueApexCharts
-      width="100%"
-      height="260px"
-      type="line"
-      :options="chartOptions"
-      :series="series"
-    />
-  </div>
+	<div v-if="activeChart === 'TimelineSeparateChart'">
+		<VueApexCharts
+			width="100%"
+			height="260px"
+			type="line"
+			:options="chartOptions"
+			:series="series"
+		/>
+	</div>
 </template>
-

@@ -38,6 +38,7 @@ export default [
 			"vue/require-default-prop": "off",
 			"vue/require-prop-types": "off",
 			"vue/no-template-shadow": "off",
+			"vue/html-indent": "off",
 		},
 	},
 	{ ignores: ["**/public/", "**/dist/", "**/node_modules/", "*.json"] },

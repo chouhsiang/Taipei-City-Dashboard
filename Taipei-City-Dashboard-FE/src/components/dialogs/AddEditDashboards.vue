@@ -20,6 +20,9 @@ const { editDashboard } = storeToRefs(contentStore);
 const indexStatus = ref("");
 const iconSearch = ref("");
 const deleteConfirm = ref(false);
+const isExporting = ref(false);
+const isImporting = ref(false);
+const fileInput = ref(null);
 
 const availableIcons = computed(() => {
 	let filteredIcons = [...allIcons];
@@ -55,10 +58,48 @@ function handleDelete() {
 	handleClose();
 }
 
+async function handleExportCSV() {
+	isExporting.value = true;
+	try {
+		await contentStore.exportDashboardToCSV();
+	} catch (error) {
+		console.error('匯出失敗:', error);
+	} finally {
+		isExporting.value = false;
+	}
+}
+
+function handleImportCSV() {
+	fileInput.value?.click();
+}
+
+async function handleFileChange(event) {
+	const file = event.target.files[0];
+	if (!file) return;
+	
+	isImporting.value = true;
+	try {
+		const importedData = await contentStore.importDashboardFromCSV(file);
+		if (importedData) {
+			// Update editDashboard with imported data
+			editDashboard.value.name = importedData.name;
+			editDashboard.value.components = importedData.components;
+		}
+	} catch (error) {
+		console.error('匯入失敗:', error);
+	} finally {
+		isImporting.value = false;
+		// Reset file input
+		event.target.value = '';
+	}
+}
+
 function handleClose() {
 	indexStatus.value = "";
 	iconSearch.value = "";
 	deleteConfirm.value = false;
+	isExporting.value = false;
+	isImporting.value = false;
 	contentStore.editDashboard = {
 		index: "",
 		name: "我的新儀表板",
@@ -91,6 +132,31 @@ function handleClose() {
             刪除儀表板
           </button>
           <button
+            v-if="dialogStore.addEdit === 'edit'"
+            :style="{ backgroundColor: '#59a85b' }"
+            @click="handleExportCSV"
+            :disabled="isExporting"
+            :title="isExporting ? '正在匯出儀表板數據...' : '匯出儀表板組件資訊為 CSV 檔案'"
+            class="export-csv-button"
+          >
+            <span class="material-icons">
+              {{ 'publish' }}
+            </span>
+            {{ isExporting ? '匯出中...' : '匯出 CSV' }}
+          </button>
+          <button
+            v-if="dialogStore.addEdit === 'add'"
+            @click="handleImportCSV"
+            :disabled="isImporting"
+            :title="isImporting ? '正在匯入儀表板數據...' : '從 CSV 檔案匯入儀表板配置'"
+            class="import-csv-button"
+          >
+            <span class="material-icons">
+              {{ 'download' }}
+            </span>
+            {{ isImporting ? '匯入中...' : '匯入 CSV' }}
+          </button>
+          <button
             v-if="editDashboard.name"
             @click="handleConfirm"
           >
@@ -98,6 +164,14 @@ function handleClose() {
               dialogStore.addEdit === "edit" ? "更改" : "新增"
             }}
           </button>
+          <!-- Hidden file input for CSV import -->
+          <input
+            ref="fileInput"
+            type="file"
+            accept=".csv"
+            @change="handleFileChange"
+            style="display: none;"
+          >
         </div>
       </div>
       <div class="addeditdashboards-content">
@@ -142,6 +216,12 @@ function handleClose() {
                 ? "編輯"
                 : "新增"
             }}儀表板組件 (拖拉以更改順序)</label>
+            <div 
+              v-if="dialogStore.addEdit === 'add'" 
+              class="addeditdashboards-settings-import-hint"
+            >
+              <p>💡 提示：可以通過上方的「匯入 CSV」按鈕快速匯入現有儀表板配置</p>
+            </div>
             <div class="addeditdashboards-settings-components">
               <ComponentDragTags
                 :tags="editDashboard.components"
@@ -206,19 +286,77 @@ function handleClose() {
 
 		&-buttons {
 			display: flex;
-			column-gap: 4px;
+			column-gap: 8px;
 			button {
 				display: flex;
 				align-items: center;
 				justify-self: baseline;
-				padding: 2px 4px;
+				padding: 2px 12px;
 				border-radius: 5px;
 				background-color: var(--color-highlight);
-				font-size: var(--font-ms);
+				font-size: var(--font-s);
 				transition: opacity 0.2s;
 
 				&:hover {
 					opacity: 0.8;
+				}
+
+				&.export-csv-button {
+					gap: 4px;
+					padding: 2px 12px;
+					background-color: #59a85b;
+					color: white;
+					
+					.material-icons {
+						font-size: 1rem;
+						animation: none;
+						transition: transform 0.3s ease;
+					}
+
+					&:hover:not(:disabled) {
+						background-color: #4a9051;
+						transform: translateY(-1px);
+						box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+					}
+
+					&:disabled {
+						opacity: 0.6;
+						cursor: not-allowed;
+						transform: none;
+						
+						.material-icons {
+							animation: spin 1s linear infinite;
+						}
+					}
+				}
+
+				&.import-csv-button {
+					gap: 4px;
+					padding: 2px 12px;
+					background-color: #ff8c42;
+					color: white;
+					
+					.material-icons {
+						font-size: 1rem;
+						animation: none;
+						transition: transform 0.3s ease;
+					}
+
+					&:hover:not(:disabled) {
+						background-color: #e67a3a;
+						transform: translateY(-1px);
+						box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+					}
+
+					&:disabled {
+						opacity: 0.6;
+						cursor: not-allowed;
+						transform: none;
+						
+						.material-icons {
+							animation: spin 1s linear infinite;
+						}
+					}
 				}
 			}
 		}
@@ -339,6 +477,20 @@ function handleClose() {
 			}
 		}
 
+		&-import-hint {
+			margin: 8px 0;
+			padding: 8px;
+			border: solid 1px var(--color-border);
+			border-radius: 5px;
+			background-color: rgba(90, 156, 248, 0.1);
+
+			p {
+				margin: 0;
+				font-size: var(--font-s);
+				color: var(--color-complement-text);
+			}
+		}
+
 		&::-webkit-scrollbar {
 			width: 4px;
 		}
@@ -349,6 +501,15 @@ function handleClose() {
 		&::-webkit-scrollbar-thumb:hover {
 			background-color: rgba(136, 135, 135, 1);
 		}
+	}
+}
+
+@keyframes spin {
+	from {
+		transform: rotate(0deg);
+	}
+	to {
+		transform: rotate(360deg);
 	}
 }
 </style>
