@@ -1,0 +1,1006 @@
+{
+   "type": "FeatureCollection",
+   "features": [
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.3973452,25.1465144 ]
+    },
+    "properties": {
+    "name":"下庄公有市場",
+    "address":"新北市八里區舊城路19號",
+    "city":"新北市",
+    "district":"八里區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4728191,25.0197886 ]
+    },
+    "properties": {
+    "name":"中央公有市場",
+    "address":"新北市三重區中央北路26號",
+    "city":"新北市",
+    "district":"三重區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4890716,25.0569573 ]
+    },
+    "properties": {
+    "name":"光明公有市場",
+    "address":"新北市三重區重安街70號",
+    "city":"新北市",
+    "district":"三重區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4986627,25.0636022 ]
+    },
+    "properties": {
+    "name":"重新公有市場",
+    "address":"新北市三重區重新路87-6號",
+    "city":"新北市",
+    "district":"三重區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.3679959,24.9349336 ]
+    },
+    "properties": {
+    "name":"三峽公有市場",
+    "address":"新北市三峽區民生街186號",
+    "city":"新北市",
+    "district":"三峽區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.3735916,24.9283921 ]
+    },
+    "properties": {
+    "name":"礁溪公有市場",
+    "address":"新北市三峽區光明路71號",
+    "city":"新北市",
+    "district":"三峽區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4404337,24.974946 ]
+    },
+    "properties": {
+    "name":"土城公有零售市場",
+    "address":"新北市土城區中正路18號",
+    "city":"新北市",
+    "district":"土城區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4140872,24.9583577 ]
+    },
+    "properties": {
+    "name":"頂埔公有市場",
+    "address":"新北市土城區中州路28巷30號",
+    "city":"新北市",
+    "district":"土城區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.524194,25.088083 ]
+    },
+    "properties": {
+    "name":"臺北市公有士林市場",
+    "address":"臺北市士林區基河路101號",
+    "city":"臺北市",
+    "district":"士林區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.529528,25.111917 ]
+    },
+    "properties": {
+    "name":"臺北市公有士東市場",
+    "address":"臺北市士林區士東路100號",
+    "city":"臺北市",
+    "district":"士林區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.514306,25.075139 ]
+    },
+    "properties": {
+    "name":"臺北市公有大龍市場",
+    "address":"臺北市大同區重慶北路三段347號",
+    "city":"臺北市",
+    "district":"大同區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.515611,25.066056 ]
+    },
+    "properties": {
+    "name":"臺北市公有蘭州市場",
+    "address":"臺北市大同區昌吉街55號(55至57號)",
+    "city":"臺北市",
+    "district":"大同區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.516861,25.056861 ]
+    },
+    "properties": {
+    "name":"臺北市公有雙連市場",
+    "address":"臺北市大同區民生西路198號",
+    "city":"臺北市",
+    "district":"大同區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.510806,25.054833 ]
+    },
+    "properties": {
+    "name":"臺北市公有永樂市場",
+    "address":"臺北市大同區迪化街一段21號",
+    "city":"臺北市",
+    "district":"大同區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.547333,25.026972 ]
+    },
+    "properties": {
+    "name":"臺北市公有成功市場（臨時攤棚）",
+    "address":"臺北市大安區四維路192巷",
+    "city":"臺北市",
+    "district":"大安區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.529472,25.028528 ]
+    },
+    "properties": {
+    "name":"臺北市公有錦安市場",
+    "address":"臺北市大安區永康街60號",
+    "city":"臺北市",
+    "district":"大安區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.539083,25.034028 ]
+    },
+    "properties": {
+    "name":"臺北市公有信義市場",
+    "address":"臺北市大安區信義路三段107號",
+    "city":"臺北市",
+    "district":"大安區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.541167,25.028222 ]
+    },
+    "properties": {
+    "name":"臺北市公有安東市場",
+    "address":"臺北市大安區瑞安街75號",
+    "city":"臺北市",
+    "district":"大安區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.522944,25.032722 ]
+    },
+    "properties": {
+    "name":"臺北市公有南門市場",
+    "address":"臺北市大安區杭州南路二段55號",
+    "city":"臺北市",
+    "district":"大安區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.542611,25.054722 ]
+    },
+    "properties": {
+    "name":"臺北市公有長春市場",
+    "address":"臺北市中山區長春路299號",
+    "city":"臺北市",
+    "district":"中山區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.535306,25.053667 ]
+    },
+    "properties": {
+    "name":"臺北市公有建國市場",
+    "address":"臺北市中山區伊通街94巷4號",
+    "city":"臺北市",
+    "district":"中山區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.521111,25.050139 ]
+    },
+    "properties": {
+    "name":"臺北市公有中山市場",
+    "address":"臺北市中山區長安西路3號",
+    "city":"臺北市",
+    "district":"中山區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.521472,25.050167 ]
+    },
+    "properties": {
+    "name":"中山大樓",
+    "address":"臺北市中山區中山北路一段110號之1至之8",
+    "city":"臺北市",
+    "district":"中山區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.533278,25.062639 ]
+    },
+    "properties": {
+    "name":"台北松江路命理街(行天宮旁地下街)",
+    "address":"臺北市中山區民權東路二段(地下人行道)",
+    "city":"臺北市",
+    "district":"中山區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.532028,25.060139 ]
+    },
+    "properties": {
+    "name":"臺北市公有松江市場",
+    "address":"臺北市中山區錦州街222號",
+    "city":"臺北市",
+    "district":"中山區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.536639,25.045444 ]
+    },
+    "properties": {
+    "name":"臺北市公有八德市場",
+    "address":"臺北市中山區八德路二段108之1號",
+    "city":"臺北市",
+    "district":"中山區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.545278,25.078639 ]
+    },
+    "properties": {
+    "name":"臺北市公有大直市場",
+    "address":"臺北市中山區北安路458巷41弄3號",
+    "city":"臺北市",
+    "district":"中山區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.532417,25.03675 ]
+    },
+    "properties": {
+    "name":"臺北市公有新生市場",
+    "address":"臺北市中正區新生南路一段134之1號",
+    "city":"臺北市",
+    "district":"中正區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.524806,25.044194 ]
+    },
+    "properties": {
+    "name":"臺北市公有華山市場",
+    "address":"臺北市中正區忠孝東路一段108號",
+    "city":"臺北市",
+    "district":"中正區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.532,25.045278 ]
+    },
+    "properties": {
+    "name":"光華數位新天地",
+    "address":"臺北市中正區市民大道三段8號",
+    "city":"臺北市",
+    "district":"中正區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.534972,25.01375 ]
+    },
+    "properties": {
+    "name":"臺北市公有水源市場",
+    "address":"臺北市中正區羅斯福路四段92號",
+    "city":"臺北市",
+    "district":"中正區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.526667,25.034639 ]
+    },
+    "properties": {
+    "name":"臺北市公有東門市場",
+    "address":"臺北市中正區信義路二段81號",
+    "city":"臺北市",
+    "district":"中正區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.530917,25.040306 ]
+    },
+    "properties": {
+    "name":"臺北市公有幸安市場",
+    "address":"臺北市中正區濟南路二段46號",
+    "city":"臺北市",
+    "district":"中正區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4715707,25.00354 ]
+    },
+    "properties": {
+    "name":"民享公有市場",
+    "address":"新北市中和區民享街37號",
+    "city":"新北市",
+    "district":"中和區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4984387,25.000504 ]
+    },
+    "properties": {
+    "name":"枋寮公有市場",
+    "address":"新北市中和區中和路74號",
+    "city":"新北市",
+    "district":"中和區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.502761,24.9920858 ]
+    },
+    "properties": {
+    "name":"和平街攤販集中區",
+    "address":"新北市中和區和平街89號",
+    "city":"新北市",
+    "district":"中和區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.566694,25.082389 ]
+    },
+    "properties": {
+    "name":"臺北市公有西湖市場",
+    "address":"臺北市內湖區內湖路一段285號1、2樓",
+    "city":"臺北市",
+    "district":"內湖區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.547278,24.999944 ]
+    },
+    "properties": {
+    "name":"臺北市公有興隆市場",
+    "address":"臺北市文山區興隆路二段97號",
+    "city":"臺北市",
+    "district":"文山區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.569139,24.988667 ]
+    },
+    "properties": {
+    "name":"臺北市公有木柵市場",
+    "address":"臺北市文山區保儀路13巷3號",
+    "city":"臺北市",
+    "district":"文山區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.541083,24.989861 ]
+    },
+    "properties": {
+    "name":"臺北市公有景美市場",
+    "address":"臺北市文山區景文街137號",
+    "city":"臺北市",
+    "district":"文山區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.557222,24.981444 ]
+    },
+    "properties": {
+    "name":"臺北市公有木新市場",
+    "address":"臺北市文山區木新路三段310巷4號",
+    "city":"臺北市",
+    "district":"文山區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.502556,25.132806 ]
+    },
+    "properties": {
+    "name":"臺北市公有北投市場",
+    "address":"臺北市北投區新市街30號",
+    "city":"臺北市",
+    "district":"北投區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5117039,25.0044799 ]
+    },
+    "properties": {
+    "name":"永安公有市場",
+    "address":"新北市永和區安樂路431號",
+    "city":"新北市",
+    "district":"永和區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5141478,25.0135193 ]
+    },
+    "properties": {
+    "name":"溪洲公有市場",
+    "address":"新北市永和區勵行街42-1號",
+    "city":"新北市",
+    "district":"永和區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.6269367,25.0683778 ]
+    },
+    "properties": {
+    "name":"金龍公有市場",
+    "address":"新北市汐止區中興路250號",
+    "city":"新北市",
+    "district":"汐止區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.6542626,25.0664628 ]
+    },
+    "properties": {
+    "name":"秀豐公有市場(攤集區)",
+    "address":"新北市汐止火車站臺鐵橋下",
+    "city":"新北市",
+    "district":"汐止區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.6558798,25.0690631 ]
+    },
+    "properties": {
+    "name":"中正公有市場",
+    "address":"新北市汐止區中正路206號",
+    "city":"新北市",
+    "district":"汐止區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.638163,25.0661257 ]
+    },
+    "properties": {
+    "name":"忠厚公有市場",
+    "address":"新北市汐止區樟樹一路137巷26號",
+    "city":"新北市",
+    "district":"汐止區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.6199832,25.0407074 ]
+    },
+    "properties": {
+    "name":"林森攤販集中區",
+    "address":"汐止國道高速公路高架橋下(15K+265至15K+397)",
+    "city":"新北市",
+    "district":"汐止區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [  121.656419,25.065407 ]
+    },
+    "properties": {
+    "name":"觀光攤販集中區",
+    "address":"新北市汐止區水源路一段至新興路之臺鐵橋下",
+    "city":"新北市",
+    "district":"汐止區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.575917,25.050361 ]
+    },
+    "properties": {
+    "name":"臺北市公有松山市場",
+    "address":"臺北市松山區八德路四段679號",
+    "city":"臺北市",
+    "district":"松山區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.553806,25.054611 ]
+    },
+    "properties": {
+    "name":"臺北市公有龍城市場",
+    "address":"臺北市松山區光復北路190巷39號",
+    "city":"臺北市",
+    "district":"松山區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.570639,25.050917 ]
+    },
+    "properties": {
+    "name":"臺北市公有南松市場",
+    "address":"臺北市松山區塔悠路40號",
+    "city":"臺北市",
+    "district":"松山區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.552694,25.048 ]
+    },
+    "properties": {
+    "name":"臺北市公有中崙市場",
+    "address":"臺北市松山區八德路三段76號",
+    "city":"臺北市",
+    "district":"松山區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4530355,25.0075877 ]
+    },
+    "properties": {
+    "name":"湳興公有市場",
+    "address":"新北市板橋區中興路63號",
+    "city":"新北市",
+    "district":"板橋區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4552486,25.0102683 ]
+    },
+    "properties": {
+    "name":"黃石公有市場(中繼)",
+    "address":"新北市板橋區公館街1號",
+    "city":"新北市",
+    "district":"板橋區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4562313,25.0066428 ]
+    },
+    "properties": {
+    "name":"後埔公有市場",
+    "address":"新北市板橋區大華街5號",
+    "city":"新北市",
+    "district":"板橋區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.3748999,25.0686702 ]
+    },
+    "properties": {
+    "name":"東勢公有市場",
+    "address":"新北市林口區林口區麗園一街35號",
+    "city":"新北市",
+    "district":"林口區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.3889334,25.0778488 ]
+    },
+    "properties": {
+    "name":"林口公有市場",
+    "address":"新北市林口區林口路15號",
+    "city":"新北市",
+    "district":"林口區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.365118,25.0714988 ]
+    },
+    "properties": {
+    "name":"麗林公有市場",
+    "address":"新北市林口區公園路59號",
+    "city":"新北市",
+    "district":"林口區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.6354528,25.2215047 ]
+    },
+    "properties": {
+    "name":"第一公有市場",
+    "address":"新北市金山區中山路188號",
+    "city":"新北市",
+    "district":"金山區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.575306,25.044861 ]
+    },
+    "properties": {
+    "name":"臺北市公有永吉市場",
+    "address":"臺北市信義區永吉路278巷1弄30號",
+    "city":"臺北市",
+    "district":"信義區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.560472,25.0365 ]
+    },
+    "properties": {
+    "name":"臺北市公有光復市場",
+    "address":"臺北市信義區仁愛路四段496巷19號",
+    "city":"臺北市",
+    "district":"信義區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.577556,25.04325 ]
+    },
+    "properties": {
+    "name":"臺北市公有永春市場",
+    "address":"臺北市信義區松山路294號",
+    "city":"臺北市",
+    "district":"信義區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.586806,25.046167 ]
+    },
+    "properties": {
+    "name":"臺北市公有成德市場",
+    "address":"臺北市南港區同德路100號1樓",
+    "city":"臺北市",
+    "district":"南港區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.614472,25.045472 ]
+    },
+    "properties": {
+    "name":"臺北市公有中研市場",
+    "address":"臺北市南港區研究院路二段70巷12號",
+    "city":"臺北市",
+    "district":"南港區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4310493,25.0562836 ]
+    },
+    "properties": {
+    "name":"泰山公有市場",
+    "address":"新北市泰山區全興路212號",
+    "city":"新北市",
+    "district":"泰山區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.9242476,25.0546707 ]
+    },
+    "properties": {
+    "name":"澳底公有市場",
+    "address":"新北市貢寮區仁愛路79號",
+    "city":"新北市",
+    "district":"貢寮區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4419547,25.1709705 ]
+    },
+    "properties": {
+    "name":"中山公有零售市場",
+    "address":"新北市淡水區中山路77號",
+    "city":"新北市",
+    "district":"淡水區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.498722,25.040861 ]
+    },
+    "properties": {
+    "name":"臺北市公有河濱二商場",
+    "address":"臺北市萬華區環河南路一段328號(286至340號)",
+    "city":"臺北市",
+    "district":"萬華區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.490528,25.029361 ]
+    },
+    "properties": {
+    "name":"臺北市公有環南市場",
+    "address":"臺北市萬華區環河南路二段245號",
+    "city":"臺北市",
+    "district":"萬華區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.499889,25.035 ]
+    },
+    "properties": {
+    "name":"臺北市公有龍山商場",
+    "address":"臺北市萬華區和平西路三段120號 (萬華區行政中心內 )",
+    "city":"臺北市",
+    "district":"萬華區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.505583,25.048333 ]
+    },
+    "properties": {
+    "name":"臺北市公有河濱一商場",
+    "address":"臺北市萬華區環河南路一段4號(2至272號)",
+    "city":"臺北市",
+    "district":"萬華區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.506889,25.048139 ]
+    },
+    "properties": {
+    "name":"臺北市公有西寧市場",
+    "address":"臺北市萬華區西寧南路4號",
+    "city":"臺北市",
+    "district":"萬華區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.506972,25.04175 ]
+    },
+    "properties": {
+    "name":"臺北市公有西門商場",
+    "address":"臺北市萬華區成都路10巷33號",
+    "city":"臺北市",
+    "district":"萬華區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.50175,25.039333 ]
+    },
+    "properties": {
+    "name":"臺北市公有直興市場",
+    "address":"臺北市萬華區康定路172巷1號",
+    "city":"臺北市",
+    "district":"萬華區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.501972,25.036028 ]
+    },
+    "properties": {
+    "name":"臺北市公有新富市場",
+    "address":"臺北市萬華區三水街70號",
+    "city":"臺北市",
+    "district":"萬華區"
+    }
+  }
+]
+}
