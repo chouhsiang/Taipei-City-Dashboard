@@ -709,9 +709,9 @@ button:hover {
 				margin: 0 2px;
 				padding: 4px 4px;
 				border-radius: 5px;
-				background-color: var(--dashboard-component-control-group-background-color);
-				opacity: 0.6;
+				opacity: var(--dashboard-component-control-group-button-opacity);
 				color: var(--dashboard-component-control-group-button-color);
+				background-color: var(--dashboard-component-control-group-button-background-color);
 				font-size: var(--font-s);
 				text-align: center;
 				transition: color 0.2s, opacity 0.2s;
@@ -719,13 +719,18 @@ button:hover {
 
 				&:hover {
 					opacity: 1;
-					color: white;
+					color: var(--dashboard-component-control-group-button-hover-color);
 				}
 			}
 
 			&-active {
-				background-color: var(--dashboard-component-control-group-active-background-color);
+				background-color: var(--dashboard-component-control-group-button-active-background-color);
 				color: white;
+
+				&:hover {
+					opacity: 1;
+					background-color: var(--dashboard-component-control-group-button-active-hover-background-color);
+				}
 			}
 		}
 
