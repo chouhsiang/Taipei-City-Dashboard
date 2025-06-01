@@ -31,22 +31,22 @@ const mapStore = useMapStore()
                 : mapConfig.title
           }}
         </button>
-		    <!-- Range Buttons -->
-			<div 
-				class="mappopup-range-buttons"
-				@mouseleave="handleRangeLeave"
-				>
-				<button
-					v-for="(radius, index) in [500, 2000, 5000]"
-					:key="radius"
-					:class="['range-button', `range-button-${index}`]"
-					@mouseenter="handleRangeHover(radius)"
-					@touchstart.prevent="handleRangeHover(radius)"
-					@touchend.prevent="handleRangeLeave"
-				>
-					{{ `${radius / 1000}km` }}
-				</button>
-			</div>
+      </div>
+      <!-- Range Buttons - 移到 v-for 迴圈外部 -->
+      <div 
+        class="mappopup-range-buttons"
+        @mouseleave="handleRangeLeave"
+        >
+        <button
+          v-for="(radius, index) in [500, 2000, 5000]"
+          :key="radius"
+          :class="['range-button', `range-button-${index}`]"
+          @mouseenter="handleRangeHover(radius)"
+          @touchstart.prevent="handleRangeHover(radius)"
+          @touchend.prevent="handleRangeLeave"
+        >
+          {{ `${radius / 1000}km` }}
+        </button>
       </div>
     </div>
     <div class="mappopup-content">
