@@ -15,6 +15,7 @@ import { ArcLayer } from "@deck.gl/layers";
 import { MapboxOverlay } from "@deck.gl/mapbox";
 import axios from "axios";
 import http from "../router/axios.js";
+import * as turf from "@turf/turf";
 
 // Other Stores
 import { useAuthStore } from "./authStore";
@@ -71,6 +72,9 @@ export const useMapStore = defineStore("map", {
 		userLocation: { latitude: null, longitude: null },
 		// Store icon mapping
 		iconMapping: {},
+		// Store range circle state
+		rangeCircleVisible: false,
+		rangeCircleLayer: null,
 	}),
 	actions: {
 		/* Initialize Mapbox */
@@ -992,14 +996,110 @@ export const useMapStore = defineStore("map", {
 				.setHTML('<div id="vue-popup-content"></div>')
 				.addTo(this.map);
 			// Mount a vue component (MapPopup) to the id "vue-popup-content" and pass in data
+			const currentMapStore = this; // Capture the current mapStore instance
 			const PopupComponent = defineComponent({
 				extends: MapPopup,
 				setup() {
+					let hoverTimeout = null;
+					let leaveTimeout = null;
+					let isRangeActive = false;
+					let currentRadius = null;
+
+					// Get popup coordinates for range circles
+					const getPopupCoordinates = () => {
+						const coordinates = currentMapStore.popup?.getLngLat();
+						return coordinates;
+					}
+
+					// Handle range button hover
+					const handleRangeHover = (radius) => {
+						// Clear any pending leave timeout
+						if (leaveTimeout) {
+							clearTimeout(leaveTimeout);
+							leaveTimeout = null;
+						}
+
+						// If same radius is already active, don't retrigger
+						if (isRangeActive && currentRadius === radius) {
+							return;
+						}
+
+						// Clear any pending hover timeout
+						if (hoverTimeout) {
+							clearTimeout(hoverTimeout);
+							hoverTimeout = null;
+						}
+
+						// If switching between ranges, update immediately
+						if (isRangeActive && currentRadius !== radius) {
+							const coordinates = getPopupCoordinates();
+							if (coordinates) {
+								currentRadius = radius;
+								currentMapStore.showRangeCircle(coordinates, radius);
+								return;
+							}
+						}
+
+						// Add small delay for initial trigger
+						hoverTimeout = setTimeout(() => {
+							const coordinates = getPopupCoordinates();
+							if (coordinates) {
+								isRangeActive = true;
+								currentRadius = radius;
+								currentMapStore.showRangeCircle(coordinates, radius);
+								// Make popup very faint
+								if (currentMapStore.popup) {
+									const popupElement = currentMapStore.popup.getElement();
+									const contentEl = popupElement.querySelector('.mapboxgl-popup-content');
+									const tipEl = popupElement.querySelector('.mapboxgl-popup-tip');
+									if (contentEl) {
+										contentEl.style.opacity = '0.1';
+									}
+									if (tipEl) {
+										tipEl.style.opacity = '0.1';
+									}
+								}
+							}
+						}, 50);
+					}
+
+					// Handle range button leave
+					const handleRangeLeave = () => {
+						// Clear any pending hover timeout
+						if (hoverTimeout) {
+							clearTimeout(hoverTimeout);
+							hoverTimeout = null;
+						}
+
+						// Add delay to prevent rapid switching
+						leaveTimeout = setTimeout(() => {
+							if (isRangeActive) {
+								isRangeActive = false;
+								currentRadius = null;
+								currentMapStore.hideRangeCircle();
+								// Restore popup opacity
+								if (currentMapStore.popup) {
+									const popupElement = currentMapStore.popup.getElement();
+									const contentEl = popupElement.querySelector('.mapboxgl-popup-content');
+									const tipEl = popupElement.querySelector('.mapboxgl-popup-tip');
+									if (contentEl) {
+										contentEl.style.opacity = '1';
+									}
+									if (tipEl) {
+										tipEl.style.opacity = '1';
+									}
+								}
+							}
+						}, 100);
+					}
+
 					// Only show the data of the topmost layer
 					return {
 						popupContent: parsedPopupContent,
 						mapConfigs: mapConfigs,
 						activeTab: ref(0),
+						handleRangeHover,
+						handleRangeLeave,
 					};
 				},
 			});
@@ -1015,6 +1115,8 @@ export const useMapStore = defineStore("map", {
 				this.popup.remove();
 			}
 			this.popup = null;
+			// Also remove any range circle when popup is removed
+			this.hideRangeCircle();
 		},
 		// 3. programmatically trigger the popup, instead of user click
 		manualTriggerPopup() {
@@ -1469,6 +1571,120 @@ export const useMapStore = defineStore("map", {
 			this.currentVisibleLayers = [];
 			this.removePopup();
 			this.tempMarkerCoordinates = null;
+		},
+
+		/* Range Circle Functions */
+		// Show range circle around the popup location
+		showRangeCircle(coordinates, radiusInMeters) {
+			if (!this.map || !coordinates) return;
+
+			// Remove existing range circle first
+			this.removeRangeCircle();
+
+			// Set range circle as visible
+			this.rangeCircleVisible = true;
+
+			// Get color based on radius
+			let circleColor = '#007cbf'; // default
+			switch (radiusInMeters) {
+				case 500:
+					circleColor = '#5A9BF8';
+					break;
+				case 2000:
+					circleColor = '#287DF6';
+					break;
+				case 5000:
+					circleColor = '#0960DC';
+					break;
+			}
+
+			try {
+				// Create circle using Turf.js with meters directly
+				const center = [coordinates.lng, coordinates.lat];
+				
+				const circle = turf.circle(center, radiusInMeters, {
+					steps: 64,
+					units: 'meters'
+				});
+
+				// Add source and layer for the circle
+				const sourceId = 'range-circle-source';
+				const layerId = 'range-circle-layer';
+				const outlineLayerId = 'range-circle-outline';
+
+				this.map.addSource(sourceId, {
+					type: 'geojson',
+					data: circle
+				});
+
+				this.map.addLayer({
+					id: layerId,
+					type: 'fill',
+					source: sourceId,
+					layout: {},
+					paint: {
+						'fill-color': circleColor,
+						'fill-opacity': 0.15
+					}
+				});
+
+				this.map.addLayer({
+					id: outlineLayerId,
+					type: 'line',
+					source: sourceId,
+					layout: {},
+					paint: {
+						'line-color': circleColor,
+						'line-width': 2,
+						'line-opacity': 0.8
+					}
+				});
+
+				this.rangeCircleLayer = layerId;
+			} catch (error) {
+				console.error('Error creating range circle:', error);
+			}
+		},
+
+		// Remove range circle layers
+		removeRangeCircle() {
+			if (!this.map) return;
+
+			const sourceId = 'range-circle-source';
+			const layerId = 'range-circle-layer';
+			const outlineLayerId = 'range-circle-outline';
+
+			if (this.map.getLayer(outlineLayerId)) {
+				this.map.removeLayer(outlineLayerId);
+			}
+			if (this.map.getLayer(layerId)) {
+				this.map.removeLayer(layerId);
+			}
+			if (this.map.getSource(sourceId)) {
+				this.map.removeSource(sourceId);
+			}
+
+			this.rangeCircleLayer = null;
+		},
+
+		// Hide range circle and restore popup
+		hideRangeCircle() {
+			this.rangeCircleVisible = false;
+			this.removeRangeCircle();
+		},
+
+		// Hide popup (used when showing range circle)
+		hidePopup() {
+			if (this.popup) {
+				this.popup.getElement().style.display = 'none';
+			}
+		},
+
+		// Show popup (used when hiding range circle)
+		showPopup() {
+			if (this.popup) {
+				this.popup.getElement().style.display = 'block';
+			}
 		},
 	},
 });

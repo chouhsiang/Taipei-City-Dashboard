@@ -1,10 +1,15 @@
 <!-- Developed by Taipei Urban Intelligence Center 2023-2024-->
 
 <!-- This component is mounted programmically by the mapstore. "mapConfig" and "popupContent" are passed in in the mapStore -->
-<script setup></script>
+<script setup>
+import { useMapStore } from '../../store/mapStore'
+
+const mapStore = useMapStore()
+</script>
 
 <template>
   <div class="mappopup">
+    
     <div class="mappopup-tab">
       <div
         v-for="(mapConfig, index) in mapConfigs"
@@ -26,6 +31,22 @@
                 : mapConfig.title
           }}
         </button>
+		    <!-- Range Buttons -->
+			<div 
+				class="mappopup-range-buttons"
+				@mouseleave="handleRangeLeave"
+				>
+				<button
+					v-for="(radius, index) in [500, 2000, 5000]"
+					:key="radius"
+					:class="['range-button', `range-button-${index}`]"
+					@mouseenter="handleRangeHover(radius)"
+					@touchstart.prevent="handleRangeHover(radius)"
+					@touchend.prevent="handleRangeLeave"
+				>
+					{{ `${radius / 1000}km` }}
+				</button>
+			</div>
       </div>
     </div>
     <div class="mappopup-content">
@@ -96,26 +117,31 @@
 	box-shadow: 0px 0px 10px rgb(35, 35, 35) !important;
 	border-radius: 5px !important;
 	background-color: var(--color-component-background) !important;
+	transition: opacity 0.3s ease !important;
 }
 
 .mapboxgl-popup-anchor-bottom .mapboxgl-popup-tip,
 .mapboxgl-popup-anchor-bottom-left .mapboxgl-popup-tip,
 .mapboxgl-popup-anchor-bottom-right .mapboxgl-popup-tip {
 	border-top-color: var(--color-border) !important;
+	transition: opacity 0.3s ease !important;
 }
 
 .mapboxgl-popup-anchor-top .mapboxgl-popup-tip,
 .mapboxgl-popup-anchor-top-left .mapboxgl-popup-tip,
 .mapboxgl-popup-anchor-top-right .mapboxgl-popup-tip {
 	border-bottom-color: var(--color-border) !important;
+	transition: opacity 0.3s ease !important;
 }
 
 .mapboxgl-popup-anchor-left .mapboxgl-popup-tip {
 	border-right-color: var(--color-border) !important;
+	transition: opacity 0.3s ease !important;
 }
 
 .mapboxgl-popup-anchor-right .mapboxgl-popup-tip {
 	border-left-color: var(--color-border) !important;
+	transition: opacity 0.3s ease !important;
 }
 
 .mapboxgl-popup-close-button {
@@ -136,9 +162,78 @@
 		color: var(--color-complement-text);
 	}
 
+	.mappopup-tab-active {
+		display: flex;
+	}
+
+	&-range-buttons {
+		margin-left: 12px;
+		display: flex;
+		gap: 2px;
+		justify-content: center;
+
+		.range-button {
+			padding: 6px 12px;
+			border-radius: 15px;
+			background-color: var(--color-highlight);
+			color: white;
+			font-size: var(--font-s);
+			font-weight: 500;
+			border: none;
+			cursor: auto;
+			transition: all 0.2s ease;
+			user-select: none;
+			position: relative;
+			
+			&:hover {
+				transform: translateY(-1px);
+				box-shadow: 0 4px 8px rgba(0, 124, 191, 0.3);
+				z-index: 10;
+			}
+
+			&:active {
+				opacity: 0.6;
+				transform: translateY(0);
+			}
+
+			margin-bottom: 0;
+
+			// 500m button
+			&.range-button-0 {
+				background-color: #5A9BF8;
+				
+				&:hover {
+					background-color: #4A8AE7;
+					box-shadow: 0 4px 8px rgba(90, 155, 248, 0.3);
+				}
+			}
+
+			// 2km button  
+			&.range-button-1 {
+				background-color: #287DF6;
+				
+				&:hover {
+					background-color: #1A6CE5;
+					box-shadow: 0 4px 8px rgba(40, 125, 246, 0.3);
+				}
+			}
+
+			// 5km button
+			&.range-button-2 {
+				background-color: #0960DC;
+				
+				&:hover {
+					background-color: #084FCB;
+					box-shadow: 0 4px 8px rgba(9, 96, 220, 0.3);
+				}
+			}
+		}
+	}
+
 	&-tab {
 		display: flex;
 		margin-bottom: 0.5rem;
+		transition: opacity 0.3s ease;
 
 		button {
 			margin: 0 4px 0 0;
@@ -166,6 +261,7 @@
 
 	&-content {
 		width: 100%;
+		transition: opacity 0.3s ease;
 
 		div {
 			display: flex;
