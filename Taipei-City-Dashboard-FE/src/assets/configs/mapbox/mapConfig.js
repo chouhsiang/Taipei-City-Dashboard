@@ -510,4 +510,10 @@ export const maplayerCommonLayout = {
 			60,
 		],
 	},
+	"symbol-dynamic": {
+		"icon-allow-overlap": true,
+		"icon-ignore-placement": true,
+		"icon-padding": 0,
+		"icon-size": 1,
+	},
 };

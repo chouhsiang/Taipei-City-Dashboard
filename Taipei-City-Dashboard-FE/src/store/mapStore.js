@@ -69,6 +69,8 @@ export const useMapStore = defineStore("map", {
 		tempMarkerCoordinates: null,
 		// Store the user's current location,
 		userLocation: { latitude: null, longitude: null },
+		// Store icon mapping
+		iconMapping: {},
 	}),
 	actions: {
 		/* Initialize Mapbox */
@@ -127,7 +129,7 @@ export const useMapStore = defineStore("map", {
 		},
 		// 2. Adds three basic layers to the map (Taipei District, Taipei Village labels, and Taipei 3D Buildings)
 		// Due to performance concerns, Taipei 3D Buildings won't be added in the mobile version
-		initializeBasicLayers() {
+		async initializeBasicLayers() {
 			const authStore = useAuthStore();
 			if (!this.map) return;
 			// metroTaipei District Labels
@@ -183,10 +185,10 @@ export const useMapStore = defineStore("map", {
 				})
 				.addLayer(metroTpDistrict);
 
-			this.addSymbolSources();
+			await this.addSymbolSources();
 		},
 		// 3. Adds symbols that will be used by some map layers
-		addSymbolSources() {
+		async addSymbolSources() {
 			const images = [
 				"metro",
 				"triangle_green",
@@ -195,16 +197,69 @@ export const useMapStore = defineStore("map", {
 				"bike_orange",
 				"bike_red",
 				"cctv",
+				"bus",
 			];
-			images.forEach((element) => {
-				this.map.loadImage(
-					`/images/map/${element}.png`,
-					(error, image) => {
-						if (error) throw error;
-						this.map.addImage(element, image);
+			
+			// Load predefined images
+			const imagePromises = images.map((element) => {
+				return new Promise((resolve, reject) => {
+					// Check if image already exists to prevent "An image with this name already exists" error
+					if (this.map.hasImage(element)) {
+						resolve();
+						return;
 					}
-				);
+					
+					this.map.loadImage(
+						`/images/map/${element}.png`,
+						(error, image) => {
+							if (error) {
+								console.warn(`Failed to load predefined image: ${element}`, error);
+								resolve();
+							} else {
+								this.map.addImage(element, image);
+								resolve();
+							}
+						}
+					);
+				});
 			});
+			
+			await Promise.all(imagePromises);
+		},
+		// Helper function to dynamically load and add icon from URL
+		async loadDynamicIcon(iconUrl, iconId) {
+			if (!iconUrl || this.map.hasImage(iconId)) return;
+			
+			return new Promise((resolve, reject) => {
+				this.map.loadImage(iconUrl, (error, image) => {
+					if (error) {
+						console.warn(`Failed to load dynamic icon: ${iconUrl}`, error);
+						resolve();
+					} else {
+						this.map.addImage(iconId, image);
+						resolve();
+					}
+				});
+			});
+		},
+		// Collect all unique icon URLs from GeoJSON data
+		collectIconsFromGeoJson(data) {
+			const iconUrls = new Set();
+			
+			// Check for top-level icon in FeatureCollection
+			if (data && data.icon) {
+				iconUrls.add(data.icon);
+			}
+			
+			if (data && data.features) {
+				data.features.forEach(feature => {
+					if (feature.properties && feature.properties.icon) {
+						iconUrls.add(feature.properties.icon);
+					}
+				});
+			}
+			
+			return Array.from(iconUrls);
 		},
 		// 4. Toggle district boundaries
 		toggleDistrictBoundaries(status) {
@@ -299,22 +354,46 @@ export const useMapStore = defineStore("map", {
 			});
 		},
 		// 2. Call an API to get the layer data
-		fetchLocalGeoJson(map_config) {
-			axios
-				.get(`/mapData/${map_config.index}.geojson`)
-				.then((rs) => {
-					this.addGeojsonSource(map_config, rs.data);
-				})
-				.catch((e) => console.error(e));
+		async fetchLocalGeoJson(map_config) {
+			try {
+				const rs = await axios.get(`/mapData/${map_config.index}.geojson`);
+				await this.addGeojsonSource(map_config, rs.data);
+			} catch (e) {
+				console.error(e);
+			}
 		},
 		// 3-1. Add a local geojson as a source in mapbox
-		addGeojsonSource(map_config, data) {
+		async addGeojsonSource(map_config, data) {
 			if (!["voronoi", "isoline"].includes(map_config.type)) {
 				this.map.addSource(`${map_config.layerId}-source`, {
 					type: "geojson",
 					data: { ...data },
 				});
 			}
+
+			// Load dynamic icons from GeoJSON data
+			if (map_config.type === "symbol") {
+				const iconUrls = this.collectIconsFromGeoJson(data);
+				
+				// Only process dynamic icons if there are actually icon URLs to load
+				if (iconUrls.length > 0) {
+					const iconPromises = iconUrls.map(async (iconUrl) => {
+						// Create a unique icon ID based on URL hash
+						const iconId = `dynamic-${btoa(iconUrl).replace(/[^a-zA-Z0-9]/g, '')}`;
+						await this.loadDynamicIcon(iconUrl, iconId);
+						return { url: iconUrl, id: iconId };
+					});
+					
+					const loadedIcons = await Promise.all(iconPromises);
+					
+					// Store the icon mapping for later use in layout
+					this.iconMapping = this.iconMapping || {};
+					loadedIcons.forEach(({ url, id }) => {
+						this.iconMapping[url] = id;
+					});
+				}
+			}
+
 			if (map_config.type === "arc") {
 				this.AddArcMapLayer(map_config, data);
 			} else if (map_config.type === "voronoi") {
@@ -420,6 +499,7 @@ export const useMapStore = defineStore("map", {
 		addMapLayer(map_config) {
 			let extra_paint_configs = {};
 			let extra_layout_configs = {};
+			
 			if (map_config.icon) {
 				extra_paint_configs = {
 					...maplayerCommonPaint[
@@ -432,6 +512,75 @@ export const useMapStore = defineStore("map", {
 					],
 				};
 			}
+			
+			// Add dynamic icon support for symbol layers
+			// Only use dynamic icons if iconMapping exists and has content
+			if (map_config.type === "symbol" && this.iconMapping && Object.keys(this.iconMapping).length > 0) {
+				// Check if the current layer's data actually has any dynamic icons
+				// by looking at the source data
+				let hasDynamicIcons = false;
+				let hasTopLevelIcon = false;
+				const source = this.map.getSource(`${map_config.layerId}-source`);
+				if (source && source._data) {
+					// Check for feature-level icons
+					if (source._data.features) {
+						hasDynamicIcons = source._data.features.some(feature => 
+							feature.properties && feature.properties.icon
+						);
+					}
+					// Check for top-level icon
+					if (source._data.icon) {
+						hasTopLevelIcon = true;
+					}
+				}
+				
+				// Only apply dynamic icon logic if this layer has dynamic icons OR top-level icon
+				if (hasDynamicIcons || hasTopLevelIcon) {
+					// Use dynamic icon configuration
+					extra_layout_configs = {
+						...extra_layout_configs,
+						...maplayerCommonLayout["symbol-dynamic"],
+					};
+					
+					// Create dynamic icon-image expression
+					const iconExpression = ["case"];
+					
+					// Add conditions for feature-level icons
+					Object.entries(this.iconMapping).forEach(([iconUrl, iconId]) => {
+						iconExpression.push(["==", ["get", "icon"], iconUrl]);
+						iconExpression.push(iconId);
+					});
+					
+					// If there's a top-level icon, use it as fallback for features without icons
+					if (hasTopLevelIcon && source && source._data && source._data.icon) {
+						const topLevelIconUrl = source._data.icon;
+						if (this.iconMapping[topLevelIconUrl]) {
+							// Add condition for features without icon property
+							iconExpression.push(["==", ["get", "icon"], null]);
+							iconExpression.push(this.iconMapping[topLevelIconUrl]);
+						}
+					}
+					
+					// Final fallback to the original hardcoded icon if available
+					let fallbackIcon = "";
+					if (hasTopLevelIcon && source && source._data && source._data.icon && this.iconMapping[source._data.icon]) {
+						// Use the top-level icon as the ultimate fallback
+						fallbackIcon = this.iconMapping[source._data.icon];
+					} else if (map_config.icon) {
+						// If there's a specific icon config, use that icon name
+						fallbackIcon = map_config.icon;
+					} else if (maplayerCommonLayout[map_config.type] && maplayerCommonLayout[map_config.type]["icon-image"]) {
+						// Use the default icon from the symbol layout if it exists
+						fallbackIcon = maplayerCommonLayout[map_config.type]["icon-image"];
+					}
+					
+					iconExpression.push(fallbackIcon);
+					
+					extra_layout_configs["icon-image"] = iconExpression;
+				}
+				// If no dynamic icons for this layer, keep the original icon configuration
+			}
+			
 			if (map_config.size) {
 				extra_paint_configs = {
 					...extra_paint_configs,
