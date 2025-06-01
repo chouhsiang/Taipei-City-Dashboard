@@ -1,1751 +1,1751 @@
 {
-   "type": "FeatureCollection",
-   "features": [
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
-       "coordinates":  [ 121.50255600000001,25.132806 ]
-    },
-    "properties": {
-    "index":2,
-    "market_name":"公有北投市場",
-    "country":"臺北市",
-    "address":"臺北市北投區新市街30號",
-    "parking_within_100m":6,
-    "parking_within_200m":83,
-    "parking_within_500m":257,
-    "parking_within_1000m":579,
-    "district":"北投區"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
-       "coordinates":  [ 121.54261100000001,25.054722 ]
-    },
-    "properties": {
-    "index":3,
-    "market_name":"公有長春市場",
-    "country":"臺北市",
-    "address":"臺北市中山區長春路299號",
-    "parking_within_100m":4,
-    "parking_within_200m":11,
-    "parking_within_500m":147,
-    "parking_within_1000m":726,
-    "district":"中山區"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
-       "coordinates":  [ 121.535306,25.053667 ]
-    },
-    "properties": {
-    "index":4,
-    "market_name":"公有建國市場",
-    "country":"臺北市",
-    "address":"臺北市中山區伊通街94巷4號",
-    "parking_within_100m":0,
-    "parking_within_200m":4,
-    "parking_within_500m":195,
-    "parking_within_1000m":633,
-    "district":"中山區"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
-       "coordinates":  [ 121.521111,25.050139 ]
-    },
-    "properties": {
-    "index":5,
-    "market_name":"公有中山市場",
-    "country":"臺北市",
-    "address":"臺北市中山區長安西路3號",
-    "parking_within_100m":0,
-    "parking_within_200m":38,
-    "parking_within_500m":195,
-    "parking_within_1000m":840,
-    "district":"中山區"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
-       "coordinates":  [ 121.547278,24.999944 ]
-    },
-    "properties": {
-    "index":6,
-    "market_name":"公有興隆市場",
-    "country":"臺北市",
-    "address":"臺北市文山區興隆路二段97號",
-    "parking_within_100m":26,
-    "parking_within_200m":50,
-    "parking_within_500m":126,
-    "parking_within_1000m":526,
-    "district":"文山區"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
-       "coordinates":  [ 121.56913899999999,24.988667 ]
-    },
-    "properties": {
-    "index":7,
-    "market_name":"公有木柵市場",
-    "country":"臺北市",
-    "address":"臺北市文山區保儀路13巷3號",
-    "parking_within_100m":32,
-    "parking_within_200m":86,
-    "parking_within_500m":315,
-    "parking_within_1000m":925,
-    "district":"文山區"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
-       "coordinates":  [ 121.498722,25.040861 ]
-    },
-    "properties": {
-    "index":8,
-    "market_name":"公有河濱二商場",
-    "country":"臺北市",
-    "address":"臺北市萬華區環河南路一段328號(286至340號)",
-    "parking_within_100m":0,
-    "parking_within_200m":0,
-    "parking_within_500m":80,
-    "parking_within_1000m":637,
-    "district":"萬華區"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
-       "coordinates":  [ 121.490528,25.029360999999998 ]
-    },
-    "properties": {
-    "index":9,
-    "market_name":"公有環南市場",
-    "country":"臺北市",
-    "address":"臺北市萬華區環河南路二段245號",
-    "parking_within_100m":0,
-    "parking_within_200m":2,
-    "parking_within_500m":60,
-    "parking_within_1000m":213,
-    "district":"萬華區"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
-       "coordinates":  [ 121.57530600000001,25.044860999999997 ]
-    },
-    "properties": {
-    "index":10,
-    "market_name":"公有永吉市場",
-    "country":"臺北市",
-    "address":"臺北市信義區永吉路278巷1弄30號",
-    "parking_within_100m":0,
-    "parking_within_200m":18,
-    "parking_within_500m":164,
-    "parking_within_1000m":704,
-    "district":"信義區"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
-       "coordinates":  [ 121.560472,25.0365 ]
-    },
-    "properties": {
-    "index":11,
-    "market_name":"公有光復市場",
-    "country":"臺北市",
-    "address":"臺北市信義區仁愛路四段496巷19號",
-    "parking_within_100m":0,
-    "parking_within_200m":24,
-    "parking_within_500m":199,
-    "parking_within_1000m":743,
-    "district":"信義區"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
-       "coordinates":  [ 121.577556,25.04325 ]
-    },
-    "properties": {
-    "index":12,
-    "market_name":"公有永春市場",
-    "country":"臺北市",
-    "address":"臺北市信義區松山路294號",
-    "parking_within_100m":23,
-    "parking_within_200m":70,
-    "parking_within_500m":211,
-    "parking_within_1000m":686,
-    "district":"信義區"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
-       "coordinates":  [ 121.57591699999999,25.050361 ]
-    },
-    "properties": {
-    "index":13,
-    "market_name":"公有松山市場",
-    "country":"臺北市",
-    "address":"臺北市松山區八德路四段679號",
-    "parking_within_100m":20,
-    "parking_within_200m":60,
-    "parking_within_500m":198,
-    "parking_within_1000m":660,
-    "district":"松山區"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
-       "coordinates":  [ 121.55380600000001,25.054610999999998 ]
-    },
-    "properties": {
-    "index":14,
-    "market_name":"公有龍城市場",
-    "country":"臺北市",
-    "address":"臺北市松山區光復北路190巷39號",
-    "parking_within_100m":0,
-    "parking_within_200m":0,
-    "parking_within_500m":112,
-    "parking_within_1000m":690,
-    "district":"松山區"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
-       "coordinates":  [ 121.57063899999999,25.050917000000002 ]
-    },
-    "properties": {
-    "index":15,
-    "market_name":"公有南松市場",
-    "country":"臺北市",
-    "address":"臺北市松山區塔悠路40號",
-    "parking_within_100m":10,
-    "parking_within_200m":67,
-    "parking_within_500m":186,
-    "parking_within_1000m":568,
-    "district":"松山區"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
-       "coordinates":  [ 121.55269399999999,25.048000000000002 ]
-    },
-    "properties": {
-    "index":16,
-    "market_name":"公有中崙市場",
-    "country":"臺北市",
-    "address":"臺北市松山區八德路三段76號",
-    "parking_within_100m":0,
-    "parking_within_200m":31,
-    "parking_within_500m":190,
-    "parking_within_1000m":663,
-    "district":"松山區"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
-       "coordinates":  [ 121.566694,25.082389000000003 ]
-    },
-    "properties": {
-    "index":17,
-    "market_name":"公有西湖市場",
-    "country":"臺北市",
-    "address":"臺北市內湖區內湖路一段285號1、2樓",
-    "parking_within_100m":44,
-    "parking_within_200m":71,
-    "parking_within_500m":422,
-    "parking_within_1000m":792,
-    "district":"內湖區"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
-       "coordinates":  [ 121.49777,25.00522 ]
-    },
-    "properties": {
-    "index":11,
-    "market_name":"枋寮公有市場",
-    "country":"新北市",
-    "address":"新北市中和區中和路74號",
-    "parking_within_100m":0,
-    "parking_within_200m":0,
-    "parking_within_500m":138,
-    "parking_within_1000m":481,
-    "district":"中和區"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
-       "coordinates":  [ 121.514306,25.075139 ]
-    },
-    "properties": {
-    "index":1,
-    "market_name":"公有大龍市場",
-    "country":"臺北市",
-    "address":"重慶北路三段347號",
-    "parking_within_100m":40,
-    "parking_within_200m":40,
-    "parking_within_500m":156,
-    "parking_within_1000m":455,
-    "district":"大同區"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
-       "coordinates":  [ 121.54733300000001,25.026972 ]
-    },
-    "properties": {
-    "index":18,
-    "market_name":"公有成功市場（臨時攤棚）",
-    "country":"臺北市",
-    "address":"臺北市大安區四維路192巷",
-    "parking_within_100m":0,
-    "parking_within_200m":49,
-    "parking_within_500m":199,
-    "parking_within_1000m":710,
-    "district":"大安區"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
-       "coordinates":  [ 121.529472,25.028528 ]
-    },
-    "properties": {
-    "index":19,
-    "market_name":"公有錦安市場",
-    "country":"臺北市",
-    "address":"臺北市大安區永康街60號",
-    "parking_within_100m":0,
-    "parking_within_200m":2,
-    "parking_within_500m":157,
-    "parking_within_1000m":753,
-    "district":"大安區"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
-       "coordinates":  [ 121.539083,25.034028 ]
-    },
-    "properties": {
-    "index":20,
-    "market_name":"公有信義市場",
-    "country":"臺北市",
-    "address":"臺北市大安區信義路三段107號",
-    "parking_within_100m":20,
-    "parking_within_200m":23,
-    "parking_within_500m":119,
-    "parking_within_1000m":586,
-    "district":"大安區"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
-       "coordinates":  [ 121.54116699999999,25.028222 ]
-    },
-    "properties": {
-    "index":21,
-    "market_name":"公有安東市場",
-    "country":"臺北市",
-    "address":"臺北市大安區瑞安街75號",
-    "parking_within_100m":0,
-    "parking_within_200m":0,
-    "parking_within_500m":124,
-    "parking_within_1000m":642,
-    "district":"大安區"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
-       "coordinates":  [ 121.58680600000001,25.046167 ]
-    },
-    "properties": {
-    "index":22,
-    "market_name":"公有成德市場",
-    "country":"臺北市",
-    "address":"臺北市南港區同德路100號1樓",
-    "parking_within_100m":5,
-    "parking_within_200m":5,
-    "parking_within_500m":80,
-    "parking_within_1000m":571,
-    "district":"南港區"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
-       "coordinates":  [ 121.61447199999999,25.045472 ]
-    },
-    "properties": {
-    "index":23,
-    "market_name":"公有中研市場",
-    "country":"臺北市",
-    "address":"臺北市南港區研究院路二段70巷12號",
-    "parking_within_100m":0,
-    "parking_within_200m":36,
-    "parking_within_500m":162,
-    "parking_within_1000m":335,
-    "district":"南港區"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
-       "coordinates":  [ 121.532417,25.03675 ]
-    },
-    "properties": {
-    "index":24,
-    "market_name":"公有新生市場",
-    "country":"臺北市",
-    "address":"臺北市中正區新生南路一段134之1號",
-    "parking_within_100m":0,
-    "parking_within_200m":39,
-    "parking_within_500m":178,
-    "parking_within_1000m":547,
-    "district":"中正區"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
-       "coordinates":  [ 121.52480600000001,25.044194 ]
-    },
-    "properties": {
-    "index":25,
-    "market_name":"公有華山市場",
-    "country":"臺北市",
-    "address":"臺北市中正區忠孝東路一段108號",
-    "parking_within_100m":0,
-    "parking_within_200m":13,
-    "parking_within_500m":156,
-    "parking_within_1000m":782,
-    "district":"中正區"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
-       "coordinates":  [ 121.522944,25.032722 ]
-    },
-    "properties": {
-    "index":26,
-    "market_name":"公有南門市場",
-    "country":"臺北市",
-    "address":"臺北市大安區杭州南路二段55號",
-    "parking_within_100m":6,
-    "parking_within_200m":6,
-    "parking_within_500m":132,
-    "parking_within_1000m":681,
-    "district":"大安區"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
-       "coordinates":  [ 121.53200000000001,25.045278 ]
-    },
-    "properties": {
-    "index":27,
-    "market_name":"光華數位新天地",
-    "country":"臺北市",
-    "address":"臺北市中正區市民大道三段8號",
-    "parking_within_100m":2,
-    "parking_within_200m":42,
-    "parking_within_500m":185,
-    "parking_within_1000m":700,
-    "district":"中正區"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
-       "coordinates":  [ 121.534972,25.01375 ]
-    },
-    "properties": {
-    "index":28,
-    "market_name":"公有水源市場",
-    "country":"臺北市",
-    "address":"臺北市中正區羅斯福路四段92號",
-    "parking_within_100m":81,
-    "parking_within_200m":106,
-    "parking_within_500m":168,
-    "parking_within_1000m":474,
-    "district":"中正區"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
-       "coordinates":  [ 121.52666699999999,25.034639000000002 ]
-    },
-    "properties": {
-    "index":29,
-    "market_name":"公有東門市場",
-    "country":"臺北市",
-    "address":"臺北市中正區信義路二段81號",
-    "parking_within_100m":18,
-    "parking_within_200m":32,
-    "parking_within_500m":122,
-    "parking_within_1000m":621,
-    "district":"中正區"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
-       "coordinates":  [ 121.53091699999999,25.040306 ]
-    },
-    "properties": {
-    "index":30,
-    "market_name":"公有幸安市場",
-    "country":"臺北市",
-    "address":"臺北市中正區濟南路二段46號",
-    "parking_within_100m":5,
-    "parking_within_200m":30,
-    "parking_within_500m":179,
-    "parking_within_1000m":637,
-    "district":"中正區"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
-       "coordinates":  [ 121.515611,25.066056 ]
-    },
-    "properties": {
-    "index":31,
-    "market_name":"公有蘭州市場",
-    "country":"臺北市",
-    "address":"臺北市大同區昌吉街55號(55至57號)",
-    "parking_within_100m":0,
-    "parking_within_200m":30,
-    "parking_within_500m":290,
-    "parking_within_1000m":806,
-    "district":"大同區"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
-       "coordinates":  [ 121.516861,25.056860999999998 ]
-    },
-    "properties": {
-    "index":32,
-    "market_name":"公有雙連市場",
-    "country":"臺北市",
-    "address":"臺北市大同區民生西路198號",
-    "parking_within_100m":4,
-    "parking_within_200m":32,
-    "parking_within_500m":172,
-    "parking_within_1000m":839,
-    "district":"大同區"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
-       "coordinates":  [ 121.510806,25.054833 ]
-    },
-    "properties": {
-    "index":33,
-    "market_name":"公有永樂市場",
-    "country":"臺北市",
-    "address":"臺北市大同區迪化街一段21號",
-    "parking_within_100m":4,
-    "parking_within_200m":25,
-    "parking_within_500m":209,
-    "parking_within_1000m":572,
-    "district":"大同區"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
-       "coordinates":  [ 121.521472,25.050167000000002 ]
-    },
-    "properties": {
-    "index":34,
-    "market_name":"中山大樓",
-    "country":"臺北市",
-    "address":"臺北市中山區中山北路一段110號之1至之8",
-    "parking_within_100m":16,
-    "parking_within_200m":38,
-    "parking_within_500m":222,
-    "parking_within_1000m":818,
-    "district":"中山區"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
-       "coordinates":  [ 121.533278,25.062639 ]
-    },
-    "properties": {
-    "index":35,
-    "market_name":"台北松江路命理街(行天宮旁地下街)",
-    "country":"臺北市",
-    "address":"臺北市中山區民權東路二段(地下人行道)",
-    "parking_within_100m":60,
-    "parking_within_200m":69,
-    "parking_within_500m":217,
-    "parking_within_1000m":599,
-    "district":"中山區"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
-       "coordinates":  [ 121.532028,25.060139000000003 ]
-    },
-    "properties": {
-    "index":36,
-    "market_name":"公有松江市場",
-    "country":"臺北市",
-    "address":"臺北市中山區錦州街222號",
-    "parking_within_100m":0,
-    "parking_within_200m":28,
-    "parking_within_500m":197,
-    "parking_within_1000m":749,
-    "district":"中山區"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
-       "coordinates":  [ 121.536639,25.045444 ]
-    },
-    "properties": {
-    "index":37,
-    "market_name":"公有八德市場",
-    "country":"臺北市",
-    "address":"臺北市中山區八德路二段108之1號",
-    "parking_within_100m":0,
-    "parking_within_200m":16,
-    "parking_within_500m":148,
-    "parking_within_1000m":659,
-    "district":"中山區"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
-       "coordinates":  [ 121.545278,25.078639000000003 ]
-    },
-    "properties": {
-    "index":38,
-    "market_name":"公有大直市場",
-    "country":"臺北市",
-    "address":"臺北市中山區北安路458巷41弄3號",
-    "parking_within_100m":4,
-    "parking_within_200m":52,
-    "parking_within_500m":193,
-    "parking_within_1000m":338,
-    "district":"中山區"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
-       "coordinates":  [ 121.541083,24.989860999999998 ]
-    },
-    "properties": {
-    "index":39,
-    "market_name":"公有景美市場",
-    "country":"臺北市",
-    "address":"臺北市文山區景文街137號",
-    "parking_within_100m":17,
-    "parking_within_200m":60,
-    "parking_within_500m":183,
-    "parking_within_1000m":608,
-    "district":"文山區"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
-       "coordinates":  [ 121.557222,24.981444 ]
-    },
-    "properties": {
-    "index":40,
-    "market_name":"公有木新市場",
-    "country":"臺北市",
-    "address":"臺北市文山區木新路三段310巷4號",
-    "parking_within_100m":4,
-    "parking_within_200m":59,
-    "parking_within_500m":197,
-    "parking_within_1000m":636,
-    "district":"文山區"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
-       "coordinates":  [ 121.524194,25.088082999999997 ]
-    },
-    "properties": {
-    "index":41,
-    "market_name":"公有士林市場",
-    "country":"臺北市",
-    "address":"臺北市士林區基河路101號",
-    "parking_within_100m":14,
-    "parking_within_200m":38,
-    "parking_within_500m":293,
-    "parking_within_1000m":923,
-    "district":"士林區"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
-       "coordinates":  [ 121.529528,25.111917000000002 ]
-    },
-    "properties": {
-    "index":42,
-    "market_name":"公有士東市場",
-    "country":"臺北市",
-    "address":"臺北市士林區士東路100號",
-    "parking_within_100m":0,
-    "parking_within_200m":0,
-    "parking_within_500m":109,
-    "parking_within_1000m":466,
-    "district":"士林區"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
-       "coordinates":  [ 121.499889,25.035 ]
-    },
-    "properties": {
-    "index":43,
-    "market_name":"公有龍山商場",
-    "country":"臺北市",
-    "address":"臺北市萬華區和平西路三段120號 (萬華區行政中心內 )",
-    "parking_within_100m":38,
-    "parking_within_200m":89,
-    "parking_within_500m":284,
-    "parking_within_1000m":734,
-    "district":"萬華區"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
-       "coordinates":  [ 121.505583,25.048333 ]
-    },
-    "properties": {
-    "index":44,
-    "market_name":"公有河濱一商場",
-    "country":"臺北市",
-    "address":"臺北市萬華區環河南路一段4號(2至272號)",
-    "parking_within_100m":0,
-    "parking_within_200m":1,
-    "parking_within_500m":143,
-    "parking_within_1000m":685,
-    "district":"萬華區"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
-       "coordinates":  [ 121.50688899999999,25.048139000000003 ]
-    },
-    "properties": {
-    "index":45,
-    "market_name":"公有西寧市場",
-    "country":"臺北市",
-    "address":"臺北市萬華區西寧南路4號",
-    "parking_within_100m":0,
-    "parking_within_200m":3,
-    "parking_within_500m":195,
-    "parking_within_1000m":730,
-    "district":"萬華區"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
-       "coordinates":  [ 121.50697199999999,25.04175 ]
-    },
-    "properties": {
-    "index":46,
-    "market_name":"公有西門商場",
-    "country":"臺北市",
-    "address":"臺北市萬華區成都路10巷33號",
-    "parking_within_100m":27,
-    "parking_within_200m":146,
-    "parking_within_500m":429,
-    "parking_within_1000m":983,
-    "district":"萬華區"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
-       "coordinates":  [ 121.50175,25.039333 ]
-    },
-    "properties": {
-    "index":47,
-    "market_name":"公有直興市場",
-    "country":"臺北市",
-    "address":"臺北市萬華區康定路172巷1號",
-    "parking_within_100m":17,
-    "parking_within_200m":58,
-    "parking_within_500m":256,
-    "parking_within_1000m":842,
-    "district":"萬華區"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
-       "coordinates":  [ 121.501972,25.036027999999998 ]
-    },
-    "properties": {
-    "index":48,
-    "market_name":"公有新富市場",
-    "country":"臺北市",
-    "address":"臺北市萬華區三水街70號",
-    "parking_within_100m":24,
-    "parking_within_200m":56,
-    "parking_within_500m":319,
-    "parking_within_1000m":927,
-    "district":"萬華區"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
-       "coordinates":  [ 121.39986,25.14658 ]
-    },
-    "properties": {
-    "index":1,
-    "market_name":"下庄公有市場",
-    "country":"新北市",
-    "address":"新北市八里區舊城路19號",
-    "parking_within_100m":7,
-    "parking_within_200m":67,
-    "parking_within_500m":160,
-    "parking_within_1000m":286,
-    "district":"八里區"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
-       "coordinates":  [ 121.5008,25.06432 ]
-    },
-    "properties": {
-    "index":2,
-    "market_name":"中央公有市場",
-    "country":"新北市",
-    "address":"新北市三重區中央北路26號",
-    "parking_within_100m":0,
-    "parking_within_200m":98,
-    "parking_within_500m":250,
-    "parking_within_1000m":501,
-    "district":"三重區"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
-       "coordinates":  [ 121.49133,25.05721 ]
-    },
-    "properties": {
-    "index":3,
-    "market_name":"光明公有市場",
-    "country":"新北市",
-    "address":"新北市三重區重安街70號",
-    "parking_within_100m":1,
-    "parking_within_200m":3,
-    "parking_within_500m":201,
-    "parking_within_1000m":505,
-    "district":"三重區"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
-       "coordinates":  [ 121.50118,25.06378 ]
-    },
-    "properties": {
-    "index":4,
-    "market_name":"重新公有市場",
-    "country":"新北市",
-    "address":"新北市三重區重新路87-6號",
-    "parking_within_100m":41,
-    "parking_within_200m":92,
-    "parking_within_500m":234,
-    "parking_within_1000m":498,
-    "district":"三重區"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
-       "coordinates":  [ 121.49133,25.05721 ]
-    },
-    "properties": {
-    "index":5,
-    "market_name":"光明公有市場2樓",
-    "country":"新北市",
-    "address":"新北市三重區重安街70號2樓",
-    "parking_within_100m":1,
-    "parking_within_200m":3,
-    "parking_within_500m":201,
-    "parking_within_1000m":505,
-    "district":"三重區"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
-       "coordinates":  [ 121.37065,24.9349 ]
-    },
-    "properties": {
-    "index":6,
-    "market_name":"三峽公有市場",
-    "country":"新北市",
-    "address":"新北市三峽區民生街186號",
-    "parking_within_100m":0,
-    "parking_within_200m":41,
-    "parking_within_500m":212,
-    "parking_within_1000m":472,
-    "district":"三峽區"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
-       "coordinates":  [ 121.37618,24.92817 ]
-    },
-    "properties": {
-    "index":7,
-    "market_name":"礁溪公有市場",
-    "country":"新北市",
-    "address":"新北市三峽區光明路71號",
-    "parking_within_100m":7,
-    "parking_within_200m":23,
-    "parking_within_500m":87,
-    "parking_within_1000m":289,
-    "district":"三峽區"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
-       "coordinates":  [ 121.44301,24.97507 ]
-    },
-    "properties": {
-    "index":8,
-    "market_name":"土城公有零售市場",
-    "country":"新北市",
-    "address":"新北市土城區中正路18號",
-    "parking_within_100m":4,
-    "parking_within_200m":20,
-    "parking_within_500m":81,
-    "parking_within_1000m":215,
-    "district":"土城區"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
-       "coordinates":  [ 121.41518,24.95816 ]
-    },
-    "properties": {
-    "index":9,
-    "market_name":"頂埔公有市場",
-    "country":"新北市",
-    "address":"新北市土城區中州路28巷30號",
-    "parking_within_100m":0,
-    "parking_within_200m":14,
-    "parking_within_500m":41,
-    "parking_within_1000m":110,
-    "district":"土城區"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
-       "coordinates":  [ 121.47413,25.00357 ]
-    },
-    "properties": {
-    "index":10,
-    "market_name":"民享公有市場",
-    "country":"新北市",
-    "address":"新北市中和區民享街37號",
-    "parking_within_100m":2,
-    "parking_within_200m":6,
-    "parking_within_500m":98,
-    "parking_within_1000m":308,
-    "district":"中和區"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
-       "coordinates":  [ 121.50542,24.99211 ]
-    },
-    "properties": {
-    "index":12,
-    "market_name":"和平街攤販集中區",
-    "country":"新北市",
-    "address":"新北市中和區和平街89號",
-    "parking_within_100m":8,
-    "parking_within_200m":32,
-    "parking_within_500m":172,
-    "parking_within_1000m":624,
-    "district":"中和區"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
-       "coordinates":  [ 121.51428,25.00431 ]
-    },
-    "properties": {
-    "index":13,
-    "market_name":"永安公有市場",
-    "country":"新北市",
-    "address":"新北市永和區安樂路431號",
-    "parking_within_100m":7,
-    "parking_within_200m":31,
-    "parking_within_500m":216,
-    "parking_within_1000m":732,
-    "district":"永和區"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
-       "coordinates":  [ 121.5166,25.0136 ]
-    },
-    "properties": {
-    "index":14,
-    "market_name":"溪洲公有市場",
-    "country":"新北市",
-    "address":"新北市永和區勵行街42-1號",
-    "parking_within_100m":0,
-    "parking_within_200m":58,
-    "parking_within_500m":164,
-    "parking_within_1000m":369,
-    "district":"永和區"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
-       "coordinates":  [ 121.62952,25.06839 ]
-    },
-    "properties": {
-    "index":15,
-    "market_name":"金龍公有市場",
-    "country":"新北市",
-    "address":"新北市汐止區中興路250號",
-    "parking_within_100m":16,
-    "parking_within_200m":23,
-    "parking_within_500m":126,
-    "parking_within_1000m":339,
-    "district":"汐止區"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
-       "coordinates":  [ 121.65842,25.06907 ]
-    },
-    "properties": {
-    "index":17,
-    "market_name":"中正公有市場",
-    "country":"新北市",
-    "address":"新北市汐止區中正路206號",
-    "parking_within_100m":0,
-    "parking_within_200m":1,
-    "parking_within_500m":197,
-    "parking_within_1000m":520,
-    "district":"汐止區"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
-       "coordinates":  [ 121.64114,25.06595 ]
-    },
-    "properties": {
-    "index":18,
-    "market_name":"忠厚公有市場",
-    "country":"新北市",
-    "address":"新北市汐止區樟樹一路137巷26號",
-    "parking_within_100m":4,
-    "parking_within_200m":18,
-    "parking_within_500m":90,
-    "parking_within_1000m":420,
-    "district":"汐止區"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
-       "coordinates":  [ 121.62311,25.04074 ]
-    },
-    "properties": {
-    "index":19,
-    "market_name":"林森攤販集中區",
-    "country":"新北市",
-    "address":"新北市汐止區林森街",
-    "parking_within_100m":0,
-    "parking_within_200m":8,
-    "parking_within_500m":96,
-    "parking_within_1000m":266,
-    "district":"汐止區"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
-       "coordinates":  [ 121.65631,25.06305 ]
-    },
-    "properties": {
-    "index":20,
-    "market_name":"觀光攤販集中區",
-    "country":"新北市",
-    "address":"新北市汐止區水源路一段至新興路之臺鐵橋下",
-    "parking_within_100m":15,
-    "parking_within_200m":33,
-    "parking_within_500m":171,
-    "parking_within_1000m":424,
-    "district":"汐止區"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
-       "coordinates":  [ 121.45543,25.00735 ]
-    },
-    "properties": {
-    "index":21,
-    "market_name":"湳興公有市場",
-    "country":"新北市",
-    "address":"新北市板橋區中興路63號",
-    "parking_within_100m":0,
-    "parking_within_200m":14,
-    "parking_within_500m":158,
-    "parking_within_1000m":603,
-    "district":"板橋區"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
-       "coordinates":  [ 121.45727,25.01288 ]
-    },
-    "properties": {
-    "index":22,
-    "market_name":"黃石公有市場(中繼)",
-    "country":"新北市",
-    "address":"新北市板橋區公館街1號",
-    "parking_within_100m":5,
-    "parking_within_200m":22,
-    "parking_within_500m":175,
-    "parking_within_1000m":582,
-    "district":"板橋區"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
-       "coordinates":  [ 121.45887,25.0066 ]
-    },
-    "properties": {
-    "index":23,
-    "market_name":"後埔公有市場",
-    "country":"新北市",
-    "address":"新北市板橋區大華街5號",
-    "parking_within_100m":8,
-    "parking_within_200m":34,
-    "parking_within_500m":221,
-    "parking_within_1000m":650,
-    "district":"板橋區"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
-       "coordinates":  [ 121.37725,25.06878 ]
-    },
-    "properties": {
-    "index":24,
-    "market_name":"東勢公有市場",
-    "country":"新北市",
-    "address":"新北市林口區林口區麗園一街35號",
-    "parking_within_100m":15,
-    "parking_within_200m":29,
-    "parking_within_500m":63,
-    "parking_within_1000m":319,
-    "district":"林口區"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
-       "coordinates":  [ 121.39145,25.07779 ]
-    },
-    "properties": {
-    "index":25,
-    "market_name":"林口公有市場",
-    "country":"新北市",
-    "address":"新北市林口區林口路15號",
-    "parking_within_100m":0,
-    "parking_within_200m":92,
-    "parking_within_500m":272,
-    "parking_within_1000m":519,
-    "district":"林口區"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
-       "coordinates":  [ 121.36762,25.06882 ]
-    },
-    "properties": {
-    "index":26,
-    "market_name":"麗林公有市場",
-    "country":"新北市",
-    "address":"新北市林口區公園路59號",
-    "parking_within_100m":0,
-    "parking_within_200m":26,
-    "parking_within_500m":162,
-    "parking_within_1000m":478,
-    "district":"林口區"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
-       "coordinates":  [ 121.63809,25.22139 ]
-    },
-    "properties": {
-    "index":27,
-    "market_name":"第一公有市場",
-    "country":"新北市",
-    "address":"新北市金山區中山路188號",
-    "parking_within_100m":0,
-    "parking_within_200m":94,
-    "parking_within_500m":163,
-    "parking_within_1000m":304,
-    "district":"金山區"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
-       "coordinates":  [ 121.43366,25.05613 ]
-    },
-    "properties": {
-    "index":28,
-    "market_name":"泰山公有市場",
-    "country":"新北市",
-    "address":"新北市泰山區全興路212號",
-    "parking_within_100m":41,
-    "parking_within_200m":56,
-    "parking_within_500m":227,
-    "parking_within_1000m":523,
-    "district":"泰山區"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
-       "coordinates":  [ 121.92692,25.05478 ]
-    },
-    "properties": {
-    "index":29,
-    "market_name":"澳底公有市場",
-    "country":"新北市",
-    "address":"新北市貢寮區仁愛路79號",
-    "parking_within_100m":12,
-    "parking_within_200m":17,
-    "parking_within_500m":62,
-    "parking_within_1000m":96,
-    "district":"貢寮區"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
-       "coordinates":  [ 121.44272,25.17042 ]
-    },
-    "properties": {
-    "index":30,
-    "market_name":"中山公有零售市場",
-    "country":"新北市",
-    "address":"新北市淡水區中山路77號",
-    "parking_within_100m":113,
-    "parking_within_200m":169,
-    "parking_within_500m":285,
-    "parking_within_1000m":779,
-    "district":"淡水區"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
-       "coordinates":  [ 121.43981,25.17002 ]
-    },
-    "properties": {
-    "index":31,
-    "market_name":"中正美食廣場",
-    "country":"新北市",
-    "address":"新北市淡水區中正路115號",
-    "parking_within_100m":1,
-    "parking_within_200m":3,
-    "parking_within_500m":258,
-    "parking_within_1000m":676,
-    "district":"淡水區"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
-       "coordinates":  [ 121.61499,25.00098 ]
-    },
-    "properties": {
-    "index":32,
-    "market_name":"深坑公有市場",
-    "country":"新北市",
-    "address":"新北市深坑區平埔街22巷8號",
-    "parking_within_100m":2,
-    "parking_within_200m":28,
-    "parking_within_500m":114,
-    "parking_within_1000m":239,
-    "district":"深坑區"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
-       "coordinates":  [ 121.5276,24.97544 ]
-    },
-    "properties": {
-    "index":33,
-    "market_name":"中央公有市場",
-    "country":"新北市",
-    "address":"新北市新店區中央五街60號",
-    "parking_within_100m":0,
-    "parking_within_200m":0,
-    "parking_within_500m":38,
-    "parking_within_1000m":294,
-    "district":"新店區"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
-       "coordinates":  [ 121.53697,24.95525 ]
-    },
-    "properties": {
-    "index":34,
-    "market_name":"碧潭公有市場",
-    "country":"新北市",
-    "address":"新北市新店區新店路159號",
-    "parking_within_100m":0,
-    "parking_within_200m":12,
-    "parking_within_500m":129,
-    "parking_within_1000m":333,
-    "district":"新店區"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
-       "coordinates":  [ 121.5127,24.96268 ]
-    },
-    "properties": {
-    "index":35,
-    "market_name":"安康公有市場",
-    "country":"新北市",
-    "address":"新北市新店區安康路二段120號",
-    "parking_within_100m":49,
-    "parking_within_200m":73,
-    "parking_within_500m":174,
-    "parking_within_1000m":440,
-    "district":"新店區"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
-       "coordinates":  [ 121.5276,24.97544 ]
-    },
-    "properties": {
-    "index":36,
-    "market_name":"中央公有市場",
-    "country":"新北市",
-    "address":"新北市新店區中央五街60號",
-    "parking_within_100m":0,
-    "parking_within_200m":0,
-    "parking_within_500m":38,
-    "parking_within_1000m":294,
-    "district":"新店區"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
-       "coordinates":  [ 121.45281,25.03422 ]
-    },
-    "properties": {
-    "index":37,
-    "market_name":"第一公有市場",
-    "country":"新北市",
-    "address":"新北市新莊區新莊路315號",
-    "parking_within_100m":0,
-    "parking_within_200m":0,
-    "parking_within_500m":103,
-    "parking_within_1000m":347,
-    "district":"新莊區"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
-       "coordinates":  [ 121.80894,25.1078 ]
-    },
-    "properties": {
-    "index":38,
-    "market_name":"第一公有市場",
-    "country":"新北市",
-    "address":"新北市瑞芳區明燈路三段2號",
-    "parking_within_100m":54,
-    "parking_within_200m":89,
-    "parking_within_500m":147,
-    "parking_within_1000m":234,
-    "district":"瑞芳區"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
-       "coordinates":  [ 121.80582,25.10689 ]
-    },
-    "properties": {
-    "index":39,
-    "market_name":"瑞芳美食廣場",
-    "country":"新北市",
-    "address":"新北市瑞芳區民生街35巷2號",
-    "parking_within_100m":0,
-    "parking_within_200m":40,
-    "parking_within_500m":197,
-    "parking_within_1000m":229,
-    "district":"瑞芳區"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
-       "coordinates":  [ 121.68614,25.20299 ]
-    },
-    "properties": {
-    "index":40,
-    "market_name":"野柳攤販集中場",
-    "country":"新北市",
-    "address":"新北市萬里區野柳里港東路攤販街2號",
-    "parking_within_100m":0,
-    "parking_within_200m":20,
-    "parking_within_500m":40,
-    "parking_within_1000m":73,
-    "district":"萬里區"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
-       "coordinates":  [ 121.68949,25.17944 ]
-    },
-    "properties": {
-    "index":41,
-    "market_name":"萬里公有市場",
-    "country":"新北市",
-    "address":"新北市萬里區瑪鋉路261號",
-    "parking_within_100m":4,
-    "parking_within_200m":46,
-    "parking_within_500m":68,
-    "parking_within_1000m":157,
-    "district":"萬里區"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
-       "coordinates":  [ 121.8647,25.03532 ]
-    },
-    "properties": {
-    "index":43,
-    "market_name":"雙溪公有市場",
-    "country":"新北市",
-    "address":"新北市雙溪區太平路50號",
-    "parking_within_100m":17,
-    "parking_within_200m":27,
-    "parking_within_500m":60,
-    "parking_within_1000m":87,
-    "district":"雙溪區"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
-       "coordinates":  [ 121.47155,25.08349 ]
-    },
-    "properties": {
-    "index":44,
-    "market_name":"蘆洲公有市場",
-    "country":"新北市",
-    "address":"新北市蘆洲區成功路160號",
-    "parking_within_100m":0,
-    "parking_within_200m":43,
-    "parking_within_500m":260,
-    "parking_within_1000m":795,
-    "district":"蘆洲區"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
-       "coordinates":  [ 121.45918,25.09036 ]
-    },
-    "properties": {
-    "index":45,
-    "market_name":"永平公有市場",
-    "country":"新北市",
-    "address":"新北市蘆洲區永平街1號",
-    "parking_within_100m":24,
-    "parking_within_200m":25,
-    "parking_within_500m":152,
-    "parking_within_1000m":389,
-    "district":"蘆洲區"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
-       "coordinates":  [ 121.46192,25.08064 ]
-    },
-    "properties": {
-    "index":46,
-    "market_name":"長安公有市場",
-    "country":"新北市",
-    "address":"新北市蘆洲區長安街96號",
-    "parking_within_100m":0,
-    "parking_within_200m":15,
-    "parking_within_500m":137,
-    "parking_within_1000m":447,
-    "district":"蘆洲區"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
-       "coordinates":  [ 121.35336,24.9543 ]
-    },
-    "properties": {
-    "index":47,
-    "market_name":"鶯歌公有市場",
-    "country":"新北市",
-    "address":"新北市鶯歌區建國路108號1樓、B1樓",
-    "parking_within_100m":0,
-    "parking_within_200m":42,
-    "parking_within_500m":113,
-    "parking_within_1000m":187,
-    "district":"鶯歌區"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
-       "coordinates":  [ 121.35336,24.9543 ]
-    },
-    "properties": {
-    "index":48,
-    "market_name":"鶯歌美食廣場",
-    "country":"新北市",
-    "address":"新北市鶯歌區建國路108號2樓",
-    "parking_within_100m":0,
-    "parking_within_200m":42,
-    "parking_within_500m":113,
-    "parking_within_1000m":187,
-    "district":"鶯歌區"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
-       "coordinates":  [ 121.43928,25.08296 ]
-    },
-    "properties": {
-    "index":49,
-    "market_name":"五股公有零售市場",
-    "country":"新北市",
-    "address":"新北市五股區工商路3號",
-    "parking_within_100m":20,
-    "parking_within_200m":76,
-    "parking_within_500m":199,
-    "parking_within_1000m":385,
-    "district":"五股區"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
-       "coordinates":  [ 121.662,25.06857 ]
-    },
-    "properties": {
-    "index":16,
-    "market_name":"秀豐公有市場(攤集區)",
-    "country":"新北市",
-    "address":"新北市汐止火車站臺鐵橋下",
-    "parking_within_100m":42,
-    "parking_within_200m":58,
-    "parking_within_500m":211,
-    "parking_within_1000m":479,
-    "district":"汐止區"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
-       "coordinates":  [ 121.42905,24.99513 ]
-    },
-    "properties": {
-    "index":42,
-    "market_name":"保安攤販集中區",
-    "country":"新北市",
-    "address":"保安街一段14巷",
-    "parking_within_100m":0,
-    "parking_within_200m":22,
-    "parking_within_500m":123,
-    "parking_within_1000m":332,
-    "district":"新莊區"
-    }
-  }
-]
+	"type": "FeatureCollection",
+	"features": [
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.50255600000001, 25.132806]
+			},
+			"properties": {
+				"index": 2,
+				"market_name": "公有北投市場",
+				"country": "臺北市",
+				"address": "臺北市北投區新市街30號",
+				"parking_within_100m": 1,
+				"parking_within_200m": 16,
+				"parking_within_500m": 50,
+				"parking_within_1000m": 144,
+				"district": "北投區"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.54261100000001, 25.054722]
+			},
+			"properties": {
+				"index": 3,
+				"market_name": "公有長春市場",
+				"country": "臺北市",
+				"address": "臺北市中山區長春路299號",
+				"parking_within_100m": 3,
+				"parking_within_200m": 6,
+				"parking_within_500m": 35,
+				"parking_within_1000m": 125,
+				"district": "中山區"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.535306, 25.053667]
+			},
+			"properties": {
+				"index": 4,
+				"market_name": "公有建國市場",
+				"country": "臺北市",
+				"address": "臺北市中山區伊通街94巷4號",
+				"parking_within_100m": 0,
+				"parking_within_200m": 4,
+				"parking_within_500m": 31,
+				"parking_within_1000m": 149,
+				"district": "中山區"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.521111, 25.050139]
+			},
+			"properties": {
+				"index": 5,
+				"market_name": "公有中山市場",
+				"country": "臺北市",
+				"address": "臺北市中山區長安西路3號",
+				"parking_within_100m": 0,
+				"parking_within_200m": 8,
+				"parking_within_500m": 38,
+				"parking_within_1000m": 186,
+				"district": "中山區"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.547278, 24.999944]
+			},
+			"properties": {
+				"index": 6,
+				"market_name": "公有興隆市場",
+				"country": "臺北市",
+				"address": "臺北市文山區興隆路二段97號",
+				"parking_within_100m": 6,
+				"parking_within_200m": 8,
+				"parking_within_500m": 33,
+				"parking_within_1000m": 95,
+				"district": "文山區"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.56913899999999, 24.988667]
+			},
+			"properties": {
+				"index": 7,
+				"market_name": "公有木柵市場",
+				"country": "臺北市",
+				"address": "臺北市文山區保儀路13巷3號",
+				"parking_within_100m": 9,
+				"parking_within_200m": 25,
+				"parking_within_500m": 70,
+				"parking_within_1000m": 160,
+				"district": "文山區"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.498722, 25.040861]
+			},
+			"properties": {
+				"index": 8,
+				"market_name": "公有河濱二商場",
+				"country": "臺北市",
+				"address": "臺北市萬華區環河南路一段328號(286至340號)",
+				"parking_within_100m": 0,
+				"parking_within_200m": 0,
+				"parking_within_500m": 21,
+				"parking_within_1000m": 167,
+				"district": "萬華區"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.490528, 25.029360999999998]
+			},
+			"properties": {
+				"index": 9,
+				"market_name": "公有環南市場",
+				"country": "臺北市",
+				"address": "臺北市萬華區環河南路二段245號",
+				"parking_within_100m": 0,
+				"parking_within_200m": 2,
+				"parking_within_500m": 23,
+				"parking_within_1000m": 91,
+				"district": "萬華區"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.57530600000001, 25.044860999999997]
+			},
+			"properties": {
+				"index": 10,
+				"market_name": "公有永吉市場",
+				"country": "臺北市",
+				"address": "臺北市信義區永吉路278巷1弄30號",
+				"parking_within_100m": 0,
+				"parking_within_200m": 5,
+				"parking_within_500m": 30,
+				"parking_within_1000m": 141,
+				"district": "信義區"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.560472, 25.0365]
+			},
+			"properties": {
+				"index": 11,
+				"market_name": "公有光復市場",
+				"country": "臺北市",
+				"address": "臺北市信義區仁愛路四段496巷19號",
+				"parking_within_100m": 0,
+				"parking_within_200m": 9,
+				"parking_within_500m": 43,
+				"parking_within_1000m": 156,
+				"district": "信義區"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.577556, 25.04325]
+			},
+			"properties": {
+				"index": 12,
+				"market_name": "公有永春市場",
+				"country": "臺北市",
+				"address": "臺北市信義區松山路294號",
+				"parking_within_100m": 2,
+				"parking_within_200m": 6,
+				"parking_within_500m": 40,
+				"parking_within_1000m": 157,
+				"district": "信義區"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.57591699999999, 25.050361]
+			},
+			"properties": {
+				"index": 13,
+				"market_name": "公有松山市場",
+				"country": "臺北市",
+				"address": "臺北市松山區八德路四段679號",
+				"parking_within_100m": 1,
+				"parking_within_200m": 3,
+				"parking_within_500m": 33,
+				"parking_within_1000m": 123,
+				"district": "松山區"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.55380600000001, 25.054610999999998]
+			},
+			"properties": {
+				"index": 14,
+				"market_name": "公有龍城市場",
+				"country": "臺北市",
+				"address": "臺北市松山區光復北路190巷39號",
+				"parking_within_100m": 0,
+				"parking_within_200m": 0,
+				"parking_within_500m": 14,
+				"parking_within_1000m": 84,
+				"district": "松山區"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.57063899999999, 25.050917000000002]
+			},
+			"properties": {
+				"index": 15,
+				"market_name": "公有南松市場",
+				"country": "臺北市",
+				"address": "臺北市松山區塔悠路40號",
+				"parking_within_100m": 3,
+				"parking_within_200m": 13,
+				"parking_within_500m": 34,
+				"parking_within_1000m": 101,
+				"district": "松山區"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.55269399999999, 25.048000000000002]
+			},
+			"properties": {
+				"index": 16,
+				"market_name": "公有中崙市場",
+				"country": "臺北市",
+				"address": "臺北市松山區八德路三段76號",
+				"parking_within_100m": 0,
+				"parking_within_200m": 4,
+				"parking_within_500m": 21,
+				"parking_within_1000m": 116,
+				"district": "松山區"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.566694, 25.082389000000003]
+			},
+			"properties": {
+				"index": 17,
+				"market_name": "公有西湖市場",
+				"country": "臺北市",
+				"address": "臺北市內湖區內湖路一段285號1、2樓",
+				"parking_within_100m": 3,
+				"parking_within_200m": 9,
+				"parking_within_500m": 46,
+				"parking_within_1000m": 102,
+				"district": "內湖區"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.54733300000001, 25.026972]
+			},
+			"properties": {
+				"index": 18,
+				"market_name": "公有成功市場（臨時攤棚）",
+				"country": "臺北市",
+				"address": "臺北市大安區四維路192巷",
+				"parking_within_100m": 0,
+				"parking_within_200m": 6,
+				"parking_within_500m": 40,
+				"parking_within_1000m": 131,
+				"district": "大安區"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.514306, 25.075139]
+			},
+			"properties": {
+				"index": 1,
+				"market_name": "公有大龍市場",
+				"country": "臺北市",
+				"address": "重慶北路三段347號",
+				"parking_within_100m": 3,
+				"parking_within_200m": 3,
+				"parking_within_500m": 28,
+				"parking_within_1000m": 96,
+				"district": "大同區"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.529472, 25.028528]
+			},
+			"properties": {
+				"index": 19,
+				"market_name": "公有錦安市場",
+				"country": "臺北市",
+				"address": "臺北市大安區永康街60號",
+				"parking_within_100m": 0,
+				"parking_within_200m": 2,
+				"parking_within_500m": 28,
+				"parking_within_1000m": 126,
+				"district": "大安區"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.539083, 25.034028]
+			},
+			"properties": {
+				"index": 20,
+				"market_name": "公有信義市場",
+				"country": "臺北市",
+				"address": "臺北市大安區信義路三段107號",
+				"parking_within_100m": 8,
+				"parking_within_200m": 11,
+				"parking_within_500m": 42,
+				"parking_within_1000m": 132,
+				"district": "大安區"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.54116699999999, 25.028222]
+			},
+			"properties": {
+				"index": 21,
+				"market_name": "公有安東市場",
+				"country": "臺北市",
+				"address": "臺北市大安區瑞安街75號",
+				"parking_within_100m": 0,
+				"parking_within_200m": 0,
+				"parking_within_500m": 23,
+				"parking_within_1000m": 127,
+				"district": "大安區"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.58680600000001, 25.046167]
+			},
+			"properties": {
+				"index": 22,
+				"market_name": "公有成德市場",
+				"country": "臺北市",
+				"address": "臺北市南港區同德路100號1樓",
+				"parking_within_100m": 3,
+				"parking_within_200m": 3,
+				"parking_within_500m": 36,
+				"parking_within_1000m": 159,
+				"district": "南港區"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.61447199999999, 25.045472]
+			},
+			"properties": {
+				"index": 23,
+				"market_name": "公有中研市場",
+				"country": "臺北市",
+				"address": "臺北市南港區研究院路二段70巷12號",
+				"parking_within_100m": 0,
+				"parking_within_200m": 8,
+				"parking_within_500m": 49,
+				"parking_within_1000m": 104,
+				"district": "南港區"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.532417, 25.03675]
+			},
+			"properties": {
+				"index": 24,
+				"market_name": "公有新生市場",
+				"country": "臺北市",
+				"address": "臺北市中正區新生南路一段134之1號",
+				"parking_within_100m": 0,
+				"parking_within_200m": 5,
+				"parking_within_500m": 40,
+				"parking_within_1000m": 139,
+				"district": "中正區"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.52480600000001, 25.044194]
+			},
+			"properties": {
+				"index": 25,
+				"market_name": "公有華山市場",
+				"country": "臺北市",
+				"address": "臺北市中正區忠孝東路一段108號",
+				"parking_within_100m": 0,
+				"parking_within_200m": 2,
+				"parking_within_500m": 37,
+				"parking_within_1000m": 167,
+				"district": "中正區"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.522944, 25.032722]
+			},
+			"properties": {
+				"index": 26,
+				"market_name": "公有南門市場",
+				"country": "臺北市",
+				"address": "臺北市大安區杭州南路二段55號",
+				"parking_within_100m": 2,
+				"parking_within_200m": 2,
+				"parking_within_500m": 32,
+				"parking_within_1000m": 151,
+				"district": "大安區"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.53200000000001, 25.045278]
+			},
+			"properties": {
+				"index": 27,
+				"market_name": "光華數位新天地",
+				"country": "臺北市",
+				"address": "臺北市中正區市民大道三段8號",
+				"parking_within_100m": 2,
+				"parking_within_200m": 8,
+				"parking_within_500m": 37,
+				"parking_within_1000m": 169,
+				"district": "中正區"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.534972, 25.01375]
+			},
+			"properties": {
+				"index": 28,
+				"market_name": "公有水源市場",
+				"country": "臺北市",
+				"address": "臺北市中正區羅斯福路四段92號",
+				"parking_within_100m": 3,
+				"parking_within_200m": 6,
+				"parking_within_500m": 23,
+				"parking_within_1000m": 69,
+				"district": "中正區"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.52666699999999, 25.034639000000002]
+			},
+			"properties": {
+				"index": 29,
+				"market_name": "公有東門市場",
+				"country": "臺北市",
+				"address": "臺北市中正區信義路二段81號",
+				"parking_within_100m": 6,
+				"parking_within_200m": 8,
+				"parking_within_500m": 33,
+				"parking_within_1000m": 138,
+				"district": "中正區"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.53091699999999, 25.040306]
+			},
+			"properties": {
+				"index": 30,
+				"market_name": "公有幸安市場",
+				"country": "臺北市",
+				"address": "臺北市中正區濟南路二段46號",
+				"parking_within_100m": 2,
+				"parking_within_200m": 6,
+				"parking_within_500m": 41,
+				"parking_within_1000m": 157,
+				"district": "中正區"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.515611, 25.066056]
+			},
+			"properties": {
+				"index": 31,
+				"market_name": "公有蘭州市場",
+				"country": "臺北市",
+				"address": "臺北市大同區昌吉街55號(55至57號)",
+				"parking_within_100m": 0,
+				"parking_within_200m": 5,
+				"parking_within_500m": 55,
+				"parking_within_1000m": 147,
+				"district": "大同區"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.516861, 25.056860999999998]
+			},
+			"properties": {
+				"index": 32,
+				"market_name": "公有雙連市場",
+				"country": "臺北市",
+				"address": "臺北市大同區民生西路198號",
+				"parking_within_100m": 1,
+				"parking_within_200m": 7,
+				"parking_within_500m": 37,
+				"parking_within_1000m": 157,
+				"district": "大同區"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.510806, 25.054833]
+			},
+			"properties": {
+				"index": 33,
+				"market_name": "公有永樂市場",
+				"country": "臺北市",
+				"address": "臺北市大同區迪化街一段21號",
+				"parking_within_100m": 1,
+				"parking_within_200m": 5,
+				"parking_within_500m": 51,
+				"parking_within_1000m": 138,
+				"district": "大同區"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.521472, 25.050167000000002]
+			},
+			"properties": {
+				"index": 34,
+				"market_name": "中山大樓",
+				"country": "臺北市",
+				"address": "臺北市中山區中山北路一段110號之1至之8",
+				"parking_within_100m": 2,
+				"parking_within_200m": 8,
+				"parking_within_500m": 44,
+				"parking_within_1000m": 185,
+				"district": "中山區"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.533278, 25.062639]
+			},
+			"properties": {
+				"index": 35,
+				"market_name": "台北松江路命理街(行天宮旁地下街)",
+				"country": "臺北市",
+				"address": "臺北市中山區民權東路二段(地下人行道)",
+				"parking_within_100m": 9,
+				"parking_within_200m": 12,
+				"parking_within_500m": 42,
+				"parking_within_1000m": 135,
+				"district": "中山區"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.532028, 25.060139000000003]
+			},
+			"properties": {
+				"index": 36,
+				"market_name": "公有松江市場",
+				"country": "臺北市",
+				"address": "臺北市中山區錦州街222號",
+				"parking_within_100m": 0,
+				"parking_within_200m": 6,
+				"parking_within_500m": 37,
+				"parking_within_1000m": 150,
+				"district": "中山區"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.536639, 25.045444]
+			},
+			"properties": {
+				"index": 37,
+				"market_name": "公有八德市場",
+				"country": "臺北市",
+				"address": "臺北市中山區八德路二段108之1號",
+				"parking_within_100m": 0,
+				"parking_within_200m": 10,
+				"parking_within_500m": 40,
+				"parking_within_1000m": 167,
+				"district": "中山區"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.545278, 25.078639000000003]
+			},
+			"properties": {
+				"index": 38,
+				"market_name": "公有大直市場",
+				"country": "臺北市",
+				"address": "臺北市中山區北安路458巷41弄3號",
+				"parking_within_100m": 1,
+				"parking_within_200m": 4,
+				"parking_within_500m": 15,
+				"parking_within_1000m": 39,
+				"district": "中山區"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.541083, 24.989860999999998]
+			},
+			"properties": {
+				"index": 39,
+				"market_name": "公有景美市場",
+				"country": "臺北市",
+				"address": "臺北市文山區景文街137號",
+				"parking_within_100m": 2,
+				"parking_within_200m": 7,
+				"parking_within_500m": 39,
+				"parking_within_1000m": 119,
+				"district": "文山區"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.557222, 24.981444]
+			},
+			"properties": {
+				"index": 40,
+				"market_name": "公有木新市場",
+				"country": "臺北市",
+				"address": "臺北市文山區木新路三段310巷4號",
+				"parking_within_100m": 3,
+				"parking_within_200m": 9,
+				"parking_within_500m": 32,
+				"parking_within_1000m": 118,
+				"district": "文山區"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.524194, 25.088082999999997]
+			},
+			"properties": {
+				"index": 41,
+				"market_name": "公有士林市場",
+				"country": "臺北市",
+				"address": "臺北市士林區基河路101號",
+				"parking_within_100m": 5,
+				"parking_within_200m": 12,
+				"parking_within_500m": 48,
+				"parking_within_1000m": 148,
+				"district": "士林區"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.529528, 25.111917000000002]
+			},
+			"properties": {
+				"index": 42,
+				"market_name": "公有士東市場",
+				"country": "臺北市",
+				"address": "臺北市士林區士東路100號",
+				"parking_within_100m": 0,
+				"parking_within_200m": 0,
+				"parking_within_500m": 25,
+				"parking_within_1000m": 122,
+				"district": "士林區"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.499889, 25.035]
+			},
+			"properties": {
+				"index": 43,
+				"market_name": "公有龍山商場",
+				"country": "臺北市",
+				"address": "臺北市萬華區和平西路三段120號 (萬華區行政中心內 )",
+				"parking_within_100m": 7,
+				"parking_within_200m": 25,
+				"parking_within_500m": 92,
+				"parking_within_1000m": 194,
+				"district": "萬華區"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.505583, 25.048333]
+			},
+			"properties": {
+				"index": 44,
+				"market_name": "公有河濱一商場",
+				"country": "臺北市",
+				"address": "臺北市萬華區環河南路一段4號(2至272號)",
+				"parking_within_100m": 0,
+				"parking_within_200m": 1,
+				"parking_within_500m": 38,
+				"parking_within_1000m": 170,
+				"district": "萬華區"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.50688899999999, 25.048139000000003]
+			},
+			"properties": {
+				"index": 45,
+				"market_name": "公有西寧市場",
+				"country": "臺北市",
+				"address": "臺北市萬華區西寧南路4號",
+				"parking_within_100m": 0,
+				"parking_within_200m": 3,
+				"parking_within_500m": 52,
+				"parking_within_1000m": 181,
+				"district": "萬華區"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.50697199999999, 25.04175]
+			},
+			"properties": {
+				"index": 46,
+				"market_name": "公有西門商場",
+				"country": "臺北市",
+				"address": "臺北市萬華區成都路10巷33號",
+				"parking_within_100m": 9,
+				"parking_within_200m": 34,
+				"parking_within_500m": 96,
+				"parking_within_1000m": 224,
+				"district": "萬華區"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.50175, 25.039333]
+			},
+			"properties": {
+				"index": 47,
+				"market_name": "公有直興市場",
+				"country": "臺北市",
+				"address": "臺北市萬華區康定路172巷1號",
+				"parking_within_100m": 2,
+				"parking_within_200m": 16,
+				"parking_within_500m": 63,
+				"parking_within_1000m": 212,
+				"district": "萬華區"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.501972, 25.036027999999998]
+			},
+			"properties": {
+				"index": 48,
+				"market_name": "公有新富市場",
+				"country": "臺北市",
+				"address": "臺北市萬華區三水街70號",
+				"parking_within_100m": 5,
+				"parking_within_200m": 16,
+				"parking_within_500m": 77,
+				"parking_within_1000m": 238,
+				"district": "萬華區"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.39986, 25.14658]
+			},
+			"properties": {
+				"index": 1,
+				"market_name": "下庄公有市場",
+				"country": "新北市",
+				"address": "新北市八里區舊城路19號",
+				"parking_within_100m": 2,
+				"parking_within_200m": 8,
+				"parking_within_500m": 21,
+				"parking_within_1000m": 46,
+				"district": "八里區"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.5008, 25.06432]
+			},
+			"properties": {
+				"index": 2,
+				"market_name": "中央公有市場",
+				"country": "新北市",
+				"address": "新北市三重區中央北路26號",
+				"parking_within_100m": 0,
+				"parking_within_200m": 9,
+				"parking_within_500m": 37,
+				"parking_within_1000m": 86,
+				"district": "三重區"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.49133, 25.05721]
+			},
+			"properties": {
+				"index": 3,
+				"market_name": "光明公有市場",
+				"country": "新北市",
+				"address": "新北市三重區重安街70號",
+				"parking_within_100m": 1,
+				"parking_within_200m": 3,
+				"parking_within_500m": 45,
+				"parking_within_1000m": 107,
+				"district": "三重區"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.50118, 25.06378]
+			},
+			"properties": {
+				"index": 4,
+				"market_name": "重新公有市場",
+				"country": "新北市",
+				"address": "新北市三重區重新路87-6號",
+				"parking_within_100m": 2,
+				"parking_within_200m": 7,
+				"parking_within_500m": 34,
+				"parking_within_1000m": 82,
+				"district": "三重區"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.49133, 25.05721]
+			},
+			"properties": {
+				"index": 5,
+				"market_name": "光明公有市場2樓",
+				"country": "新北市",
+				"address": "新北市三重區重安街70號2樓",
+				"parking_within_100m": 1,
+				"parking_within_200m": 3,
+				"parking_within_500m": 45,
+				"parking_within_1000m": 107,
+				"district": "三重區"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.37065, 24.9349]
+			},
+			"properties": {
+				"index": 6,
+				"market_name": "三峽公有市場",
+				"country": "新北市",
+				"address": "新北市三峽區民生街186號",
+				"parking_within_100m": 0,
+				"parking_within_200m": 4,
+				"parking_within_500m": 47,
+				"parking_within_1000m": 118,
+				"district": "三峽區"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.37618, 24.92817]
+			},
+			"properties": {
+				"index": 7,
+				"market_name": "礁溪公有市場",
+				"country": "新北市",
+				"address": "新北市三峽區光明路71號",
+				"parking_within_100m": 2,
+				"parking_within_200m": 6,
+				"parking_within_500m": 33,
+				"parking_within_1000m": 85,
+				"district": "三峽區"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.44301, 24.97507]
+			},
+			"properties": {
+				"index": 8,
+				"market_name": "土城公有零售市場",
+				"country": "新北市",
+				"address": "新北市土城區中正路18號",
+				"parking_within_100m": 4,
+				"parking_within_200m": 8,
+				"parking_within_500m": 27,
+				"parking_within_1000m": 64,
+				"district": "土城區"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.41518, 24.95816]
+			},
+			"properties": {
+				"index": 9,
+				"market_name": "頂埔公有市場",
+				"country": "新北市",
+				"address": "新北市土城區中州路28巷30號",
+				"parking_within_100m": 0,
+				"parking_within_200m": 2,
+				"parking_within_500m": 6,
+				"parking_within_1000m": 23,
+				"district": "土城區"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.47413, 25.00357]
+			},
+			"properties": {
+				"index": 10,
+				"market_name": "民享公有市場",
+				"country": "新北市",
+				"address": "新北市中和區民享街37號",
+				"parking_within_100m": 2,
+				"parking_within_200m": 3,
+				"parking_within_500m": 33,
+				"parking_within_1000m": 100,
+				"district": "中和區"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.49777, 25.00522]
+			},
+			"properties": {
+				"index": 11,
+				"market_name": "枋寮公有市場",
+				"country": "新北市",
+				"address": "新北市中和區中和路74號",
+				"parking_within_100m": 0,
+				"parking_within_200m": 0,
+				"parking_within_500m": 31,
+				"parking_within_1000m": 112,
+				"district": "中和區"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.50542, 24.99211]
+			},
+			"properties": {
+				"index": 12,
+				"market_name": "和平街攤販集中區",
+				"country": "新北市",
+				"address": "新北市中和區和平街89號",
+				"parking_within_100m": 2,
+				"parking_within_200m": 10,
+				"parking_within_500m": 41,
+				"parking_within_1000m": 136,
+				"district": "中和區"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.51428, 25.00431]
+			},
+			"properties": {
+				"index": 13,
+				"market_name": "永安公有市場",
+				"country": "新北市",
+				"address": "新北市永和區安樂路431號",
+				"parking_within_100m": 4,
+				"parking_within_200m": 11,
+				"parking_within_500m": 58,
+				"parking_within_1000m": 165,
+				"district": "永和區"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.5166, 25.0136]
+			},
+			"properties": {
+				"index": 14,
+				"market_name": "溪洲公有市場",
+				"country": "新北市",
+				"address": "新北市永和區勵行街42-1號",
+				"parking_within_100m": 0,
+				"parking_within_200m": 7,
+				"parking_within_500m": 34,
+				"parking_within_1000m": 106,
+				"district": "永和區"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.62952, 25.06839]
+			},
+			"properties": {
+				"index": 15,
+				"market_name": "金龍公有市場",
+				"country": "新北市",
+				"address": "新北市汐止區中興路250號",
+				"parking_within_100m": 4,
+				"parking_within_200m": 6,
+				"parking_within_500m": 32,
+				"parking_within_1000m": 103,
+				"district": "汐止區"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.65842, 25.06907]
+			},
+			"properties": {
+				"index": 17,
+				"market_name": "中正公有市場",
+				"country": "新北市",
+				"address": "新北市汐止區中正路206號",
+				"parking_within_100m": 0,
+				"parking_within_200m": 1,
+				"parking_within_500m": 43,
+				"parking_within_1000m": 135,
+				"district": "汐止區"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.64114, 25.06595]
+			},
+			"properties": {
+				"index": 18,
+				"market_name": "忠厚公有市場",
+				"country": "新北市",
+				"address": "新北市汐止區樟樹一路137巷26號",
+				"parking_within_100m": 3,
+				"parking_within_200m": 10,
+				"parking_within_500m": 37,
+				"parking_within_1000m": 111,
+				"district": "汐止區"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.62311, 25.04074]
+			},
+			"properties": {
+				"index": 19,
+				"market_name": "林森攤販集中區",
+				"country": "新北市",
+				"address": "新北市汐止區林森街",
+				"parking_within_100m": 0,
+				"parking_within_200m": 2,
+				"parking_within_500m": 48,
+				"parking_within_1000m": 94,
+				"district": "汐止區"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.65631, 25.06305]
+			},
+			"properties": {
+				"index": 20,
+				"market_name": "觀光攤販集中區",
+				"country": "新北市",
+				"address": "新北市汐止區水源路一段至新興路之臺鐵橋下",
+				"parking_within_100m": 2,
+				"parking_within_200m": 9,
+				"parking_within_500m": 50,
+				"parking_within_1000m": 116,
+				"district": "汐止區"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.45543, 25.00735]
+			},
+			"properties": {
+				"index": 21,
+				"market_name": "湳興公有市場",
+				"country": "新北市",
+				"address": "新北市板橋區中興路63號",
+				"parking_within_100m": 0,
+				"parking_within_200m": 2,
+				"parking_within_500m": 25,
+				"parking_within_1000m": 123,
+				"district": "板橋區"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.45727, 25.01288]
+			},
+			"properties": {
+				"index": 22,
+				"market_name": "黃石公有市場(中繼)",
+				"country": "新北市",
+				"address": "新北市板橋區公館街1號",
+				"parking_within_100m": 2,
+				"parking_within_200m": 6,
+				"parking_within_500m": 29,
+				"parking_within_1000m": 116,
+				"district": "板橋區"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.662, 25.06857]
+			},
+			"properties": {
+				"index": 16,
+				"market_name": "秀豐公有市場(攤集區)",
+				"country": "新北市",
+				"address": "新北市汐止火車站臺鐵橋下",
+				"parking_within_100m": 13,
+				"parking_within_200m": 18,
+				"parking_within_500m": 49,
+				"parking_within_1000m": 129,
+				"district": "汐止區"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.45887, 25.0066]
+			},
+			"properties": {
+				"index": 23,
+				"market_name": "後埔公有市場",
+				"country": "新北市",
+				"address": "新北市板橋區大華街5號",
+				"parking_within_100m": 2,
+				"parking_within_200m": 6,
+				"parking_within_500m": 30,
+				"parking_within_1000m": 118,
+				"district": "板橋區"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.37725, 25.06878]
+			},
+			"properties": {
+				"index": 24,
+				"market_name": "東勢公有市場",
+				"country": "新北市",
+				"address": "新北市林口區林口區麗園一街35號",
+				"parking_within_100m": 2,
+				"parking_within_200m": 6,
+				"parking_within_500m": 14,
+				"parking_within_1000m": 59,
+				"district": "林口區"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.39145, 25.07779]
+			},
+			"properties": {
+				"index": 25,
+				"market_name": "林口公有市場",
+				"country": "新北市",
+				"address": "新北市林口區林口路15號",
+				"parking_within_100m": 0,
+				"parking_within_200m": 8,
+				"parking_within_500m": 35,
+				"parking_within_1000m": 88,
+				"district": "林口區"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.36762, 25.06882]
+			},
+			"properties": {
+				"index": 26,
+				"market_name": "麗林公有市場",
+				"country": "新北市",
+				"address": "新北市林口區公園路59號",
+				"parking_within_100m": 0,
+				"parking_within_200m": 3,
+				"parking_within_500m": 24,
+				"parking_within_1000m": 84,
+				"district": "林口區"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.63809, 25.22139]
+			},
+			"properties": {
+				"index": 27,
+				"market_name": "第一公有市場",
+				"country": "新北市",
+				"address": "新北市金山區中山路188號",
+				"parking_within_100m": 0,
+				"parking_within_200m": 7,
+				"parking_within_500m": 32,
+				"parking_within_1000m": 62,
+				"district": "金山區"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.43366, 25.05613]
+			},
+			"properties": {
+				"index": 28,
+				"market_name": "泰山公有市場",
+				"country": "新北市",
+				"address": "新北市泰山區全興路212號",
+				"parking_within_100m": 8,
+				"parking_within_200m": 12,
+				"parking_within_500m": 35,
+				"parking_within_1000m": 73,
+				"district": "泰山區"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.92692, 25.05478]
+			},
+			"properties": {
+				"index": 29,
+				"market_name": "澳底公有市場",
+				"country": "新北市",
+				"address": "新北市貢寮區仁愛路79號",
+				"parking_within_100m": 2,
+				"parking_within_200m": 4,
+				"parking_within_500m": 19,
+				"parking_within_1000m": 30,
+				"district": "貢寮區"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.44272, 25.17042]
+			},
+			"properties": {
+				"index": 30,
+				"market_name": "中山公有零售市場",
+				"country": "新北市",
+				"address": "新北市淡水區中山路77號",
+				"parking_within_100m": 2,
+				"parking_within_200m": 7,
+				"parking_within_500m": 19,
+				"parking_within_1000m": 84,
+				"district": "淡水區"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.43981, 25.17002]
+			},
+			"properties": {
+				"index": 31,
+				"market_name": "中正美食廣場",
+				"country": "新北市",
+				"address": "新北市淡水區中正路115號",
+				"parking_within_100m": 1,
+				"parking_within_200m": 3,
+				"parking_within_500m": 21,
+				"parking_within_1000m": 64,
+				"district": "淡水區"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.61499, 25.00098]
+			},
+			"properties": {
+				"index": 32,
+				"market_name": "深坑公有市場",
+				"country": "新北市",
+				"address": "新北市深坑區平埔街22巷8號",
+				"parking_within_100m": 1,
+				"parking_within_200m": 6,
+				"parking_within_500m": 35,
+				"parking_within_1000m": 75,
+				"district": "深坑區"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.5276, 24.97544]
+			},
+			"properties": {
+				"index": 33,
+				"market_name": "中央公有市場",
+				"country": "新北市",
+				"address": "新北市新店區中央五街60號",
+				"parking_within_100m": 0,
+				"parking_within_200m": 0,
+				"parking_within_500m": 13,
+				"parking_within_1000m": 62,
+				"district": "新店區"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.53697, 24.95525]
+			},
+			"properties": {
+				"index": 34,
+				"market_name": "碧潭公有市場",
+				"country": "新北市",
+				"address": "新北市新店區新店路159號",
+				"parking_within_100m": 0,
+				"parking_within_200m": 1,
+				"parking_within_500m": 26,
+				"parking_within_1000m": 64,
+				"district": "新店區"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.5127, 24.96268]
+			},
+			"properties": {
+				"index": 35,
+				"market_name": "安康公有市場",
+				"country": "新北市",
+				"address": "新北市新店區安康路二段120號",
+				"parking_within_100m": 2,
+				"parking_within_200m": 3,
+				"parking_within_500m": 14,
+				"parking_within_1000m": 49,
+				"district": "新店區"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.5276, 24.97544]
+			},
+			"properties": {
+				"index": 36,
+				"market_name": "中央公有市場",
+				"country": "新北市",
+				"address": "新北市新店區中央五街60號",
+				"parking_within_100m": 0,
+				"parking_within_200m": 0,
+				"parking_within_500m": 13,
+				"parking_within_1000m": 62,
+				"district": "新店區"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.45281, 25.03422]
+			},
+			"properties": {
+				"index": 37,
+				"market_name": "第一公有市場",
+				"country": "新北市",
+				"address": "新北市新莊區新莊路315號",
+				"parking_within_100m": 0,
+				"parking_within_200m": 0,
+				"parking_within_500m": 12,
+				"parking_within_1000m": 74,
+				"district": "新莊區"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.80894, 25.1078]
+			},
+			"properties": {
+				"index": 38,
+				"market_name": "第一公有市場",
+				"country": "新北市",
+				"address": "新北市瑞芳區明燈路三段2號",
+				"parking_within_100m": 5,
+				"parking_within_200m": 12,
+				"parking_within_500m": 20,
+				"parking_within_1000m": 43,
+				"district": "瑞芳區"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.80582, 25.10689]
+			},
+			"properties": {
+				"index": 39,
+				"market_name": "瑞芳美食廣場",
+				"country": "新北市",
+				"address": "新北市瑞芳區民生街35巷2號",
+				"parking_within_100m": 0,
+				"parking_within_200m": 3,
+				"parking_within_500m": 31,
+				"parking_within_1000m": 42,
+				"district": "瑞芳區"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.68614, 25.20299]
+			},
+			"properties": {
+				"index": 40,
+				"market_name": "野柳攤販集中場",
+				"country": "新北市",
+				"address": "新北市萬里區野柳里港東路攤販街2號",
+				"parking_within_100m": 0,
+				"parking_within_200m": 5,
+				"parking_within_500m": 13,
+				"parking_within_1000m": 26,
+				"district": "萬里區"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.68949, 25.17944]
+			},
+			"properties": {
+				"index": 41,
+				"market_name": "萬里公有市場",
+				"country": "新北市",
+				"address": "新北市萬里區瑪鋉路261號",
+				"parking_within_100m": 1,
+				"parking_within_200m": 5,
+				"parking_within_500m": 8,
+				"parking_within_1000m": 36,
+				"district": "萬里區"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.8647, 25.03532]
+			},
+			"properties": {
+				"index": 43,
+				"market_name": "雙溪公有市場",
+				"country": "新北市",
+				"address": "新北市雙溪區太平路50號",
+				"parking_within_100m": 4,
+				"parking_within_200m": 8,
+				"parking_within_500m": 16,
+				"parking_within_1000m": 28,
+				"district": "雙溪區"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.47155, 25.08349]
+			},
+			"properties": {
+				"index": 44,
+				"market_name": "蘆洲公有市場",
+				"country": "新北市",
+				"address": "新北市蘆洲區成功路160號",
+				"parking_within_100m": 0,
+				"parking_within_200m": 8,
+				"parking_within_500m": 59,
+				"parking_within_1000m": 200,
+				"district": "蘆洲區"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.45918, 25.09036]
+			},
+			"properties": {
+				"index": 45,
+				"market_name": "永平公有市場",
+				"country": "新北市",
+				"address": "新北市蘆洲區永平街1號",
+				"parking_within_100m": 6,
+				"parking_within_200m": 7,
+				"parking_within_500m": 44,
+				"parking_within_1000m": 105,
+				"district": "蘆洲區"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.46192, 25.08064]
+			},
+			"properties": {
+				"index": 46,
+				"market_name": "長安公有市場",
+				"country": "新北市",
+				"address": "新北市蘆洲區長安街96號",
+				"parking_within_100m": 0,
+				"parking_within_200m": 11,
+				"parking_within_500m": 56,
+				"parking_within_1000m": 150,
+				"district": "蘆洲區"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.35336, 24.9543]
+			},
+			"properties": {
+				"index": 47,
+				"market_name": "鶯歌公有市場",
+				"country": "新北市",
+				"address": "新北市鶯歌區建國路108號1樓、B1樓",
+				"parking_within_100m": 0,
+				"parking_within_200m": 9,
+				"parking_within_500m": 31,
+				"parking_within_1000m": 68,
+				"district": "鶯歌區"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.35336, 24.9543]
+			},
+			"properties": {
+				"index": 48,
+				"market_name": "鶯歌美食廣場",
+				"country": "新北市",
+				"address": "新北市鶯歌區建國路108號2樓",
+				"parking_within_100m": 0,
+				"parking_within_200m": 9,
+				"parking_within_500m": 31,
+				"parking_within_1000m": 68,
+				"district": "鶯歌區"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.43928, 25.08296]
+			},
+			"properties": {
+				"index": 49,
+				"market_name": "五股公有零售市場",
+				"country": "新北市",
+				"address": "新北市五股區工商路3號",
+				"parking_within_100m": 3,
+				"parking_within_200m": 11,
+				"parking_within_500m": 28,
+				"parking_within_1000m": 58,
+				"district": "五股區"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.42905, 24.99513]
+			},
+			"properties": {
+				"index": 42,
+				"market_name": "保安攤販集中區",
+				"country": "新北市",
+				"address": "保安街一段14巷",
+				"parking_within_100m": 0,
+				"parking_within_200m": 2,
+				"parking_within_500m": 22,
+				"parking_within_1000m": 76,
+				"district": "新莊區"
+			}
+		}
+	]
 }
