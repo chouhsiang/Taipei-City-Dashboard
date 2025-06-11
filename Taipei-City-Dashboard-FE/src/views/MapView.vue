@@ -31,9 +31,49 @@ const toggleOn = ref({
 	noMap: [],
 	mapLayer: [],
 	basicLayer: [],
+	testLayers: [false],
 });
 
 const pinnedMapLayerToggleOnSet = ref(new Set());
+
+// Test Arc Layer Config
+const testArcLayerConfig = ref({
+  id: 'test-arcs-layer',
+  index: 'sample-arcs',
+  name: 'Test Bulge Arcs',
+  city: 'taipei',
+  description: 'A test layer for bulge arcs drawn natively in Mapbox.',
+  icon: 'polyline',
+  tags: ['test', 'arc', 'geojson'],
+  time_from: 'static',
+  data_level: 'layer',
+  map_config: [
+    {
+      id: 'test-arcs-map-config',
+      index: 'sample-arcs',
+      name: 'Sample Arcs Layer',
+      type: 'bulge-arc',
+      source: 'geojson',
+      city: 'taipei',
+      paint: {
+        'line-color': ['get', 'color'],
+        'line-width': 3,
+        'line-opacity': 0.8
+      },
+      layout: {
+        'line-join': 'round',
+        'line-cap': 'round'
+      },
+      property: {},
+      filter: []
+    }
+  ],
+  chart_config: {},
+  history_config: null,
+  data_source_id: 'static-geojson',
+  unit: '',
+  chart_type: 'Map',
+});
 
 // Separate components with maps from those without
 const parseMapLayers = computed(() => {
@@ -492,6 +532,27 @@ function getIsPinned(componentId) {
 						}
 					"
 				/>
+
+				<h2>Test Arc Layer</h2>
+				<DashboardComponent
+					:key="testArcLayerConfig.value.id"
+					:config="testArcLayerConfig.value"
+					mode="halfmap"
+					:info-btn="false"
+					:active-city="testArcLayerConfig.value.city"
+					:city-tag="contentStore.cityManager.getTagList(testArcLayerConfig.value.city)"
+					:toggle-disable="shouldDisable(testArcLayerConfig.value.map_config)"
+					:toggle-on="toggleOn.value.testLayers ? toggleOn.value.testLayers[0] : false"
+					@toggle="(value, map_config) => {
+						handleToggle(value, map_config);
+						if (toggleOn.value.testLayers) {
+							toggleOn.value.testLayers[0] = value;
+						}
+					}"
+					@filter-by-param="(map_filter, map_config_param, x, y) => { mapStore.filterByParam(map_filter, map_config_param, x, y); }"
+					@clear-by-param-filter="(map_config_param) => { mapStore.clearByParamFilter(map_config_param); }"
+				/>
+
 				<h2 v-if="parseMapLayers.noMap?.length > 0">無空間資料組件</h2>
 				<DashboardComponent
 					v-for="(item, arrayIdx) in parseMapLayers.noMap"

@@ -1,0 +1,56 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [121.50, 25.03],
+          [121.55, 25.04]
+        ]
+      },
+      "properties": {
+        "id": "arc_1",
+        "name": "Positive Bulge Arc",
+        "arc_bulge": 0.3,
+        "color": "#FF0000",
+        "description": "This arc should curve upwards/CCW."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [121.51, 25.00],
+          [121.56, 25.01]
+        ]
+      },
+      "properties": {
+        "id": "arc_2",
+        "name": "Negative Bulge Arc",
+        "arc_bulge": -0.4,
+        "color": "#0000FF",
+        "description": "This arc should curve downwards/CW."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [121.48, 25.02],
+          [121.53, 25.02]
+        ]
+      },
+      "properties": {
+        "id": "arc_straight",
+        "name": "Zero Bulge Arc (Straight Line)",
+        "arc_bulge": 0,
+        "color": "#00FF00",
+        "description": "This should be a straight line."
+      }
+    }
+  ]
+}

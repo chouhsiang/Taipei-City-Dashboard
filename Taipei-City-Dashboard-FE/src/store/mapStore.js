@@ -42,6 +42,7 @@ import { marchingSquare } from "../assets/utilityFunctions/marchingSquare.js";
 import { voronoi } from "../assets/utilityFunctions/voronoi.js";
 import { calculateHaversineDistance } from "../assets/utilityFunctions/calculateHaversineDistance";
 import { AnimatedArcLayer } from "../assets/configs/mapbox/arcAnimate.js";
+import { calculateArcFromBulge } from "../assets/utilityFunctions/arcCalculator.js";
 
 export const useMapStore = defineStore("map", {
 	state: () => ({
@@ -309,14 +310,45 @@ export const useMapStore = defineStore("map", {
 		},
 		// 3-1. Add a local geojson as a source in mapbox
 		addGeojsonSource(map_config, data) {
-			if (!["voronoi", "isoline"].includes(map_config.type)) {
+			if (!["voronoi", "isoline", "bulge-arc"].includes(map_config.type)) {
 				this.map.addSource(`${map_config.layerId}-source`, {
 					type: "geojson",
 					data: { ...data },
 				});
 			}
-			if (map_config.type === "arc") {
+			if (map_config.type === "arc") { // Deck.gl ArcLayer
 				this.AddArcMapLayer(map_config, data);
+			} else if (map_config.type === "bulge-arc") { // New type for Mapbox native arcs
+				let processedFeatures = [];
+				if (data.type === "FeatureCollection") {
+						processedFeatures = data.features.map(feature => calculateArcFromBulge(feature));
+				} else if (data.type === "Feature") {
+						processedFeatures = [calculateArcFromBulge(data)];
+				} else {
+						console.error("Bulge arc data is not a Feature or FeatureCollection:", data);
+						this.loadingLayers = this.loadingLayers.filter(el => el !== map_config.layerId);
+						return;
+				}
+
+				const processedFeatureCollection = {
+						type: "FeatureCollection",
+						features: processedFeatures
+				};
+
+				this.map.addSource(`${map_config.layerId}-source`, {
+						type: "geojson",
+						data: processedFeatureCollection,
+				});
+
+				// Create a new map_config for the 'line' layer, preserving original paint/layout if possible
+				const lineLayerConfig = {
+						...map_config, // Spread original config
+						type: 'line', // Change type to 'line' for Mapbox
+						// Ensure source-layer is not set if it was, as we are using a geojson source
+						'source-layer': undefined
+				};
+				this.addMapLayer(lineLayerConfig); // Use existing addMapLayer to add it as a line
+
 			} else if (map_config.type === "voronoi") {
 				this.AddVoronoiMapLayer(map_config, data);
 			} else if (map_config.type === "isoline") {
